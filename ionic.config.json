@@ -1,18 +1,14 @@
 {
   "name": "lebanese-red-cross",
-  "app_id": "a0f120ab",
+  "app_id": "72fabcad",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
   },
   "proxies": [
     {
-      "path": "/wp-json",
-      "proxyUrl": "https://supportlrc.app/wp-json/"
-    },
-    {
-      "path": "/verify",
-      "proxyUrl": "https://supportlrc.app/verify/"
+    	"path": "/wp-json",
+      "proxyUrl": "http://35.158.221.177/wp-json/"
     }
   ]
 }

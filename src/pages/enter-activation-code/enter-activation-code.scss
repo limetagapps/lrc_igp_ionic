@@ -1,0 +1,62 @@
+page-enter-activation-code {
+	text-align: center;
+
+	.enter-activation-code-container {
+    margin-top: 100px;
+	}
+
+	.enter-activation-code-container{
+		ion-item{
+	    	border-radius: 5px;
+	    	margin-top: -2px;
+		}
+		h4{
+			color: map-get($colors, redbg);
+			margin-bottom: 5%;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			font-weight: 700;
+		}
+		p{
+			color: #4a4a4a;
+		    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+		    font-size: 11px;
+		    margin: 24px 0px 46px 0px;
+    		line-height: 20px;
+		
+		}
+		
+		input{
+			text-align: center;
+		}
+		button{
+			margin-top: 48%;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			font-size: 14px;
+			height: 56px;
+		}
+		.code{
+			margin-bottom: 15px;
+			ion-label{
+				color: #4a4a4a;
+				font-weight: 700;
+			}
+			input{
+				font-weight: 700;
+			}
+		}
+		ion-label{
+		    font-size: 12px;
+		    text-align: center;
+		    transform-origin: center !important;
+		    margin: 0px !important;
+		} 
+		
+		.item-input-has-focus .label-md[floating],
+		.input-has-focus .label-md[floating], 
+		.item-input-has-focus .label-ios[floating], 
+		.input-has-focus .label-ios[floating],
+		.input-has-value ion-label{
+			visibility: hidden;
+		}
+	}
+}

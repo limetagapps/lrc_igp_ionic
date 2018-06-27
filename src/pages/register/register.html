@@ -37,17 +37,15 @@
       <ion-label floating>Confirm Password </ion-label>
       <ion-input [(ngModel)]="confirm" type="password"></ion-input>
     </ion-item>
-		  
+		  <ion-item class="mobile-container">
 		  	<!-- <ion-select class="flag-select">
 		  		<ion-option *ngFor="let country of countriesData" value="{{ country.dial_code }}"> {{ country.dial_code }} <span class="flag-icon flag-icon-{{ country.code | lowercase }}"> </span> </ion-option>
 		  	</ion-select>
 		  	<ion-input type="number" placeholder="Mobile Number ex: 123123" class="mobile-number-input"> </ion-input> -->
-		  	<input id="phone" [(ngModel)]="phone" type="tel" style="background-color: #f3f3f3;
-    border: none;
-    width: 80%;
-    margin-left: 19% !important;    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;    padding-right: 68px; padding-left: 0;">
+		  	<input id="phone" [(ngModel)]="phone" type="tel" style=" background-color: #f3f3f3;
+    border: none;width: 88vw;">
 
+		  </ion-item>
 		  <!-- Submit Sign up From -->
 		<div class="button-container">
 			<button ion-button block class="btn-signin cos-button" color="redbg" (click)="btnSignUp()">Sign UP</button>
@@ -58,11 +56,7 @@
 		</div>
 
 		<div class="privacy-wrapper">
-<<<<<<< HEAD
 		<p class="privacy-policy">By creating an account your agree to our <strong class="privacy" (click)="goToTerms()">Privacy Policy</strong> and <strong class="terms" (click)="goToTerms()">Terms of Use</strong></p>
-=======
-		<p class="privacy-policy">By creating an account your agree to our <strong class="privacy" (click) ="gotoPrivacy()">Privacy Policy</strong> and <strong class="terms" (click) ="gotoTerms()">Terms of Use</strong></p>
->>>>>>> origin/master
 		</div>
 	</div>
 </ion-content>

@@ -7,18 +7,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content   padding [class] ="information ? 'content-home ' : ''" [style.background-color]="'#cb2026'">
+<ion-content padding style="background-color: #cb2026">
 
-  <ion-slides pager centeredSlides="true"  *ngIf="!information"> 
+  <ion-slides pager centeredSlides="true" > 
     <!-- To set the background image is every slides -->
-<<<<<<< HEAD
     <ion-slide  *ngFor="let slide of slidersData; let i = index" [ngStyle]="{'background': '' + slide.bgImage + '' , 'background-repeat' : 'no-repeat' , 'background-size' : 'cover'}" >
        <ion-icon float-right *ngIf="slide.information" class="information-close" ios="ios-close-circle" md="md-close-circle" (click)="informationCloseBtn(i)"></ion-icon>  
-=======
-    <ion-slide  *ngFor="let slide of slidersData; let i = index"  [style.background-color]="'white'" 
-     [style.background-image]="''+slide.bgImage+''"  [style.background-repeat] ="'no-repeat'" [style.background-size] ="'102% 101%'" >
-       
->>>>>>> origin/master
       <div class="btn-container" *ngIf="slide.main">
         <ion-grid>
           <ion-row>
@@ -39,18 +33,12 @@
 
       <!-- Click Information button to see this section -->
       <!-- Information Section -->
-      <!-- <section class="information" *ngIf="slide.information">
-        <div  [ngStyle]="{'background': '' + slide.subBGImage + '' , 'background-repeat' : 'no-repeat' , 'background-size' : 'cover' , 'height' : '110%' , 'background-position' : 'center' , 'margin-bottom': '3%' ,'border-radius' : '20px'}" > -->
+      <section class="information" *ngIf="slide.information">
+        <div  [ngStyle]="{'background': '' + slide.subBGImage + '' , 'background-repeat' : 'no-repeat' , 'background-size' : 'cover' , 'height' : '110%' , 'background-position' : 'center' , 'margin-bottom': '3%'}" >
       <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->
-<<<<<<< HEAD
       </div>
         <p>{{ slide.author }}Sample Author</p> 
         <p class="bolder">{{ slide.title }}Saample Title of the Page</p>
-=======
-   <!--    </div>
-        <p>{{ slide.author }}Sample Author(remove this)</p> 
-        <p class="bolder">{{ slide.title }}Saample Title of the Page(remove this)</p>
->>>>>>> origin/master
         <div class="button-container">
           <ion-grid>
             <ion-row>
@@ -71,43 +59,9 @@
             {{ slide.description2 }}
           </p>
         </div>
-      </section> -->
+      </section>
       <!-- End Information Section -->
     </ion-slide>
 
   </ion-slides>
-
-
-     <section class="information" *ngIf="information">
-        <div  [ngStyle]="{'background': '' + infodata.subBGImage + '' , 'background-repeat' : 'no-repeat' , 'background-size' : 'cover' , 'height' : '200px' , 'background-position' : 'center' , 'margin-bottom': '3%' ,'border-radius' : '20px'}" >
-
-          <ion-icon style="margin-right: 6px;
-    margin-top: 4px;color: white; font-size: 29px;" float-right *ngIf="information" class="information-close" ios="ios-close-circle-outline" md="md-close-circle" (click)="informationCloseBtn()"></ion-icon>  
-      <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->
-      </div>
-        <p>{{infodata.author}}Sample Author(remove this)</p> 
-        <p class="bolder">{{infodata.tagInfo}}</p>
-        <div class="button-container">
-          <ion-grid>
-            <ion-row>
-              <ion-col col-6> 
-                <button ion-button float-left color="redbg" (click)="readMore()"> Read More </button>
-              </ion-col>
-              <ion-col col-6>
-                <button ion-button float-right color="redbg"> Share </button>
-              </ion-col>
-            </ion-row>
-          </ion-grid>
-        </div>
-        <div style="padding-bottom:10px;"> 
-          <p id="text">
-           {{infodata.description1}}
-            <br/>
-            <br/>
-       {{infodata.description2}}
-          </p>
-        </div>
-      </section>
-      <!-- End Information Section -->
-
 </ion-content>

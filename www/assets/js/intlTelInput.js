@@ -345,7 +345,7 @@
                 label.on("click" + this.ns, function(e) {
                     // if the dropdown is closed, then focus the input, else ignore the click
                     if (that.countryList.hasClass("hide")) {
-                        // that.telInput.focus();
+                        that.telInput.focus();
                     } else {
                         e.preventDefault();
                     }
@@ -458,7 +458,7 @@
                 if (!that.telInput.is(":focus") && !that.telInput.val()) {
                     e.preventDefault();
                     // but this also cancels the focus, so we must trigger that manually
-                    // that.telInput.focus();
+                    that.telInput.focus();
                 }
             });
             // on focus: if empty, insert the dial code for the currently selected flag
@@ -779,7 +779,7 @@
             this._closeDropdown();
             this._updateDialCode(listItem.attr("data-dial-code"), true);
             // focus the input
-            // this.telInput.focus();
+            this.telInput.focus();
             // put cursor at end - this fix is required for FF and IE11 (with nationalMode=false i.e. auto inserting dial code), who try to put the cursor at the beginning the first time
             if (this.isGoodBrowser) {
                 var len = this.telInput.val().length;

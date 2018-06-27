@@ -1,0 +1,51 @@
+page-home-tabs {
+
+	span.tab-button-text {
+    color: #4a4a4a;
+    font-weight: 700;
+	}
+	ion-tabs {
+		color: map-get($colors, redbg);
+	}
+	.hide-fab{
+		display: block;
+	}
+	.round-button {
+	    display: block;
+	    width: 70px;
+	    height: 70px;
+	    line-height: 31px;
+	    border: 1px solid #f5f5f5;
+	    border-radius: 50%;
+	    color: #fff;
+	    text-align: center;
+	    text-decoration: none;
+	    background: #cb2026;
+	    -webkit-box-shadow: 0 0 3px grey;
+	    box-shadow: 0 0 3px grey;
+	    font-size: 12px; 
+	    font-weight: bold; 
+	}
+	.round-button:hover {
+	    background: #fff;
+		color: map-get($colors, redbg); 
+		ion-icon{
+			color: map-get($colors, redbg); 
+
+		}
+	}
+	ion-fab{
+		bottom: 18px !important;
+		left: 45% !important; 
+	}
+	ion-fab ion-icon {
+	    display: block;
+	    width: 89%;
+	    height: auto;
+	    font-size: 22px;
+	    position: absolute;
+	    top: 55% !important;
+	    left: 35% !important;
+	    color: #fff;
+	}
+}

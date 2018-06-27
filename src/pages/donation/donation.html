@@ -16,38 +16,13 @@
 </ion-header>
 
 
-
 <ion-content padding>
-
-<div class="content-container">
-	<p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>
-	      		<p class="as-low-as">As low as</p>
-
-	 
-	      		
-			  <!-- 	<ion-item style="margin-top: 60px;"> 
-				  	<ion-label class="select-component" >Select Department</ion-label>
-				    <ion-select [(ngModel)]="department" class="costume-select-icon" >
-				      <ion-option value="" ></ion-option>
-				      <ion-option value=""></ion-option>
-				    </ion-select>
-	      		</ion-item>
-			 
-
-				<ion-item>
-				  	<ion-label class="select-component" >Select Branch</ion-label>
-				    <ion-select [(ngModel)]="branch" class="costume-select-icon">
-				      <ion-option value="" ></ion-option>
-				      <ion-option value=""></ion-option>
-				    </ion-select>
-				</ion-item> -->
-
-	<ion-slides [style.height]=" showSubsContents ? '218px' : '148px'"  pager="false" #slides class="swiper-no-swiping">
+	<ion-slides pager="false" #slides class="swiper-no-swiping">
 
 	    <ion-slide *ngFor="let donation of donations; let i = index">
 	    	<div class="content-container">
-	      		<!-- <p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>
-	      		<p class="as-low-as">As low as</p> -->
+	      		<p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>
+	      		<p class="as-low-as">As low as</p>
 	      		<h1>{{ donation.dollar }}</h1>
 
 	      		<div>
@@ -56,15 +31,13 @@
 					    	<ion-col col-3> </ion-col>
 					    	<ion-col col-6 class="col-6-pre" (click)="showSubsContens(i)">  
 					    		<div class="sel-subscription">
-					    			{{ donation.subscription | uppercase}}<ion-icon  style="font-size: 27px;
-    position: absolute;
-    left: 85%;" ios="ios-arrow-down" md="md-arrow-down"></ion-icon> 
+					    			{{ donation.subscription }}
 						    	</div>
 					    	</ion-col>
 					    	<ion-col col-3> </ion-col>
 					    </ion-row>
 				    </div>
-				    <div  *ngIf="showSubsContents" class="subscription-contents">
+				    <div *ngIf="donation.subscriptionContent" class="subscription-contents">
 					    <ion-row (click)="subBtn('One Time')">
 					    	<ion-col col-3> </ion-col>
 					    	<ion-col col-6 class="col-pre">  
@@ -82,45 +55,8 @@
 				    </div>
 	      		</div>
 	      		
-			  <!-- 	<ion-item style="margin-top: 60px;"> 
+			  	<ion-item style="margin-top: 60px;"> 
 				  	<ion-label class="select-component" >Select Department</ion-label>
-				    <ion-select [(ngModel)]="department" class="costume-select-icon" >
-				      <ion-option value="" ></ion-option>
-				      <ion-option value=""></ion-option>
-				    </ion-select>
-	      		</ion-item>
-			 
-
-				<ion-item>
-				  	<ion-label class="select-component" >Select Branch</ion-label>
-				    <ion-select [(ngModel)]="branch" class="costume-select-icon">
-				      <ion-option value="" ></ion-option>
-				      <ion-option value=""></ion-option>
-				    </ion-select>
-				</ion-item> -->
-				 
-<!-- 
-					<ion-item style="    margin-bottom: -3vh;
-    margin-top: 20px;">
-						    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
-						    <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>
-					</ion-item> -->
-					<!-- <div class="text-wrapper">
-					<p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>
-					</div>
-				<button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button> -->
-	    	</div>
-	    </ion-slide>
-	</ion-slides> 
-
-		<ion-item style="margin-top: 60px;"> 
-
-					<ion-icon  style="font-size: 27px;
-    position: absolute;
-    left: 85%;" ios="ios-arrow-down" md="md-arrow-down"></ion-icon> 
-				  	<ion-label class="select-component" >Select Department</ion-label>
-
-
 				    <ion-select [(ngModel)]="department" class="costume-select-icon" >
 				      <ion-option value="" ></ion-option>
 				      <ion-option value=""></ion-option>
@@ -135,23 +71,20 @@
 				      <ion-option value=""></ion-option>
 				    </ion-select>
 				</ion-item>
-
+				 
 
 					<ion-item style="    margin-bottom: -3vh;
-   						 margin-top: 20px;">
+    margin-top: 20px;">
 						    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
 						    <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>
 					</ion-item>
-
-
-
 					<div class="text-wrapper">
 					<p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>
 					</div>
 				<button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button>
-
-</div>
-
+	    	</div>
+	    </ion-slide>
+	</ion-slides> 
 		<!-- Previous Trigger Button --> 
 		<button *ngIf="prevBtn" float-left ion-button class="btnPrev" style="background-image: url('assets/imgs/back.png')" (click)="prev()"></button>
 		<!-- Next Trigger Button -->

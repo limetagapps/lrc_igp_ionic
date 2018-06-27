@@ -1,0 +1,96 @@
+
+page-sms-verification {
+	text-align: center;
+	.sms-verification-container{
+		margin-top: 30%;
+
+		.sms_wrapper {
+    width: 270px;
+    margin: auto;
+		}
+
+		h4{
+			color: map-get($colors, redbg);
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			font-weight: 700;
+			margin-bottom: 5% !important;
+		}
+		p{
+			color: #4a4a4a;
+			font-size: 11px;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			margin-top: 20px;
+    		margin-bottom: 40px;
+		}
+		ion-item{
+	    	border-radius: 5px;
+	    	margin-top: -2px;
+	    	height: 56px;
+	    }
+		ion-input.code{
+			font-weight: bold;
+			height: 53px;
+
+		}
+		input{
+			text-align: center;
+			padding-left: 10px !important;
+		}
+		.resend-btn{
+			background-color: transparent;
+		    box-shadow: 0px 0px #888888;
+		    color: #4a4a4a;
+		    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+		    font-size: 11px;
+		    font-weight: 300;
+		}
+		.m-r{
+			margin-right: 3px;
+		}
+	}
+	.lower-container{
+		margin-top: 85%;
+		width: 90%;
+ 
+    margin-left: auto;
+    margin-right: auto;
+		.reset-pass-btn{
+			height: 56px;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			font-size: 14px;
+		}
+		p{
+			color: #9b9b9b;
+			font-size: 11px;
+		}
+	}
+	ion-label{
+	    font-size: 12px;
+	    text-align: center;
+	    transform-origin: center !important;
+	    margin: 0px !important;
+	    font-weight: bold;
+	}
+	.item-input-has-focus .label-md[floating],
+	.input-has-focus .label-md[floating], 
+	.item-input-has-focus .label-ios[floating], 
+	.input-has-focus .label-ios[floating],
+	.input-has-value ion-label{
+		visibility: hidden;
+	}
+
+	.code input.text-input.text-input {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.select-icon-inner {
+    color: rgba(74, 74, 74, 0.77) !important;
+}
+}	

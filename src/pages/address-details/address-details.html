@@ -25,14 +25,14 @@
 			</p>
 		</div>
 
-	  	<ion-item class="item-sel iconselect">
+	  	<ion-item class="item-sel">
 		  <ion-label class="select-lbl">Kaza</ion-label>
 		  <ion-select [(ngModel)]="kasa" class="sel-ion">
 		    <ion-option *ngFor="let kaza of kazas">{{ kaza.kaza }}</ion-option>
 		  </ion-select>
 		</ion-item>
 
-	  	<ion-item class="item-sel iconselect">
+	  	<ion-item class="item-sel">
 		  <ion-label class="select-lbl">District</ion-label>
 		  <ion-select [(ngModel)]="district" class="sel-ion">
 		    <ion-option *ngFor="let district of districts">{{ district.district }}</ion-option>
@@ -66,12 +66,7 @@
     margin-top: 7%;
     margin-bottom:20%;
 }" ion-button block class="btn-done cos-button" color="redbg" (click)="goToHome()"> DONE </button>
-<<<<<<< HEAD
     <!-- Skip Trigger Button -->
     <p class="skip" text-right (click)="goToHome()">SKIP  ></p>
-=======
-		<!-- Skip Trigger Button -->
-		<p class="skip" text-right (click)="back()"> <  BACK </p>
->>>>>>> origin/master
 	</div>
 </ion-content>

@@ -14,10 +14,7 @@
  */
 .intl-tel-input {
   position: relative;
-  display: inline-block; 
-      margin-top: -2px;
-   
-}
+  display: inline-block; }
   .intl-tel-input * {
     box-sizing: border-box;
     -moz-box-sizing: border-box; }
@@ -102,21 +99,9 @@
     padding-right: 6px;
     padding-left: 52px;
     margin-left: 0; }
-
-  .intl-tel-input.allow-dropdown{
-
-    width: 100% !important;
-  }
   .intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
-    
-     right: auto;
-  
-    background-color: #f3f3f3;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    width: 20%;
-
-  }
+    right: auto;
+    left: 0; }
   .intl-tel-input.allow-dropdown .selected-flag, .intl-tel-input.separate-dial-code .selected-flag {
     width: 46px; }
   .intl-tel-input.allow-dropdown .flag-container:hover {
@@ -176,8 +161,8 @@
       cursor: pointer; }
 
 .iti-mobile .intl-tel-input.iti-container {
-  top: 15%;
-  bottom: 9%;
+  top: 30px;
+  bottom: 30px;
   left: 30px;
   right: 30px;
   position: fixed; }
