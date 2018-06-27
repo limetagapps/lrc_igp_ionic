@@ -1,6 +1,7 @@
 page-register {
 	p,h1,h2,h3,h4,h5,h6,.privacy,.terms{
 		color: #4A4A4A;
+		
 	}
 	.register-container{
 		border-radius: 15px;
@@ -19,7 +20,7 @@ page-register {
 	    }
 	    .mobile-number-input{
 	    	width: 40%;
-		    padding-top: 20px; 
+		    padding-top: 20px;
 		    padding-left: 10px;
 		    background: transparent;
     		border-left: 0px;
@@ -27,7 +28,7 @@ page-register {
 	    		text-align: left;
 	    		font-weight: 400;
     		}
-	    } 
+	    }
 	    .separator{
 	    	color: #9b9b9b;
 		    font-size: 13px;
@@ -60,10 +61,10 @@ page-register {
 		}
 	}
 	.input-list{
-		margin: 0% 5%;	
+		margin: 0% 5%;
 	}
 	.btn-fb-signin{
-		background-color: #3b5999; 
+		background-color: #3b5999;
 		height: 49px;
 	}
 	input{
@@ -83,8 +84,8 @@ page-register {
 	    color: rgba(74,74,74,0.57);
 	}
 	.item-input-has-focus .label-md[floating],
-	.input-has-focus .label-md[floating], 
-	.item-input-has-focus .label-ios[floating], 
+	.input-has-focus .label-md[floating],
+	.item-input-has-focus .label-ios[floating],
 	.input-has-focus .label-ios[floating],
 	.input-has-value ion-label
 	{
