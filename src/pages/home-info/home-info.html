@@ -1,0 +1,11 @@
+<ion-tabs [selectedIndex]="1"> 
+	<ion-fab bottom center (click)="donationPage()">
+	    <div ion-fab class="round-button"> 
+		    DONATE
+		</div>
+		<ion-icon ios="ios-card" md="md-card"></ion-icon>
+	</ion-fab>
+  <ion-tab tabIcon="person" [root]="tab0Root"></ion-tab>
+  <ion-tab [root]="tab1Root"></ion-tab>
+  <ion-tab tabIcon="settings" [root]="tab2Root"></ion-tab>
+</ion-tabs>  

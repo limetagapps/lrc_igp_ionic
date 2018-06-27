@@ -1,0 +1,71 @@
+<!--
+  Generated template for the SliderPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, user-scalable=no, viewport-fit=cover">
+
+<ion-content no-border >
+
+
+	<ion-slides pager="false" *ngIf="splash">
+		<ion-slide class="splash">
+			<img src="assets/imgs/lrc_logo.png">
+		  	<div class="faded-background"></div>
+		  	<div class="footer-text">
+		  		<div class="footer-content">
+			  		<div class="title">
+			  			<h1>Lebanese Red Cross</h1>
+			  		</div>
+			  		<div class="sub-title">
+				  		<p class="individual-giving">Individual Giving Program</p>
+				  		<p class="support-LRC">#SupportLRC</p>
+			  		</div>
+		  		</div>
+			  	<progress class="loader" max="100" value="0">
+			  	</progress>
+		  	</div>
+		</ion-slide>
+	</ion-slides>
+
+	<ion-slides *ngIf="sliders" pager>
+		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">
+		    <div class="{{ slideData.classContainer }}">
+		    	<img [class]="slideData.imgsizeClass ? slideData.imgsizeClass : ''"  src="{{ slideData.image }}">
+		    	<h2 >{{ slideData.title }}</h2>
+		    	<div  [class]="slideData.subTitleClassWrapper" >
+		    	<p [class]="slideData.subTitleClass" [innerHtml]="slideData.subTitle" style="margin-bottom: 30px">	</p>
+		    	</div>
+
+		    	<div *ngIf="slideData.loginContainer" class="s-container">
+		    		<div class="s-e si-container" (click)="goToSignIn()">
+		    			<p class="si">Sign in</p>
+		    		</div>
+		    		<span class="vertical"></span>
+		    		<div class="s-e su-container" (click)="goToRegister()">
+		    			<p class="su">Sign up</p>
+		    		</div>
+		    	</div>
+		    	<!-- Skip Trigger Button - Move to the last slide -->
+	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->
+	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="
+						    position: absolute;
+						    z-index: 3;
+						    right: 8%;
+						    bottom: 1%;
+						    width: 35px;
+						    height: 20px;
+						    color: #4a4a4a;
+						    font-family: Roboto;
+						    font-size: 15px;
+						    font-style: normal;
+						    font-stretch: normal;
+						    font-weight: 400;
+						    text-align: center;
+						"> SKIP </p>
+		    </div>
+		</ion-slide>
+	</ion-slides>
+
+</ion-content>

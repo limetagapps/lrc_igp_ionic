@@ -1,0 +1,77 @@
+<!--
+  Generated template for the AddressDetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar color="redbg">
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content style="background-color: #cb2026">
+	<div class="address-details-container">
+		<div class="col-title">
+			<h2>Congrats!</h2>
+			<p class="verified">
+				Your account has been <strong>verified!</strong>
+			</p>
+			<p class="note" style="    margin-top: 6%;">
+				Please enter your address details
+			</p>
+		</div>
+
+	  	<ion-item class="item-sel iconselect">
+		  <ion-label class="select-lbl">Kaza</ion-label>
+		  <ion-select [(ngModel)]="kasa" class="sel-ion">
+		    <ion-option *ngFor="let kaza of kazas">{{ kaza.kaza }}</ion-option>
+		  </ion-select>
+		</ion-item>
+
+	  	<ion-item class="item-sel iconselect">
+		  <ion-label class="select-lbl">District</ion-label>
+		  <ion-select [(ngModel)]="district" class="sel-ion">
+		    <ion-option *ngFor="let district of districts">{{ district.district }}</ion-option>
+		  </ion-select>
+		</ion-item>
+
+		<ion-item class="item-sel">
+		  <ion-label class="select-lbl">Village</ion-label>
+		  <ion-select [(ngModel)]="village" class="sel-ion">
+		    <ion-option *ngFor="let village of villages">{{ village.village }}</ion-option>
+		  </ion-select>
+		</ion-item>
+
+
+    <ion-input class="custom-input" type="text" [(ngModel)]="streetnametxt" placeholder="Street name or No."></ion-input>
+
+
+
+
+    <ion-input class="custom-input" type="text" [(ngModel)]="buildingtxt" placeholder="Building Name or No"></ion-input>
+
+
+
+
+    <ion-input class="custom-input" type="text" [(ngModel)]="streettxt" placeholder="Street"></ion-input>
+
+
+		<!-- Go to Sign In Page -->
+		<button style="    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom:20%;
+}" ion-button block class="btn-done cos-button" color="redbg" (click)="goToHome()"> DONE </button>
+<<<<<<< HEAD
+    <!-- Skip Trigger Button -->
+    <p class="skip" text-right (click)="goToHome()">SKIP  ></p>
+=======
+		<!-- Skip Trigger Button -->
+		<p class="skip" text-right (click)="back()"> <  BACK </p>
+>>>>>>> origin/master
+	</div>
+</ion-content>

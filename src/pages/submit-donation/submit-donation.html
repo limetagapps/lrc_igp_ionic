@@ -1,0 +1,47 @@
+<!--
+  Generated template for the SubmitDonationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+
+    background-color: gray;
+    border: 1px solid;
+-->
+
+
+<ion-content>
+	<div class="header-content">
+		<img src="assets/imgs/lrc_logo.png">
+		<h2> LEBANESE RED CROSS </h2>
+		<h2> {{ donation.value }} USD </h2>
+	</div>
+	<div class="main-conente">
+		<ion-grid>
+		  <ion-row>
+		    <ion-col col-12>
+		     <p>CARD NUMBER</p>
+		     <strong>4055 01** **** 0001</strong>
+		    </ion-col>
+		  </ion-row>
+		  <ion-row>
+		  	<ion-col col-6>
+		     <p>MM/YY</p>
+		     <strong>02/22</strong>
+		    </ion-col>
+		    <ion-col col-6>
+		     <p>CVV</p>
+		     <strong>123</strong>
+		    </ion-col>
+		  </ion-row>
+		  <ion-row>
+		  	<ion-col col-12>
+		     <p>CARD NUMBER NAME</p>
+		     <strong>SARAH KETTANEH</strong>
+		    </ion-col>
+		  </ion-row>
+		</ion-grid>
+	</div>
+	<ion-footer> 
+		<button position="bottom" class="pay-btn" ion-button block color="redbg" (click)="playBtn()">PAY</button>
+	</ion-footer>
+</ion-content>

@@ -1,0 +1,37 @@
+<ion-menu id="myMenu" [content]="content">
+  <ion-header no-border>
+    <ion-toolbar>
+        <p float-right (click)="signOut()"><ion-icon color="redbg" ios="ios-exit" md="md-exit"></ion-icon> Sign out</p>
+        <ion-icon class="ic-contact" ios="ios-contact" md="md-contact"></ion-icon>
+        <p class="user-display">Hi,<strong>SARAH</strong></p>
+        <div class="hr"></div>
+        <p align="center"  (click)="openProfile()"> <ion-icon class="ic-settings" ios="ios-settings" md="md-settings"></ion-icon> Manage Profile</p>
+        <p class="app-version" align="right">V 1.01</p>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-grid class="grid-menu">
+      <ion-row menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" class="menu-row">
+        <ion-col col-1>
+          <div [class.activeHighLight]="checkActive(p)"> </div>
+        </ion-col>
+        <ion-col col-11 class="title-column">
+          {{p.title}}
+        </ion-col>
+
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+  <ion-footer>
+    <p>&copy; Lebanese Red Cross 2018</p>
+    <div class="designed-developed">
+      <p>DESIGNED & DEVELOPED BY</p>
+      <img src="assets/imgs/likwid-logo.png">
+    </div>
+
+  </ion-footer>
+</ion-menu>
+
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

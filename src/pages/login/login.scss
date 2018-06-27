@@ -1,0 +1,117 @@
+
+page-login {
+	p,h1,h2,h3,h4,h5,h6{
+		color: #4A4A4A;
+	}
+	.item-inner{
+		padding-right: 0px !important;
+	}
+	.font-SF{
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+	}
+	.login-container{
+		border-radius: 15px;
+	    background-color: #fff;
+
+	    padding: 5%;
+	    text-align: center;
+	    height: 98%;
+	    width: 100%;
+	    ion-item{
+	    	border-radius: 5px;
+	    	margin-top: -2px;
+	    }
+	    .signup-container{
+	    	p{
+	    		font-size: 11px;
+	    	}
+	    }
+	    .sigup-with-facebook{
+	    	 position: absolute;
+   			 bottom: 8%;
+   			     width: 83%;
+	    }
+	    input{
+	    	 color: rgba(74,74,74,0.57);
+	    }
+    ion-label{
+      font-size: 12px;
+      text-align: center;
+      transform-origin: center !important;
+      margin: 0px 0px 0px 0px !important;
+      color: rgba(74,74,74,0.57);
+    }
+    .item-input-has-focus .label-md[floating],
+    .input-has-focus .label-md[floating],
+    .item-input-has-focus .label-ios[floating],
+    .input-has-focus .label-ios[floating],
+    .input-has-value ion-label
+    {
+      visibility: hidden;
+    }
+	}
+	.col-title{
+		text-align: center;
+		h2{
+			height: 34px;
+			font-size: 23px;
+			font-weight: bolder;
+			color: #cb2026;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+		}
+		p{
+			height: 23px;
+		    color: #4a4a4a;
+		    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+		}
+	}
+	.input-list{
+		margin: 0% 5%;
+	}
+	.btn-fb-signin{
+		background-color: #3b5998 !important;
+		font-size: 14px;
+		height: 49px;
+		margin-top: 15px;
+	}
+	.btn-signin{
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+   		font-size: 14px;
+   		height: 49px;
+	}
+	.alert-button .alert-wrapper .alert-button-group .alert-button {
+		background-color: #cb2026 !important;
+		color: #fff !important;
+		button{
+			background-color: #cb2026 !important;
+			color: #fff !important;
+		}
+	}
+	._or{
+		font-size: 13px;
+		color: #9b9b9b;
+		font-weight: 700;
+	}
+	ion-label{
+	    font-size: 12px;
+	    text-align: center;
+	    transform-origin: center !important;
+	    margin: 0px !important;
+	}
+
+	.item-input-has-focus .label-md[floating],
+	.input-has-focus .label-md[floating],
+	.item-input-has-focus .label-ios[floating],
+	.input-has-focus .label-ios[floating],
+	.input-has-value ion-label{
+		transform: translate3d(0,15px,0) !important;
+	}
+
+
+	.scroll-content {
+    padding: 15px;
+	}
+
+}

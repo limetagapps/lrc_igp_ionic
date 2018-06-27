@@ -1,0 +1,222 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.activeHighLight{
+	background-color: map-get($colors, redbg);
+	height: 100%;
+	width: 8px;
+	padding: 10px 5px;
+}
+.user-display{
+	font-size: 18px;
+}
+p{
+	font-size: 12px ;
+}
+ion-header ion-toolbar{
+	border-bottom: 1px solid #e4dfdf;
+}
+ion-toolbar .toolbar-background{
+	background-color: #fff;
+}
+ion-header ion-icon.back-button-icon.icon {
+    color: map-get($colors, red);
+}
+ion-header button.back-button {
+    color: map-get($colors, dark);
+    font-size: 15px;
+}
+ion-menu {
+	text-align: center;
+}
+ion-title{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+}
+
+ion-menu ion-header ion-toolbar ion-icon.ic-contact{
+	width: 20%;
+	height: 20%;
+	zoom:4.0;
+	color: #808080;
+}
+.hr{
+	border-bottom: 3px solid red;
+	width: 60%;
+	margin: 5% 20%;
+}
+ion-icon.ic-settings{
+	color: red;
+}
+.app-version{
+	color: #4a4a4a;
+    font-size: 9px;
+    font-weight: 700;
+}
+ion-footer{
+	color: #fff;
+	.designed-developed{
+		background-color: map-get($colors, redbg);
+		height: 50px;
+		p:nth-child(1){
+			width: 100%;
+			background-color: map-get($colors, redbg);
+			padding-top: 10px;
+			margin: 0%;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+			font-size: 11px;
+		    font-style: normal;
+		    font-stretch: normal;
+		    font-weight: 300;
+		}
+		img{
+			width: 79px;
+		    height: 56px;
+		    transform: translateY(-18px);
+		}
+	}
+}
+
+ion-footer p:nth-child(1){
+	width: 100%;
+	background-color: #4a4a4a;
+	margin: 0%;
+}
+ion-footer p:nth-child(2){
+	width: 100%;
+	background-color: map-get($colors, redbg);
+	padding: 5% 0%;
+	margin: 0%;
+}
+.cos-button{
+	padding: 20px !important;
+    text-transform: none !important;
+    border-radius: 5px !important;
+}
+ion-item, ion-input, .item-select .item-inner{
+	background: rgba(227,227,227,0.43);
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 3px;
+    border: 0.4px solid #d1d1d6;
+}
+ion-item{
+	padding-left: 0px !important;
+}
+.item-select .item-inner{
+	padding-left: 8px !important;
+}
+.custom-alert-btn .alert-wrapper .alert-button-group{
+	background-color: map-get($colors, redbg) !important;
+}
+.custom-alert-btn .alert-wrapper .alert-button-group button{
+	color: #fff !important;
+}
+.custom-alert-btn .alert-wrapper{
+	color: #4a4a4a;
+}
+ion-tabs .tabbar .tab-button ion-icon{
+	color: map-get($colors, redbg) !important;
+}
+input{
+	text-align: center ;
+	color: #4A4A4A;
+	font-size: 12px;
+	height: 56px;
+	margin: 0px !important;
+	font-weight: 700;
+}
+ion-select.costume-select-icon .select-icon{
+    position: absolute !important;
+    width: 12px !important;
+    height: 19px !important;
+    left: 15px !important;
+    top: 15px !important;
+}
+ion-label.select-component{
+	text-align: center !important;
+	padding-left: 50px;
+	color: #4A4A4A !important;
+}
+ion-label[floating]{
+	transform:translate3d(0, 36px, 0) !important;
+	color: rgba(74,74,74,0.57);
+}
+.item-ios.item-block .item-inner{
+	padding-right: 0px;
+    border-bottom: 0px solid #c8c7cc;
+}
+.grid-menu{
+	padding: 0px;
+}
+.menu-row{
+	padding: 0px;
+	border-bottom: 1px light #4a4a4a;
+	ion-label{
+		display: inline-flex;
+		padding: 0px;
+		height: 100%;
+		color: #4A4A4A;
+		ion-col{
+			padding: 0px;
+		}
+		.title-column{
+			transform: translateY(10px);
+			font-family: Roboto;
+		    font-size: 16px;
+		    font-weight: 300;
+		    height: 25px;
+    		padding-top: 15px;
+		}
+	}
+}
+
+ion-navbar.nav-red {
+	button{
+		background-color: #fff;
+		color: #ce2026 !important;
+	}
+}
+.swiper-pagination-bullet-active {
+    background: #4a4a4a;
+}
+.input-wrapper{
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

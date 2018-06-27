@@ -1,0 +1,46 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar color="redbg">
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content style="background-color: #cb2026">
+	<div class="login-container">
+		<div class="col-title">
+			<h2>Sign in</h2>
+			<p>Use your credentials to login to the app</p>
+		</div>
+		  <ion-item>
+		  	<ion-label floating>Your Email</ion-label>
+<<<<<<< HEAD
+		    <ion-input class="signin-input-email" type="text" [(ngModel)]="usernametxt" required></ion-input>
+=======
+		    <ion-input type="text" [(ngModel)]="usernametxt" required></ion-input>
+>>>>>>> origin/master
+		  </ion-item>
+
+		  <ion-item>
+		  	<ion-label floating>Password</ion-label>
+		    <ion-input class="signin-input-password" type="password" [(ngModel)]="password" required></ion-input>
+		  </ion-item>
+		<!-- Go to Sign In page -->
+		<button ion-button block class="btn-signin cos-button" color="redbg" (click)="btnSignIn()">Sign In</button>
+		<!-- Go to Sing Up Page -->
+		<div class="signup-container" (click)="goToSignUp()">
+			<p style="color: #9B9B9B;">Don't have an account? <strong>Sign Up</strong></p><br>
+		</div>
+		<div class="sigup-with-facebook">
+			<span class="_or">— OR —</span>
+			<button ion-button block class="btn-fb-signin cos-button" (click)="test()">Login with Facebook</button>
+		</div>
+	</div>
+</ion-content>

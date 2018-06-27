@@ -1,0 +1,230 @@
+<!--
+  Generated template for the ProfilePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+  <ion-navbar color="redbg">
+	<button ion-button menuToggle>
+		<ion-icon name="menu"></ion-icon>
+	</button>
+    <ion-title>Lebanese Red Cross</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+<<<<<<< HEAD
+	<div class="header-profile" *ngIf="headerProfile">
+=======
+	
+<div *ngIf="headerProfile" > 
+	<div class="header-profile"> 
+>>>>>>> origin/master
+		<h2>Hello, Sarah</h2>
+		<span class="donor-title">LRC Regular Doner</span>
+		<p >Current Membership: <strong>3$/month</strong> <ion-icon ios="ios-create" md="md-create"></ion-icon></p>
+	</div>
+	<div class="donated-container" *ngIf="donatedContainer">
+		<div class="donated">
+			<h2>DONATED</h2>
+			<p>Total amount of donation till date:</p>
+		</div>
+		<div class="amount">
+<<<<<<< HEAD
+			<h1>$ 36.00</h1>
+		</div>
+	</div>
+	<div class="buttons-container">
+		<h4 *ngIf="profileTitle">EDIT / UPDATE PROFILE INFO</h4>
+		<div class="button" (click)="profileBtn()">
+			<p>EDIT / UPDATE PROFILE INFO</p>
+		</div>
+		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"  id="proficon" ></ion-icon>
+		<div class="profile-content" *ngIf="profileContent">
+		<div class="form-inputs">
+			<ion-item>
+			    <ion-label floating>Full Name</ion-label>
+			    <ion-input style="    background-color: transparent;"></ion-input>
+			</ion-item>
+			<ion-item>
+			    <ion-label floating>Email Address</ion-label>
+			    <ion-input style="background-color: transparent;"></ion-input>
+			</ion-item>
+			<ion-item>
+			    <ion-label floating>Password</ion-label>
+			    <ion-input style="background-color: transparent;" type="password"></ion-input>
+			</ion-item>
+			<ion-item>
+			    <ion-label floating>Confirm Password</ion-label>
+			    <ion-input style="background-color: transparent;" type="password"></ion-input>
+			</ion-item>
+			<ion-item>
+			    <ion-label floating>Phone Number</ion-label>
+			    <ion-input style="background-color: transparent;"></ion-input>
+			</ion-item>
+		</div>
+
+		</div>
+		<h2 *ngIf="addressTitle">EDIT / UPDATE ADDRESS INFO</h2>
+		<div class="button" (click)="addressBtn()">
+			<p>EDIT / UPDATE ADDRESS INFO</p>
+		</div>
+		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+		<h2 *ngIf="donationTitle">EDIT / UPDATE DONATION INFO</h2>
+		<div class="button" (click)="donationBtn()">
+			<p>EDIT / UPDATE DONATION INFO</p>
+		</div>
+		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+=======
+			<p style="    font-size: 12px;
+    color: #ffffff;
+    font-family: SFProDisplay;
+    font-size: 40px;
+    font-style: normal;
+    font-stretch: normal;
+    margin-top: 25px;
+    font-weight: 400;
+    /* text-align: right; */">$ 36.00</p>
+		</div> 
+	</div>
+
+</div>
+	<div class="buttons-container" [style.padding-top] ="padtop" [style.padding-left] ="padleft" 
+			[style.padding-right] ="padright" [style.padding-bottom] ="padbot">
+
+		<h4 *ngIf="profileTitle">EDIT / UPDATE YOUR INFO</h4>
+
+		<div class="button" [style.width]="buttonwidth" (click)="profileBtn()"> 
+			<p>EDIT / UPDATE PROFILE INFO</p> 
+			<ion-icon *ngIf="!isarrowdown"  style="transform: translate(13.7vh, 18px) !important;" ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon> 
+			<ion-icon *ngIf="isarrowdown" style="transform: translate(13.7vh, 18px) !important;" ios="ios-arrow-down" md="md-arrow-down"></ion-icon> 
+		</div> 
+		
+		<div  class="forms" style="padding: 15px" *ngIf="profileContent">
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Full Name</ion-label>
+			    <ion-input class ="custom" type="text" ></ion-input>
+			  </ion-item>
+
+			  <ion-item>
+			    <ion-label   stacked>Email Address</ion-label>
+			    <ion-input  class ="custom" type="email" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Password</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Confirm Passsword</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+
+
+
+			  <ion-item>
+			    <ion-label  stacked>Mobile Number</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			 
+			
+
+			
+		</div>
+		
+		<div class="button" [style.width]="buttonwidth" (click)="addressBtn()"> 
+			<p>EDIT / UPDATE ADDRESS INFO</p>
+			<ion-icon *ngIf="!isarrowdown2" style="    transform: translate(13vh, 18px) !important;" ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+			<ion-icon *ngIf="isarrowdown2" style="transform: translate(13vh, 18px) !important;" ios="ios-arrow-down" md="md-arrow-down"></ion-icon> 
+		</div> 
+		
+		<div  class="forms" style="padding: 15px" *ngIf="addressContent">
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Full Name</ion-label>
+			    <ion-input class ="custom" type="text" ></ion-input>
+			  </ion-item>
+
+			  <ion-item>
+			    <ion-label   stacked>Email Address</ion-label>
+			    <ion-input  class ="custom" type="email" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Password</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Confirm Passsword</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			 
+			
+
+			
+		</div>		
+	
+
+	
+		<div class="button" [style.width]="buttonwidth" (click)="donationBtn()"> 
+			
+			<div class="title"><p>EDIT / UPDATE DONATION INFO</p></div>
+			<ion-icon *ngIf="!isarrowdown3" style="transform: translate(11.5vh, 18px) !important;" ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>
+
+			<ion-icon *ngIf="isarrowdown3" style="transform: translate(11.5vh, 18px) !important;" ios="ios-arrow-down" md="md-arrow-down"></ion-icon> 
+
+		</div> 
+
+
+		<div  class="forms" style="padding: 15px" *ngIf="donationContent">
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Full Name</ion-label>
+			    <ion-input class ="custom" type="text" ></ion-input>
+			  </ion-item>
+
+			  <ion-item>
+			    <ion-label   stacked>Email Address</ion-label>
+			    <ion-input  class ="custom" type="email" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Password</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			  <ion-item>
+			    <ion-label  stacked>Confirm Passsword</ion-label>
+			    <ion-input class ="custom" type="password" ></ion-input>
+			  </ion-item>
+			
+
+			 
+			
+
+			
+		</div>
+			
+		
+		
+>>>>>>> origin/master
+	</div>
+</ion-content>

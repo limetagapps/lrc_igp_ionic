@@ -1,0 +1,49 @@
+<!--
+  Generated template for the ReadMorePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar color="redbg">
+    <ion-title>Article</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+	<section *ngFor="let s of slide;">
+	 <ion-grid>
+            <ion-row>
+              <ion-col col-12>	
+           <div class="image" [style.background-image] = "''+s.subBGImage">
+           	
+           </div>
+
+<<<<<<< HEAD
+		<img [src]="s.subBGImage" height="200" style="width: 95%;
+    height: 60%">
+=======
+		
+>>>>>>> origin/master
+		<div class="content-information-container">
+		  <p class="title">{{ s.author }}</p>
+		  <h4>{{ s.title }}</h4>
+		  <p class="details">
+		  	{{ s.description1 }}
+		  </p>
+		  <br />
+		  <br />
+		  <p class="details">
+		  	{{ s.description2 }}
+		  </p>
+		</div>
+
+			 </ion-col>
+	 
+	 	</ion-row>
+	 </ion-grid>			
+	</section>
+</ion-content>

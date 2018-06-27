@@ -1,0 +1,36 @@
+<!--
+  Generated template for the SmsVerificationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+
+  <ion-navbar class="nav-red" color="whitebg">
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<div class="sms-verification-container">
+		<h4>SMS Verification</h4>
+		<div class="sms_wrapper">
+		<p>
+			To verify your account, please enter the activation code you received by SMS
+		</p>
+		</div>
+		<ion-item>
+			<ion-label floating>CODE</ion-label>
+<<<<<<< HEAD
+		    <ion-input class="code" type="number" [(ngModel)]="codetxt"></ion-input>
+=======
+		    <ion-input class="code" type="tel" [(ngModel)]="codetxt"></ion-input>
+>>>>>>> origin/master
+		</ion-item>
+		<button (click)="resendCode()" ion-button class="resend-btn cos-button"><ion-icon ios="ios-refresh" class="m-r" md="md-refresh" ></ion-icon> Resend code</button>
+	</div>
+	<div class="lower-container">
+		<button ion-button block color="redbg" class="reset-pass-btn cos-button" (click)="addressDetails()">VERIFY</button>
+	</div>
+</ion-content>
