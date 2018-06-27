@@ -30988,7 +30988,7 @@ page-donation .slide-zoom {
 
 page-donation .btnPrev {
   position: absolute;
-  top: 93px;
+  top: 130px;
   z-index: 20;
   background-color: transparent;
   color: black;
@@ -31000,7 +31000,7 @@ page-donation .btnPrev {
 
 page-donation .btnNext {
   position: absolute;
-  top: 93px;
+  top: 130px;
   right: 24px;
   z-index: 20;
   background-color: transparent;
@@ -31029,7 +31029,7 @@ page-donation .content-container p {
 
 page-donation .content-container .choose-donation {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0%;
 }
 
@@ -31039,6 +31039,8 @@ page-donation .content-container .as-low-as {
   color: #9b9b9b;
   font-weight: 300;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 page-donation .content-container h1 {
@@ -31047,16 +31049,37 @@ page-donation .content-container h1 {
 }
 
 page-donation .content-container .sel-subscription {
-  -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
-  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
-  border-radius: 4px;
-  height: 45px;
-  background-color: #cb2026;
-  color: #fff;
-  height: 54px;
-  width: 100%;
-  padding-top: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+  -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%) !important;
+  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%) !important;
+  border-radius: 4px !important;
+  height: 45px !important;
+  background-color: #cb2026 !important;
+  color: #fff !important;
+  height: 54px !important;
+  width: 100% !important;
+  padding-top: 20px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText !important;
+}
+
+page-donation .content-container .sel-subscription .item-inner {
+  background: transparent !important;
+}
+
+page-donation .content-container .sel-subscription ion-label {
+  width: 0px !important;
+  display: none !important;
+}
+
+page-donation .content-container .sel-subscription ion-select {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: left !important;
+  padding: 0px !important;
+  text-align: center !important;
+}
+
+page-donation .content-container .sel-subscription .select-icon {
+  display: none !important;
 }
 
 page-donation .content-container ion-item {
@@ -31110,7 +31133,7 @@ page-donation .col-6-pre {
 }
 
 page-donation ion-slides {
-  height: auto;
+  height: 150px;
 }
 
 page-donation .bychoosingRecurre {
@@ -31125,6 +31148,22 @@ page-donation .recurrent-monthly-donation {
   font-weight: 500;
   text-align: left;
   margin: 10px 0px 0px 0px;
+}
+
+page-donation .services ion-select {
+  padding: 0px !important;
+  margin-top: 13px !important;
+  max-width: 50% !important;
+  font-size: 10px !important;
+  margin-right: 10px !important;
+}
+
+page-donation .stations ion-select {
+  padding: 0px !important;
+  margin-top: 13px !important;
+  max-width: 50% !important;
+  font-size: 10px !important;
+  margin-right: 10px !important;
 }
 
 page-donation-tabs .hide-fab {

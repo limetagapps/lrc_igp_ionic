@@ -4,6 +4,51 @@ webpackJsonp([21],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutUsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutUsPage = /** @class */ (function () {
+    function AboutUsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutUsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutUsPage');
+    };
+    AboutUsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-about-us',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], AboutUsPage);
+    return AboutUsPage;
+}());
+
+//# sourceMappingURL=about-us.js.map
+
+/***/ }),
+
+/***/ 115:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddressDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
@@ -103,7 +148,7 @@ var AddressDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 115:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -111,7 +156,7 @@ var AddressDetailsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -157,14 +202,14 @@ var ForgetPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SmsVerificationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -277,7 +322,7 @@ var SmsVerificationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -329,7 +374,7 @@ var EnterActivationCodePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -378,7 +423,7 @@ var ReadMorePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -423,7 +468,7 @@ var GetInTouchPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -468,7 +513,7 @@ var LiveChatPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -510,51 +555,6 @@ var PrivacyPolicyPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=privacy-policy.js.map
-
-/***/ }),
-
-/***/ 122:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutUsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutUsPage = /** @class */ (function () {
-    function AboutUsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutUsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutUsPage');
-    };
-    AboutUsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about-us',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], AboutUsPage);
-    return AboutUsPage;
-}());
-
-//# sourceMappingURL=about-us.js.map
 
 /***/ }),
 
@@ -695,87 +695,87 @@ webpackEmptyAsyncContext.id = 132;
 
 var map = {
 	"../pages/about-us/about-us.module": [
-		324,
+		314,
 		20
 	],
 	"../pages/address-details/address-details.module": [
-		314,
+		315,
 		19
 	],
 	"../pages/donation-tabs/donation-tabs.module": [
-		315,
+		316,
 		18
 	],
 	"../pages/donation/donation.module": [
-		316,
+		317,
 		17
 	],
 	"../pages/enter-activation-code/enter-activation-code.module": [
-		317,
+		318,
 		16
 	],
 	"../pages/forget-password/forget-password.module": [
-		318,
+		319,
 		15
 	],
 	"../pages/get-in-touch/get-in-touch.module": [
-		319,
+		320,
 		14
 	],
 	"../pages/home-info/home-info.module": [
-		320,
+		321,
 		13
 	],
 	"../pages/home-tabs/home-tabs.module": [
-		321,
+		322,
 		12
 	],
 	"../pages/live-chat/live-chat.module": [
-		322,
+		323,
 		11
 	],
 	"../pages/login/login.module": [
-		327,
+		324,
 		10
 	],
 	"../pages/privacy-policy/privacy-policy.module": [
-		323,
+		325,
 		9
 	],
 	"../pages/profile/profile.module": [
-		328,
+		326,
 		8
 	],
 	"../pages/read-more/read-more.module": [
-		329,
+		327,
 		7
 	],
 	"../pages/register/register.module": [
-		325,
+		328,
 		6
 	],
 	"../pages/settings/settings.module": [
-		326,
+		329,
 		5
 	],
 	"../pages/slider/slider.module": [
-		333,
+		330,
 		4
 	],
 	"../pages/sms-verification/sms-verification.module": [
-		334,
+		331,
 		3
 	],
 	"../pages/submit-donation/submit-donation.module": [
-		330,
+		332,
 		2
 	],
 	"../pages/tabs/tabs.module": [
-		331,
+		333,
 		1
 	],
 	"../pages/terms-and-conditions/terms-and-conditions.module": [
-		332,
+		334,
 		0
 	]
 };
@@ -1073,26 +1073,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_slider_slider__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_register_register__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_forget_password_forget_password__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_sms_verification_sms_verification__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_address_details_address_details__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_forget_password_forget_password__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_sms_verification_sms_verification__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_settings_settings__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_profile_profile__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_donation_donation__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_donation_tabs_donation_tabs__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_home_tabs_home_tabs__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_read_more_read_more__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_progress_bar_progress_bar__ = __webpack_require__(313);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_submit_donation_submit_donation__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_home_info_home_info__ = __webpack_require__(225);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_status_bar__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_splash_screen__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_about_us_about_us__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_privacy_policy_privacy_policy__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_about_us_about_us__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_privacy_policy_privacy_policy__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_get_in_touch_get_in_touch__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_live_chat_live_chat__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_live_chat_live_chat__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_native_storage__ = __webpack_require__(179);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__services_wordpress_service__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__services_authentication_service__ = __webpack_require__(44);
@@ -1178,6 +1178,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-details/address-details.module#AddressDetailsPageModule', name: 'AddressDetailsPage', segment: 'address-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation-tabs/donation-tabs.module#DonationTabsPageModule', name: 'DonationTabsPage', segment: 'donation-tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
@@ -1187,18 +1188,17 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/home-info/home-info.module#HomeInfoPageModule', name: 'HomeInfoPage', segment: 'home-info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-tabs/home-tabs.module#HomeTabsPageModule', name: 'HomeTabsPage', segment: 'home-tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/live-chat/live-chat.module#LiveChatPageModule', name: 'LiveChatPage', segment: 'live-chat', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/privacy-policy/privacy-policy.module#PrivacyPolicyPageModule', name: 'PrivacyPolicyPage', segment: 'privacy-policy', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/privacy-policy/privacy-policy.module#PrivacyPolicyPageModule', name: 'PrivacyPolicyPage', segment: 'privacy-policy', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/read-more/read-more.module#ReadMorePageModule', name: 'ReadMorePage', segment: 'read-more', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/slider/slider.module#SliderPageModule', name: 'SliderPage', segment: 'slider', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/sms-verification/sms-verification.module#SmsVerificationPageModule', name: 'SmsVerificationPage', segment: 'sms-verification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/submit-donation/submit-donation.module#SubmitDonationPageModule', name: 'SubmitDonationPage', segment: 'submit-donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/terms-and-conditions/terms-and-conditions.module#TermsAndConditionsPageModule', name: 'TermsAndConditionsPage', segment: 'terms-and-conditions', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/slider/slider.module#SliderPageModule', name: 'SliderPage', segment: 'slider', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/sms-verification/sms-verification.module#SmsVerificationPageModule', name: 'SmsVerificationPage', segment: 'sms-verification', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/terms-and-conditions/terms-and-conditions.module#TermsAndConditionsPageModule', name: 'TermsAndConditionsPage', segment: 'terms-and-conditions', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_4_angular_progress_bar__["a" /* ProgressBarModule */],
@@ -2786,11 +2786,11 @@ var ProfilePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_slider_slider__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_authentication_service__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_privacy_policy_privacy_policy__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_privacy_policy_privacy_policy__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_live_chat_live_chat__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_live_chat_live_chat__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__ = __webpack_require__(30);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3006,7 +3006,7 @@ var ProgressBarComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_intl_tel_input__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mocks_country__ = __webpack_require__(289);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3452,7 +3452,7 @@ var AuthenticationService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_youtube_content__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__ = __webpack_require__(43);
@@ -3555,7 +3555,7 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_tabs_home_tabs__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_authentication_service__ = __webpack_require__(44);
@@ -3827,12 +3827,17 @@ var DonationPage = /** @class */ (function () {
         this.authenticationService = authenticationService;
         this.iab = iab;
         this.alertCtrl = alertCtrl;
+        this.service = "";
+        this.localSelect = false;
         this.prevBtn = true;
         this.nextBtn = true;
         this.prevBtn = false;
         this.subscriptionVal = "Monthly";
         this.subsContents = false;
     }
+    DonationPage.prototype.ionViewDidLoad = function () {
+        this.subscription = "onetime";
+    };
     DonationPage.prototype.ionViewWillEnter = function () {
         var _this = this;
         console.log("entering");
@@ -3898,6 +3903,7 @@ var DonationPage = /** @class */ (function () {
     };
     DonationPage.prototype.donateBtn = function (donation) {
         var _this = this;
+        donation = this.donations[this.slides.getActiveIndex()];
         console.log(this.makeid());
         var oid = this.makeid();
         var total = donation.value;
@@ -3938,12 +3944,12 @@ var DonationPage = /** @class */ (function () {
             }
             if (e.url.indexOf(errorUrl) !== -1) {
                 console.log("ERROR_PAY");
-                var alert_1 = _this.alertCtrl.create({
+                var alert = _this.alertCtrl.create({
                     title: 'LRC IGP',
                     subTitle: 'There was an error proccessing your payment!',
                     buttons: ['OK']
                 });
-                alert_1.present();
+                alert.present();
                 browser.close();
             }
         });
@@ -3969,18 +3975,25 @@ var DonationPage = /** @class */ (function () {
             text += possible.charAt(Math.floor(Math.random() * possible.length));
         return text;
     };
+    DonationPage.prototype.serviceChange = function () {
+        console.log(this.service);
+        if (this.service === "local")
+            this.localSelect = true;
+        else
+            this.localSelect = false;
+    };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('slides'),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */]) === "function" && _a || Object)
     ], DonationPage.prototype, "slides", void 0);
     DonationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-donation',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/'<!--\n  Generated template for the DonationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n	<button ion-button menuToggle>\n		<ion-icon name="menu"></ion-icon>\n	</button>\n    <ion-title>Lebanese Red Cross</ion-title>\n  </ion-navbar>\n \n</ion-header>\n\n\n<ion-content padding>\n	<ion-slides pager="false" #slides class="swiper-no-swiping">\n\n	    <ion-slide *ngFor="let donation of donations; let i = index">\n	    	<div class="content-container">\n	      		<p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>\n	      		<p class="as-low-as">As low as</p>\n	      		<h1>{{ donation.dollar }}</h1>\n\n	      		<div>\n				    <div class="subscription-header" >\n					    <ion-row>\n					    	<ion-col col-3> </ion-col>\n					    	<ion-col col-6 class="col-6-pre" (click)="showSubsContens(i)">  \n					    		<div class="sel-subscription">\n					    			{{ donation.subscription }}\n						    	</div>\n					    	</ion-col>\n					    	<ion-col col-3> </ion-col>\n					    </ion-row>\n				    </div>\n				    <div *ngIf="donation.subscriptionContent" class="subscription-contents">\n					    <ion-row (click)="subBtn(\'One Time\')">\n					    	<ion-col col-3> </ion-col>\n					    	<ion-col col-6 class="col-pre">  \n					    		<span>One Time</span> \n					    	</ion-col>\n					    	<ion-col col-3> </ion-col>\n					    </ion-row>\n					    <ion-row (click)="subBtn(\'Monthly\')">\n					    	<ion-col col-3> </ion-col>\n					    	<ion-col col-6 class="col-pre" > \n					    		<span>Monthly</span>  \n					    	</ion-col>\n					    	<ion-col col-3> </ion-col>\n					    </ion-row>\n				    </div>\n	      		</div>\n	      		\n			  	<ion-item style="margin-top: 60px;"> \n				  	<ion-label class="select-component" >Select Department</ion-label>\n				    <ion-select [(ngModel)]="department" class="costume-select-icon" >\n				      <ion-option value="" ></ion-option>\n				      <ion-option value=""></ion-option>\n				    </ion-select>\n	      		</ion-item>\n			 \n\n				<ion-item>\n				  	<ion-label class="select-component" >Select Branch</ion-label>\n				    <ion-select [(ngModel)]="branch" class="costume-select-icon">\n				      <ion-option value="" ></ion-option>\n				      <ion-option value=""></ion-option>\n				    </ion-select>\n				</ion-item>\n				 \n\n					<ion-item style="    margin-bottom: -3vh;\n    margin-top: 20px;">\n						    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>\n						    <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>\n					</ion-item>\n					<div class="text-wrapper">\n					<p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>\n					</div>\n				<button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button>\n	    	</div>\n	    </ion-slide>\n	</ion-slides> \n		<!-- Previous Trigger Button --> \n		<button *ngIf="prevBtn" float-left ion-button class="btnPrev" style="background-image: url(\'assets/imgs/back.png\')" (click)="prev()"></button>\n		<!-- Next Trigger Button -->\n	  	<button *ngIf="nextBtn" float-right ion-button class="btnNext" style="background-image: url(\'assets/imgs/next.png\')" (click)="next()"></button>\n</ion-content>\n\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/,
+            selector: 'page-donation',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/'<!--\n  Generated template for the DonationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n    <ion-navbar color="redbg">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Lebanese Red Cross</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div class="content-container">\n        <p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>\n        <p class="as-low-as">As low as</p>\n\n\n\n        <!-- 	<ion-item style="margin-top: 60px;">\n                <ion-label class="select-component" >Select Department</ion-label>\n              <ion-select [(ngModel)]="department" class="costume-select-icon" >\n                <ion-option value="" ></ion-option>\n                <ion-option value=""></ion-option>\n              </ion-select>\n            </ion-item>\n\n\n          <ion-item>\n                <ion-label class="select-component" >Select Branch</ion-label>\n              <ion-select [(ngModel)]="branch" class="costume-select-icon">\n                <ion-option value="" ></ion-option>\n                <ion-option value=""></ion-option>\n              </ion-select>\n          </ion-item> -->\n\n        <ion-slides pager="false" #slides class="swiper-no-swiping">\n\n            <ion-slide *ngFor="let donation of donations; let i = index">\n                <div class="content-container">\n                    <!-- <p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>\n                    <p class="as-low-as">As low as</p> -->\n                    <h1>{{ donation.dollar }}</h1>\n\n                    <div>\n                        <div class="subscription-header" >\n                            <ion-row>\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-6-pre" (click)="showSubsContens(i)">\n                                    <!--<div class="sel-subscription">-->\n                                    <!--{{ donation.subscription }}-->\n                                    <!--</div>-->\n                                    <ion-item class="sel-subscription">\n                                        <ion-label>Subscription</ion-label>\n                                        <ion-select [(ngModel)]="subscription" >\n                                            <ion-option value="onetime">One Time</ion-option>\n                                            <ion-option value="monthly">Monthly</ion-option>\n                                        </ion-select>\n                                    </ion-item>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                        </div>\n                        <div  class="subscription-contents">\n                            <ion-row (click)="subBtn(\'One Time\')">\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-pre">\n                                    <span>One Time</span>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                            <ion-row (click)="subBtn(\'Monthly\')">\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-pre" >\n                                    <span>Monthly</span>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                        </div>\n                    </div>\n\n                    <!-- 	<ion-item style="margin-top: 60px;">\n                            <ion-label class="select-component" >Select Department</ion-label>\n                          <ion-select [(ngModel)]="department" class="costume-select-icon" >\n                            <ion-option value="" ></ion-option>\n                            <ion-option value=""></ion-option>\n                          </ion-select>\n                        </ion-item>\n\n\n                      <ion-item>\n                            <ion-label class="select-component" >Select Branch</ion-label>\n                          <ion-select [(ngModel)]="branch" class="costume-select-icon">\n                            <ion-option value="" ></ion-option>\n                            <ion-option value=""></ion-option>\n                          </ion-select>\n                      </ion-item> -->\n\n                    <!--\n                                        <ion-item style="    margin-bottom: -3vh;\n                        margin-top: 20px;">\n                                                <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>\n                                                <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>\n                                        </ion-item> -->\n                    <!-- <div class="text-wrapper">\n                    <p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>\n                    </div>\n                <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button> -->\n                </div>\n            </ion-slide>\n        </ion-slides>\n\n        <ion-item style="margin-top: 60px;" class="services">\n            <ion-label class="select-component" >Service</ion-label>\n            <ion-select [(ngModel)]="service" (ionChange)="serviceChange()" class="costume-select-icon" >\n                <ion-option value="national" >National Ambulance Service</ion-option>\n                <ion-option value="local">Local Ambulance Service</ion-option>\n            </ion-select>\n        </ion-item>\n\n\n        <ion-item *ngIf="localSelect" class="stations">\n            <ion-label class="select-component" >Ambulance Station</ion-label>\n            <ion-select [(ngModel)]="station" class="costume-select-icon">\n                <ion-option value="Spears" >Spears</ion-option>\n                <ion-option value="Gemmayzeh" >Gemmayzeh</ion-option>\n                <ion-option value="Furn el Chebak" >Furn el Chebak</ion-option>\n                <ion-option value="Mreijeh" >Mreijeh</ion-option>\n                <ion-option value="Jounieh" >Jounieh</ion-option>\n                <ion-option value="Antelias" >Antelias</ion-option>\n                <ion-option value="Cornet Chehwan" >Cornet Chehwan</ion-option>\n                <ion-option value="Beit Mery" >Beit Mery</ion-option>\n                <ion-option value="Jbeil" >Jbeil</ion-option>\n                <ion-option value="Jal el Dib" >Jal el Dib</ion-option>\n                <ion-option value="Falougha" >Falougha</ion-option>\n                <ion-option value="Bolonia" >Bolonia</ion-option>\n                <ion-option value="Kfarzebian" >Kfarzebian</ion-option>\n                <ion-option value="Zahle" >Zahle</ion-option>\n                <ion-option value="Kab Elias" >Kab Elias</ion-option>\n                <ion-option value="Baalbeck" >Baalbeck</ion-option>\n                <ion-option value="Joub Janine" >Joub Janine</ion-option>\n                <ion-option value="Hermel" >Hermel</ion-option>\n                <ion-option value="OMEGA" >OMEGA</ion-option>\n                <ion-option value="Rashaya" >Rashaya</ion-option>\n                <ion-option value="Mashghara" >Mashghara</ion-option>\n                <ion-option value="Saida" >Saida</ion-option>\n                <ion-option value="Jezzine" >Jezzine</ion-option>\n                <ion-option value="Jensnaya" >Jensnaya</ion-option>\n                <ion-option value="Ensarieh" >Ensarieh</ion-option>\n                <ion-option value="Nabatieh" >Nabatieh</ion-option>\n                <ion-option value="Tripoli" >Tripoli</ion-option>\n                <ion-option value="Batroun" >Batroun</ion-option>\n                <ion-option value="Koura" >Koura</ion-option>\n                <ion-option value="Besharre" >Besharre</ion-option>\n                <ion-option value="Zgorta" >Zgorta</ion-option>\n                <ion-option value="Halba" >Halba</ion-option>\n                <ion-option value="Kobayat" >Kobayat</ion-option>\n                <ion-option value="Hrar" >Hrar</ion-option>\n                <ion-option value="Baabda" >Baabda</ion-option>\n                <ion-option value="Aley" >Aley</ion-option>\n                <ion-option value="Bekaata" >Bekaata</ion-option>\n                <ion-option value="Kaber Chmoun" >Kaber Chmoun</ion-option>\n                <ion-option value="Deir el Kamar" >Deir el Kamar</ion-option>\n                <ion-option value="Damour" >Damour</ion-option>\n                <ion-option value="Choueifat" >Choueifat</ion-option>\n                <ion-option value="Hasbaya" >Hasbaya</ion-option>\n                <ion-option value="Tyr" >Tyr</ion-option>\n                <ion-option value="Tebnine" >Tebnine</ion-option>\n                <ion-option value="Marjeyoun" >Marjeyoun</ion-option>\n                <ion-option value="Rmeish" >Rmeish</ion-option>\n                <ion-option value="Chebaa" >Chebaa</ion-option>\n            </ion-select>\n        </ion-item>\n\n\n        <ion-item style="    margin-bottom: -3vh;\n   						 margin-top: 20px;">\n            <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>\n            <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>\n        </ion-item>\n\n\n\n        <div class="text-wrapper">\n            <p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>\n        </div>\n        <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button>\n\n    </div>\n\n    <!-- Previous Trigger Button -->\n    <button *ngIf="prevBtn" float-left ion-button class="btnPrev" style="background-image: url(\'assets/imgs/back.png\')" (click)="prev()"></button>\n    <!-- Next Trigger Button -->\n    <button *ngIf="nextBtn" float-right ion-button class="btnNext" style="background-image: url(\'assets/imgs/next.png\')" (click)="next()"></button>\n</ion-content>\n\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */],
-            __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _g || Object])
     ], DonationPage);
     return DonationPage;
+    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=donation.js.map
