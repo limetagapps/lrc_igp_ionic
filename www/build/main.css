@@ -31699,6 +31699,7 @@ page-login .login-container {
   padding: 5%;
   text-align: center;
   height: 98%;
+  min-height: 480px !important;
   width: 100%;
 }
 
@@ -31713,7 +31714,6 @@ page-login .login-container .signup-container p {
 
 page-login .login-container .sigup-with-facebook {
   position: absolute;
-  bottom: 8%;
   width: 83%;
 }
 

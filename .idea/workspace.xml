@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb5413a5-d513-482f-92c8-f9aab7b3710b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/wordpress.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/wordpress.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/project.xcworkspace/xcuserdata/gerardbarakat.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/project.xcworkspace/xcuserdata/gerardbarakat.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/lebanese-red-cross-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/lebanese-red-cross-Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/15.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/16.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/17.js" afterDir="false" />
@@ -16,9 +20,10 @@
       <change beforePath="$PROJECT_DIR$/www/build/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/19.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/20.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/vendor.js" afterDir="false" />
@@ -36,93 +41,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wordpress.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/wordpress.service.ts">
+      <file leaf-file-name="login.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/login/login.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy-policy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terms-and-conditions.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="privacy-policy.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="38" column="21" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sms-verification.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/sms-verification/sms-verification.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="terms-and-conditions.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-516">
-              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-              <folding>
-                <element signature="e#2#44#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="461">
+              <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -156,6 +88,7 @@
       <find>ion</find>
       <find>subBGImage</find>
       <find>descriptop</find>
+      <find>facebook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,8 +100,6 @@
         <option value="$PROJECT_DIR$/src/config.ts" />
         <option value="$PROJECT_DIR$/ionic.config.json" />
         <option value="$PROJECT_DIR$/src/pages/register/register.scss" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/src/pages/login/login.scss" />
         <option value="$PROJECT_DIR$/src/pages/register/register.html" />
         <option value="$PROJECT_DIR$/src/pages/address-details/address-details.html" />
         <option value="$PROJECT_DIR$/src/pages/sms-verification/sms-verification.html" />
@@ -200,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" />
         <option value="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" />
         <option value="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" />
+        <option value="$PROJECT_DIR$/src/pages/login/login.scss" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -230,10 +163,10 @@
       <path value="$PROJECT_DIR$/plugins/cordova-plugin-youtube-video-player/plugins/org.apache.cordova.console/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="959" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -259,12 +192,6 @@
               <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
               <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -272,56 +199,7 @@
               <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="donation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home-tabs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="privacy-policy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="read-more" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="sms-verification" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="terms-and-conditions" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
@@ -369,7 +247,7 @@
       <workItem from="1529357271655" duration="1899000" />
       <workItem from="1529407244424" duration="25720000" />
       <workItem from="1529665762023" duration="2309000" />
-      <workItem from="1529788796980" duration="25992000" />
+      <workItem from="1529788796980" duration="27169000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1529572224852</created>
@@ -389,14 +267,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58309000" />
+    <option name="totallyTimeSpent" value="59486000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="959" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.25641027" />
@@ -404,7 +281,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.2563805" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.22666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -492,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/login.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/address-details/address-details.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -522,24 +392,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/address-details/address-details.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -848,8 +704,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="38" column="77" selection-start-line="38" selection-start-column="77" selection-end-line="38" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login/login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
