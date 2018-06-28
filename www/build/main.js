@@ -4,56 +4,11 @@ webpackJsonp([21],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutUsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutUsPage = /** @class */ (function () {
-    function AboutUsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutUsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutUsPage');
-    };
-    AboutUsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about-us',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], AboutUsPage);
-    return AboutUsPage;
-}());
-
-//# sourceMappingURL=about-us.js.map
-
-/***/ }),
-
-/***/ 115:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddressDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_lebanon_places__ = __webpack_require__(275);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(47);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -148,15 +103,15 @@ var AddressDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForgetPasswordPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(117);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -202,15 +157,15 @@ var ForgetPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SmsVerificationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -322,14 +277,14 @@ var SmsVerificationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EnterActivationCodePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(35);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -374,7 +329,7 @@ var EnterActivationCodePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -420,6 +375,51 @@ var ReadMorePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=read-more.js.map
+
+/***/ }),
+
+/***/ 119:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AboutUsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutUsPage = /** @class */ (function () {
+    function AboutUsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AboutUsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutUsPage');
+    };
+    AboutUsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-about-us',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/about-us/about-us.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], AboutUsPage);
+    return AboutUsPage;
+}());
+
+//# sourceMappingURL=about-us.js.map
 
 /***/ }),
 
@@ -520,6 +520,9 @@ var LiveChatPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrivacyPolicyPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -531,6 +534,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 /**
  * Generated class for the PrivacyPolicyPage page.
  *
@@ -538,20 +543,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var PrivacyPolicyPage = /** @class */ (function () {
-    function PrivacyPolicyPage(navCtrl, navParams) {
+    function PrivacyPolicyPage(navCtrl, navParams, wordpressService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.wordpressService = wordpressService;
     }
     PrivacyPolicyPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad PrivacyPolicyPage');
     };
+    PrivacyPolicyPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        console.log("entering");
+        __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getPrivacy())
+            .subscribe(function (data) {
+            _this.posts = data[0].content.rendered;
+            //this.posts.forEach( p => {
+            _this.description1 = _this.posts;
+            //});
+        });
+    };
     PrivacyPolicyPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-privacy-policy',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/privacy-policy/privacy-policy.html"*/'<!--\n  Generated template for the PrivacyPolicyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Privacy Policy</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/privacy-policy/privacy-policy.html"*/,
+            selector: 'page-privacy-policy',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/privacy-policy/privacy-policy.html"*/'<!--\n  Generated template for the PrivacyPolicyPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Privacy Policy</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <p [innerHTML]=description1>\n    \n  </p>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/privacy-policy/privacy-policy.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]) === "function" && _c || Object])
     ], PrivacyPolicyPage);
     return PrivacyPolicyPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=privacy-policy.js.map
@@ -566,7 +584,7 @@ var PrivacyPolicyPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login_login__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_register__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__register_register__ = __webpack_require__(35);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -662,7 +680,7 @@ var SliderPage = /** @class */ (function () {
     ], SliderPage.prototype, "slides", void 0);
     SliderPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-slider',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, user-scalable=no, viewport-fit=cover">\n\n<ion-content no-border >\n\n\n	<ion-slides pager="false" *ngIf="splash">\n		<ion-slide class="splash">\n			<img src="assets/imgs/lrc_logo.png">\n		  	<div class="faded-background"></div>\n		  	<div class="footer-text">\n		  		<div class="footer-content">\n			  		<div class="title">\n			  			<h1>Lebanese Red Cross</h1>\n			  		</div>\n			  		<div class="sub-title">\n				  		<p class="individual-giving">Individual Giving Program</p>\n				  		<p class="support-LRC">#SupportLRC</p>\n			  		</div>\n		  		</div>\n			  	<progress class="loader" max="100" value="0">\n			  	</progress>\n		  	</div>\n		</ion-slide>\n	</ion-slides>\n\n	<ion-slides *ngIf="sliders" pager>\n		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">\n		    <div class="{{ slideData.classContainer }}">\n		    	<img [class]="slideData.imgsizeClass ? slideData.imgsizeClass : \'\'"  src="{{ slideData.image }}">\n		    	<h2 >{{ slideData.title }}</h2>\n		    	<div  [class]="slideData.subTitleClassWrapper" >\n		    	<p [class]="slideData.subTitleClass" [innerHtml]="slideData.subTitle" style="margin-bottom: 30px">	</p>\n		    	</div>\n\n		    	<div *ngIf="slideData.loginContainer" class="s-container">\n		    		<div class="s-e si-container" (click)="goToSignIn()">\n		    			<p class="si">Sign in</p>\n		    		</div>\n		    		<span class="vertical"></span>\n		    		<div class="s-e su-container" (click)="goToRegister()">\n		    			<p class="su">Sign up</p>\n		    		</div>\n		    	</div>\n		    	<!-- Skip Trigger Button - Move to the last slide -->\n	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->\n	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="\n						    position: absolute;\n						    z-index: 3;\n						    right: 8%;\n						    bottom: 1%;\n						    width: 35px;\n						    height: 20px;\n						    color: #4a4a4a;\n						    font-family: Roboto;\n						    font-size: 15px;\n						    font-style: normal;\n						    font-stretch: normal;\n						    font-weight: 400;\n						    text-align: center;\n						"> SKIP </p>\n		    </div>\n		</ion-slide>\n	</ion-slides>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/slider/slider.html"*/,
+            selector: 'page-slider',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, user-scalable=no, viewport-fit=cover">\n\n<ion-content no-border >\n\n\n	<ion-slides pager="false" *ngIf="splash">\n		<ion-slide class="splash">\n			<img src="assets/imgs/lrc_logo.png">\n		  	<div class="faded-background"></div>\n		  	<div class="footer-text">\n		  		<div class="footer-content">\n			  		<div class="title">\n			  			<h1>Lebanese Red Cross</h1>\n			  		</div>\n			  		<div class="sub-title">\n				  		<p class="individual-giving">Individual Giving Program</p>\n				  		<p class="support-LRC">#SupportLRC</p>\n			  		</div>\n		  		</div>\n			  	<progress class="loader" max="100" value="0">\n			  	</progress>\n		  	</div>\n		</ion-slide>\n	</ion-slides>\n\n	<ion-slides *ngIf="sliders" pager>\n		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">\n		    <div class="{{ slideData.classContainer }}">\n		    	<img [class]="slideData.imgsizeClass ? slideData.imgsizeClass : \'\'"  src="{{ slideData.image }}">\n		    	<h2 >{{ slideData.title }}</h2>\n		    	<div  [class]="slideData.subTitleClassWrapper" >\n		    	<p [class]="slideData.subTitleClass" [innerHtml]="slideData.subTitle" style="margin-bottom: 30px">	</p>\n		    	</div>\n\n		    	<div *ngIf="slideData.loginContainer" class="s-container">\n		    		<div class="s-e si-container" (click)="goToSignIn()">\n		    			<p class="si">Sign in</p>\n		    		</div>\n		    		<span class="vertical"></span>\n		    		<div class="s-e su-container" (click)="goToRegister()">\n		    			<p class="su">Sign up</p>\n		    		</div>\n		    	</div>\n		    	<!-- Skip Trigger Button - Move to the last slide -->\n	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->\n	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="\n						    position: absolute;\n						    z-index: 3;\n						    right: 8%;\n						    bottom: 1%;\n						    width: 35px;\n						    height: 20px;\n						    color: #4a4a4a;\n						    font-family: Roboto;\n						    font-size: 15px;\n						    font-style: normal;\n						    font-stretch: normal;\n						    font-weight: 400;\n						    text-align: center;\n						"> SKIP </p>\n		    </div>\n		</ion-slide>\n	</ion-slides>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/slider/slider.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */]])
     ], SliderPage);
@@ -695,27 +713,27 @@ webpackEmptyAsyncContext.id = 132;
 
 var map = {
 	"../pages/about-us/about-us.module": [
-		314,
+		315,
 		20
 	],
 	"../pages/address-details/address-details.module": [
-		315,
+		314,
 		19
 	],
 	"../pages/donation-tabs/donation-tabs.module": [
-		316,
+		317,
 		18
 	],
 	"../pages/donation/donation.module": [
-		319,
+		316,
 		17
 	],
 	"../pages/enter-activation-code/enter-activation-code.module": [
-		317,
+		318,
 		16
 	],
 	"../pages/forget-password/forget-password.module": [
-		318,
+		319,
 		15
 	],
 	"../pages/get-in-touch/get-in-touch.module": [
@@ -816,7 +834,7 @@ var WORDPRESS_REST_API_URL = WORDPRESS_URL + 'wp-json/wp/v2/';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings_settings__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings_settings__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__donation_donation__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -878,7 +896,7 @@ var DonationTabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(36);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -988,7 +1006,7 @@ var SubmitDonationPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__donation_donation__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1072,29 +1090,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_list_list__ = __webpack_require__(312);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_slider_slider__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_register_register__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_forget_password_forget_password__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_sms_verification_sms_verification__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_address_details_address_details__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_settings_settings__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_register_register__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_forget_password_forget_password__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_sms_verification_sms_verification__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_address_details_address_details__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_settings_settings__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_profile_profile__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_donation_donation__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_donation_tabs_donation_tabs__ = __webpack_require__(224);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_home_tabs_home_tabs__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_read_more_read_more__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_read_more_read_more__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_progress_bar_progress_bar__ = __webpack_require__(313);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_submit_donation_submit_donation__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_home_info_home_info__ = __webpack_require__(225);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_status_bar__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_splash_screen__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_about_us_about_us__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_about_us_about_us__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_privacy_policy_privacy_policy__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_live_chat_live_chat__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__ionic_native_native_storage__ = __webpack_require__(179);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__services_wordpress_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__services_wordpress_service__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__services_authentication_service__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1178,12 +1196,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-details/address-details.module#AddressDetailsPageModule', name: 'AddressDetailsPage', segment: 'address-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation-tabs/donation-tabs.module#DonationTabsPageModule', name: 'DonationTabsPage', segment: 'donation-tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forget-password/forget-password.module#ForgetPasswordPageModule', name: 'ForgetPasswordPage', segment: 'forget-password', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/get-in-touch/get-in-touch.module#GetInTouchPageModule', name: 'GetInTouchPage', segment: 'get-in-touch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-info/home-info.module#HomeInfoPageModule', name: 'HomeInfoPage', segment: 'home-info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-tabs/home-tabs.module#HomeTabsPageModule', name: 'HomeTabsPage', segment: 'home-tabs', priority: 'low', defaultHistory: [] },
@@ -2786,7 +2804,7 @@ var ProfilePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_slider_slider__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_authentication_service__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_privacy_policy_privacy_policy__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
@@ -2999,183 +3017,6 @@ var ProgressBarComponent = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input__ = __webpack_require__(287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_intl_tel_input__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mocks_country__ = __webpack_require__(289);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-/**
- * Generated class for the RegisterPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var RegisterPage = /** @class */ (function () {
-    function RegisterPage(navCtrl, navParams, menuCtrl, alertCtrl) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.menuCtrl = menuCtrl;
-        this.alertCtrl = alertCtrl;
-        this.name = "";
-        this.email = "";
-        this.confirm = "";
-        this.password = "";
-        this.phone = "";
-        /* Enable False (To hide the side nav) */
-        this.menuCtrl.enable(false, 'myMenu');
-        this.countriesData = __WEBPACK_IMPORTED_MODULE_5__mocks_country__["a" /* COUNTRIES */];
-    }
-    RegisterPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad RegisterPage');
-        // console.log(this.countriesData);
-        __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput({
-            defaultCountry: "LB",
-            initialCountry: 'lb',
-            // allowDropdown: false,
-            // autoHideDialCode: false,
-            // autoPlaceholder: "off",
-            // dropdownContainer: "body",
-            // excludeCountries: ["us"],
-            // formatOnDisplay: false,
-            // geoIpLookup: function(callback) {
-            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
-            //     var countryCode = (resp && resp.country) ? resp.country : "";
-            //     callback(countryCode);
-            //   });
-            // },
-            // hiddenInput: "full_number",
-            // initialCountry: "auto",
-            // nationalMode: false,
-            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
-            // placeholderNumberType: "MOBILE",
-            // preferredCountries: ['cn', 'jp'],
-            // separateDialCode: true,
-            utilsScript: "assets/js/utils.js"
-        });
-    };
-    /* Submit Sign up Function */
-    RegisterPage.prototype.btnSignUp = function () {
-        var intlNumber = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput("getNumber"); // get full number eg +17024181234
-        var countryData = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput("getSelectedCountryData"); // get country data as obj
-        var countryCode = countryData.dialCode; // using updated doc, code has been replaced with dialCode
-        countryCode = "+" + countryCode; // convert 1 to +1
-        var newNo = intlNumber.replace(countryCode, "" + countryCode + "");
-        //console.log(this.name, " ", newNo, " ", this.password, " ", this.confirm, this.email);
-        if (this.password === this.confirm) {
-            if (this.name.length > 0 && this.phone.length > 0 && this.email.length > 0) {
-                var newUser = {
-                    "name": this.name,
-                    "phone": newNo,
-                    "password": this.password,
-                    "email": this.email
-                };
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__["a" /* SmsVerificationPage */], { newUser: newUser });
-            }
-            else {
-                var alert_1 = this.alertCtrl.create({
-                    title: 'LRC IGP',
-                    subTitle: 'Please fill all the fields!',
-                    buttons: ['OK']
-                });
-                alert_1.present();
-            }
-        }
-        else {
-            var alert_2 = this.alertCtrl.create({
-                title: 'LRC IGP',
-                subTitle: 'Please confirm your password!',
-                buttons: ['OK']
-            });
-            alert_2.present();
-        }
-    };
-    RegisterPage.prototype.goToTerms = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__["a" /* TermsAndConditionsPage */]);
-    };
-    RegisterPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/register/register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content style="background-color: #cb2026">\n	<div class="register-container">\n		<div class="col-title">\n			<h2>Sign UP</h2>\n			<p>\n				Sign up and start donating instantly.\n			</p>\n		</div>\n    <ion-item>\n      <ion-label floating>Your Full Name </ion-label>\n      <ion-input [(ngModel)]="name" type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Your Email </ion-label>\n      <ion-input [(ngModel)]="email" type="email"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Enter Password </ion-label>\n      <ion-input [(ngModel)]="password" type="password"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Confirm Password </ion-label>\n      <ion-input [(ngModel)]="confirm" type="password"></ion-input>\n    </ion-item>\n		  <ion-item class="mobile-container">\n		  	<!-- <ion-select class="flag-select">\n		  		<ion-option *ngFor="let country of countriesData" value="{{ country.dial_code }}"> {{ country.dial_code }} <span class="flag-icon flag-icon-{{ country.code | lowercase }}"> </span> </ion-option>\n		  	</ion-select>\n		  	<ion-input type="number" placeholder="Mobile Number ex: 123123" class="mobile-number-input"> </ion-input> -->\n		  	<input id="phone" [(ngModel)]="phone" type="tel" style=" background-color: #f3f3f3;\n    border: none;width: 88vw;">\n\n		  </ion-item>\n		  <!-- Submit Sign up From -->\n		<div class="button-container">\n			<button ion-button block class="btn-signin cos-button" color="redbg" (click)="btnSignUp()">Sign UP</button>\n			<div class="separator">\n				<span>— OR —</span>\n			</div>\n			<button ion-button block class="btn-fb-signin cos-button">Login with Facebook</button>\n		</div>\n\n		<div class="privacy-wrapper">\n		<p class="privacy-policy">By creating an account your agree to our <strong class="privacy" (click)="goToTerms()">Privacy Policy</strong> and <strong class="terms" (click)="goToTerms()">Terms of Use</strong></p>\n		</div>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/register/register.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["h" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* AlertController */]])
-    ], RegisterPage);
-    return RegisterPage;
-}());
-
-//# sourceMappingURL=register.js.map
-
-/***/ }),
-
-/***/ 35:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SettingsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SettingsPage = /** @class */ (function () {
-    function SettingsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SettingsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SettingsPage');
-    };
-    SettingsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-settings',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/settings/settings.html"*/'<!--\n  Generated template for the SettingsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n  	<button ion-button menuToggle>\n		<ion-icon name="menu"></ion-icon>\n	</button>\n    <ion-title>Settings</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/settings/settings.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
-    ], SettingsPage);
-    return SettingsPage;
-}());
-
-//# sourceMappingURL=settings.js.map
-
-/***/ }),
-
-/***/ 43:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WordpressService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(89);
@@ -3251,7 +3092,17 @@ var WordpressService = /** @class */ (function () {
     };
     WordpressService.prototype.getAllPosts = function () {
         return this.http.get(__WEBPACK_IMPORTED_MODULE_2__config__["a" /* WORDPRESS_REST_API_URL */]
-            + 'posts')
+            + 'posts?categories=1')
+            .map(function (res) { return res.json(); });
+    };
+    WordpressService.prototype.getTerms = function () {
+        return this.http.get(__WEBPACK_IMPORTED_MODULE_2__config__["a" /* WORDPRESS_REST_API_URL */]
+            + 'posts/32')
+            .map(function (res) { return res.json(); });
+    };
+    WordpressService.prototype.getPrivacy = function () {
+        return this.http.get(__WEBPACK_IMPORTED_MODULE_2__config__["a" /* WORDPRESS_REST_API_URL */]
+            + 'posts/34')
             .map(function (res) { return res.json(); });
     };
     WordpressService.prototype.getProducts = function () {
@@ -3374,6 +3225,183 @@ var WordpressService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 35:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RegisterPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_intl_tel_input__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mocks_country__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__ = __webpack_require__(60);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the RegisterPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var RegisterPage = /** @class */ (function () {
+    function RegisterPage(navCtrl, navParams, menuCtrl, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.menuCtrl = menuCtrl;
+        this.alertCtrl = alertCtrl;
+        this.name = "";
+        this.email = "";
+        this.confirm = "";
+        this.password = "";
+        this.phone = "";
+        /* Enable False (To hide the side nav) */
+        this.menuCtrl.enable(false, 'myMenu');
+        this.countriesData = __WEBPACK_IMPORTED_MODULE_5__mocks_country__["a" /* COUNTRIES */];
+    }
+    RegisterPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad RegisterPage');
+        // console.log(this.countriesData);
+        __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput({
+            defaultCountry: "LB",
+            initialCountry: 'lb',
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: "body",
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            // preferredCountries: ['cn', 'jp'],
+            // separateDialCode: true,
+            utilsScript: "assets/js/utils.js"
+        });
+    };
+    /* Submit Sign up Function */
+    RegisterPage.prototype.btnSignUp = function () {
+        var intlNumber = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput("getNumber"); // get full number eg +17024181234
+        var countryData = __WEBPACK_IMPORTED_MODULE_0_jquery___default()("#phone").intlTelInput("getSelectedCountryData"); // get country data as obj
+        var countryCode = countryData.dialCode; // using updated doc, code has been replaced with dialCode
+        countryCode = "+" + countryCode; // convert 1 to +1
+        var newNo = intlNumber.replace(countryCode, "" + countryCode + "");
+        //console.log(this.name, " ", newNo, " ", this.password, " ", this.confirm, this.email);
+        if (this.password === this.confirm) {
+            if (this.name.length > 0 && this.phone.length > 0 && this.email.length > 0) {
+                var newUser = {
+                    "name": this.name,
+                    "phone": newNo,
+                    "password": this.password,
+                    "email": this.email
+                };
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__["a" /* SmsVerificationPage */], { newUser: newUser });
+            }
+            else {
+                var alert_1 = this.alertCtrl.create({
+                    title: 'LRC IGP',
+                    subTitle: 'Please fill all the fields!',
+                    buttons: ['OK']
+                });
+                alert_1.present();
+            }
+        }
+        else {
+            var alert_2 = this.alertCtrl.create({
+                title: 'LRC IGP',
+                subTitle: 'Please confirm your password!',
+                buttons: ['OK']
+            });
+            alert_2.present();
+        }
+    };
+    RegisterPage.prototype.goToTerms = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__["a" /* TermsAndConditionsPage */]);
+    };
+    RegisterPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["m" /* Component */])({
+            selector: 'page-register',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/register/register.html"*/'<!--\n  Generated template for the RegisterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content style="background-color: #cb2026">\n	<div class="register-container">\n		<div class="col-title">\n			<h2>Sign UP</h2>\n			<p>\n				Sign up and start donating instantly.\n			</p>\n		</div>\n    <ion-item>\n      <ion-label floating>Your Full Name </ion-label>\n      <ion-input [(ngModel)]="name" type="text"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Your Email </ion-label>\n      <ion-input [(ngModel)]="email" type="email"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Enter Password </ion-label>\n      <ion-input [(ngModel)]="password" type="password"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label floating>Confirm Password </ion-label>\n      <ion-input [(ngModel)]="confirm" type="password"></ion-input>\n    </ion-item>\n		  <ion-item class="mobile-container">\n		  	<!-- <ion-select class="flag-select">\n		  		<ion-option *ngFor="let country of countriesData" value="{{ country.dial_code }}"> {{ country.dial_code }} <span class="flag-icon flag-icon-{{ country.code | lowercase }}"> </span> </ion-option>\n		  	</ion-select>\n		  	<ion-input type="number" placeholder="Mobile Number ex: 123123" class="mobile-number-input"> </ion-input> -->\n		  	<input id="phone" [(ngModel)]="phone" type="tel" style=" background-color: #f3f3f3;\n    border: none;width: 88vw;">\n\n		  </ion-item>\n		  <!-- Submit Sign up From -->\n		<div class="button-container">\n			<button ion-button block class="btn-signin cos-button" color="redbg" (click)="btnSignUp()">Sign UP</button>\n			<div class="separator">\n				<span>— OR —</span>\n			</div>\n			<button ion-button block class="btn-fb-signin cos-button">Login with Facebook</button>\n		</div>\n\n		<div class="privacy-wrapper">\n		<p class="privacy-policy">By creating an account your agree to our <strong class="privacy" (click)="goToTerms()">Privacy Policy</strong> and <strong class="terms" (click)="goToTerms()">Terms of Use</strong></p>\n		</div>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/register/register.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["h" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* AlertController */]])
+    ], RegisterPage);
+    return RegisterPage;
+}());
+
+//# sourceMappingURL=register.js.map
+
+/***/ }),
+
+/***/ 36:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the SettingsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var SettingsPage = /** @class */ (function () {
+    function SettingsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    SettingsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SettingsPage');
+    };
+    SettingsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-settings',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/settings/settings.html"*/'<!--\n  Generated template for the SettingsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n  	<button ion-button menuToggle>\n		<ion-icon name="menu"></ion-icon>\n	</button>\n    <ion-title>Settings</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/settings/settings.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+    ], SettingsPage);
+    return SettingsPage;
+}());
+
+//# sourceMappingURL=settings.js.map
+
+/***/ }),
+
 /***/ 44:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3452,10 +3480,10 @@ var AuthenticationService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_youtube_content__ = __webpack_require__(290);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(181);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3555,9 +3583,9 @@ var HomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_tabs_home_tabs__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_authentication_service__ = __webpack_require__(44);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3687,7 +3715,7 @@ var LoginPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__settings_settings__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__donation_donation__ = __webpack_require__(49);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3777,7 +3805,7 @@ var HomeTabsPage = /** @class */ (function () {
     };
     HomeTabsPage = HomeTabsPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home-tabs',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/'<ion-tabs [selectedIndex]="1"> \n	<ion-fab *ngIf="bFab && !mysize" bottom center (click)="donationPage()">\n	    <div ion-fab class="round-button"> \n		    DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n	<ion-fab *ngIf="bFab && mysize" bottom center (click)="donationPage()" style="margin-bottom: 30px !important;">\n		<div ion-fab class="round-button">\n			DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY FROFILE"></ion-tab>\n  <ion-tab [root]="tab1Root"></ion-tab>\n  <ion-tab tabIcon="settings" [root]="tab2Root" tabTitle="SETTINGS" ></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/,
+            selector: 'page-home-tabs',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/'<ion-tabs [selectedIndex]="1"> \n	<ion-fab *ngIf="bFab && !mysize" bottom center (click)="donationPage()">\n	    <div ion-fab class="round-button"> \n		    DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n	<ion-fab *ngIf="bFab && mysize" bottom center (click)="donationPage()" style="margin-bottom: 34px !important;">\n		<div ion-fab class="round-button">\n			DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY FROFILE"></ion-tab>\n  <ion-tab [root]="tab1Root"></ion-tab>\n  <ion-tab tabIcon="settings" [root]="tab2Root" tabTitle="SETTINGS" ></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
@@ -3800,7 +3828,7 @@ var HomeTabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(182);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
@@ -4021,6 +4049,9 @@ var DonationPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TermsAndConditionsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_wordpress_service__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4032,6 +4063,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 /**
  * Generated class for the TermsAndConditionsPage page.
  *
@@ -4039,20 +4072,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var TermsAndConditionsPage = /** @class */ (function () {
-    function TermsAndConditionsPage(navCtrl, navParams) {
+    function TermsAndConditionsPage(navCtrl, navParams, wordpressService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.wordpressService = wordpressService;
     }
     TermsAndConditionsPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TermsAndConditionsPage');
     };
+    TermsAndConditionsPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        console.log("entering");
+        __WEBPACK_IMPORTED_MODULE_3_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getTerms())
+            .subscribe(function (data) {
+            _this.posts = data[0].content.rendered;
+            //this.posts.forEach( p => {
+            _this.description1 = _this.posts;
+            //});
+        });
+    };
     TermsAndConditionsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-terms-and-conditions',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/terms-and-conditions/terms-and-conditions.html"*/'<!--\n  Generated template for the TermsAndConditionsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Terms and Condition</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/terms-and-conditions/terms-and-conditions.html"*/,
+            selector: 'page-terms-and-conditions',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/terms-and-conditions/terms-and-conditions.html"*/'<!--\n  Generated template for the TermsAndConditionsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Terms and Condition</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n  <p [innerHTML]=description1>\n\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/terms-and-conditions/terms-and-conditions.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_wordpress_service__["a" /* WordpressService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_wordpress_service__["a" /* WordpressService */]) === "function" && _c || Object])
     ], TermsAndConditionsPage);
     return TermsAndConditionsPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=terms-and-conditions.js.map

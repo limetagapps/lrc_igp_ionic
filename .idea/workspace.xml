@@ -4,26 +4,24 @@
     <list default="true" id="eb5413a5-d513-482f-92c8-f9aab7b3710b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/project.xcworkspace/xcuserdata/gerardbarakat.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/project.xcworkspace/xcuserdata/gerardbarakat.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross.xcodeproj/xcuserdata/gerardbarakat.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/lebanese-red-cross-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/ios/lebanese-red-cross/lebanese-red-cross-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/donation/donation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/donation/donation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/read-more/read-more.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/read-more/read-more.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/read-more/read-more.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/read-more/read-more.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/wordpress.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/wordpress.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/15.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/15.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/16.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/16.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/17.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/17.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/18.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/19.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/20.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/vendor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/build/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/vendor.js.map" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -38,29 +36,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home/home.scss">
+      <file leaf-file-name="wordpress.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/wordpress.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="141" column="20" selection-start-line="141" selection-start-column="17" selection-end-line="141" selection-end-column="20" />
+            <state relative-caret-position="361">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-tabs.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home-tabs/home-tabs.scss">
+      <file leaf-file-name="privacy-policy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-tabs.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/home-tabs/home-tabs.ts">
+      <file leaf-file-name="terms-and-conditions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            <state relative-caret-position="444">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -68,11 +69,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-tabs.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/home-tabs/home-tabs.html">
+      <file leaf-file-name="privacy-policy.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="99" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+            <state relative-caret-position="444">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sms-verification.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/sms-verification/sms-verification.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="32" column="51" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terms-and-conditions.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -80,8 +105,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="280">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
@@ -93,31 +118,10 @@
       <file leaf-file-name="home.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="111" column="41" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="41" />
+            <state relative-caret-position="-516">
+              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding>
                 <element signature="e#2#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read-more.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/read-more/read-more.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read-more.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/read-more/read-more.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#ion-col#0;n#ion-row#0;n#ion-grid#0;n#section#0;n#ion-content#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,6 +155,7 @@
       <find>border-r</find>
       <find>ion</find>
       <find>subBGImage</find>
+      <find>descriptop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/pages/register/register.ts" />
         <option value="$PROJECT_DIR$/src/pages/sms-verification/sms-verification.ts" />
         <option value="$PROJECT_DIR$/src/pages/address-details/address-details.ts" />
-        <option value="$PROJECT_DIR$/src/services/wordpress.service.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.html" />
         <option value="$PROJECT_DIR$/src/pages/profile/profile.scss" />
@@ -191,6 +195,11 @@
         <option value="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.scss" />
         <option value="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.ts" />
         <option value="$PROJECT_DIR$/src/pages/home-tabs/home-tabs.html" />
+        <option value="$PROJECT_DIR$/src/services/wordpress.service.ts" />
+        <option value="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts" />
+        <option value="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts" />
+        <option value="$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html" />
+        <option value="$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html" />
       </list>
     </option>
   </component>
@@ -263,6 +272,13 @@
               <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="donation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +300,28 @@
               <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="privacy-policy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="read-more" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="sms-verification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LRC-IGP-IONIC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="terms-and-conditions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LRC-IGP-IONIC" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +369,7 @@
       <workItem from="1529357271655" duration="1899000" />
       <workItem from="1529407244424" duration="25720000" />
       <workItem from="1529665762023" duration="2309000" />
-      <workItem from="1529788796980" duration="24497000" />
+      <workItem from="1529788796980" duration="25992000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1529572224852</created>
@@ -352,14 +389,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56814000" />
+    <option name="totallyTimeSpent" value="58309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21097046" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.25641027" />
@@ -367,7 +404,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.2563805" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" visible="true" weight="0.2563805" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,46 +427,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/services/authentication.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login/login.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/wordpress.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="81" column="25" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="e#2#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/donation/donation.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -546,30 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/sms-verification/sms-verification.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/authentication.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/wordpress.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -728,16 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/donation/donation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home-info/home-info.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -774,27 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="111" column="41" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="41" />
-          <folding>
-            <element signature="e#2#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home-tabs/home-tabs.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -814,8 +760,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home-tabs/home-tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="99" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#ion-fab#1;n#ion-tabs#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/wordpress.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/donation/donation.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/sms-verification/sms-verification.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="e#2#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#ion-slide#0;n#ion-slides#0;n#ion-content#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/privacy-policy/privacy-policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/terms-and-conditions/terms-and-conditions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
         </state>
       </provider>
     </entry>
