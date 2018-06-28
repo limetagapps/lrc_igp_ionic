@@ -31667,7 +31667,6 @@ page-home-tabs .round-button:hover ion-icon {
 }
 
 page-home-tabs ion-fab {
-  bottom: 18px !important;
   left: 45% !important;
 }
 
@@ -31967,6 +31966,18 @@ page-read-more .content-information-container p.details {
   font-weight: 400;
   text-align: stretch;
   margin: 0px 0px 10px 0px;
+}
+
+page-read-more ion-grid {
+  padding: 0px !important;
+}
+
+page-read-more ion-row {
+  padding: 0px !important;
+}
+
+page-read-more ion-col {
+  padding: 0px !important;
 }
 
 page-register p, page-register h1, page-register h2, page-register h3, page-register h4, page-register h5, page-register h6, page-register .privacy, page-register .terms {

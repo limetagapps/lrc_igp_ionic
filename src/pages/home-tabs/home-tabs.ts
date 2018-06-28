@@ -7,6 +7,7 @@ import { ProfilePage } from '../profile/profile';
 import { SettingsPage } from '../settings/settings';
 import { DonationTabsPage } from '../donation-tabs/donation-tabs';
 import { DonationPage } from '../donation/donation';
+import {Platform} from 'ionic-angular'
 
 /**
  * Generated class for the HomeTabsPage page.
@@ -24,9 +25,14 @@ export class HomeTabsPage {
 	tab0Root:any = ProfilePage;
 	tab1Root:any = HomePage; 
 	tab2Root:any = SettingsPage;
+	mysize:boolean = false;
 	myIndex: number;
 	bFab: boolean;
-	constructor(public navCtrl: NavController, public navParams: NavParams,private alertCtrl: AlertController) {
+	marginTopp:number;
+	constructor(public navCtrl: NavController,
+				public navParams: NavParams,
+				private alertCtrl: AlertController,
+				public platform: Platform) {
 		//this.myIndex = navParams.data.tabIndex || 0; 
 		this.myIndex =  0; 
 		let status = navParams.get('data');
@@ -63,10 +69,21 @@ export class HomeTabsPage {
 			});
 			alert.present();
 		}
+
+
 	}
 
 	ionViewDidLoad() {
 		console.log('ionViewDidLoad HomeTabsPage');
+		console.log("Screen_Height: ", this.platform.height());
+		if(this.platform.height() == 812)
+        {
+            this.mysize = true;
+            this.marginTopp = 43;
+        }
+        else
+            this.marginTopp = 18;
+
 	}
 
 	donationPage(){

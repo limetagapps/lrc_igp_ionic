@@ -102,14 +102,14 @@ export class HomePage {
     slider.information = true;
     slider.main = false;
     slider.subBGImage = slider.bgImage;
-    slider.bgImage = 'white';
+    // slider.bgImage = 'white';
   }
 
   informationCloseBtn(num){
     let slider = this.slidersData[num];
     slider.information = false;
     slider.main = true;
-    slider.bgImage = slider.subBGImage;
+    // slider.bgImage = slider.subBGImage;
   }
 
   playVideo(video: Video){

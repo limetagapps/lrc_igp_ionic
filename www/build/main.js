@@ -412,7 +412,7 @@ var ReadMorePage = /** @class */ (function () {
     };
     ReadMorePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-read-more',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/read-more/read-more.html"*/'<!--\n  Generated template for the ReadMorePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n    <ion-title>Article</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	<section *ngFor="let s of slide;">\n	 <ion-grid>\n            <ion-row>\n              <ion-col col-12>	\n\n		<img [src]="s.subBGImage" height="200" style="width: 95%;\n    height: 60%">\n		<div class="content-information-container">\n		  <p class="title">{{ s.author }}</p>\n		  <h4>{{ s.title }}</h4>\n		  <p class="details">\n		  	{{ s.description1 }}\n		  </p>\n		  <br />\n		  <br />\n		  <p class="details">\n		  	{{ s.description2 }}\n		  </p>\n		</div>\n\n			 </ion-col>\n	 \n	 	</ion-row>\n	 </ion-grid>			\n	</section>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/read-more/read-more.html"*/,
+            selector: 'page-read-more',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/read-more/read-more.html"*/'<!--\n  Generated template for the ReadMorePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n    <ion-title>Article</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	<section *ngFor="let s of slide;">\n	 <ion-grid>\n            <ion-row>\n              <ion-col col-12>	\n\n		<img [src]="s.subBGImage" height="200" style="width: 100%;\n    height: 60%">\n		<div class="content-information-container">\n		  <p class="title">{{ s.author }}</p>\n		  <h4>{{ s.title }}</h4>\n		  <p class="details">\n		  	{{ s.description1 }}\n		  </p>\n		  <br />\n		  <br />\n		  <p class="details">\n		  	{{ s.description2 }}\n		  </p>\n		</div>\n\n			 </ion-col>\n	 \n	 	</ion-row>\n	 </ion-grid>			\n	</section>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/read-more/read-more.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]])
     ], ReadMorePage);
@@ -707,15 +707,15 @@ var map = {
 		18
 	],
 	"../pages/donation/donation.module": [
-		317,
+		319,
 		17
 	],
 	"../pages/enter-activation-code/enter-activation-code.module": [
-		318,
+		317,
 		16
 	],
 	"../pages/forget-password/forget-password.module": [
-		319,
+		318,
 		15
 	],
 	"../pages/get-in-touch/get-in-touch.module": [
@@ -1181,9 +1181,9 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-details/address-details.module#AddressDetailsPageModule', name: 'AddressDetailsPage', segment: 'address-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation-tabs/donation-tabs.module#DonationTabsPageModule', name: 'DonationTabsPage', segment: 'donation-tabs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forget-password/forget-password.module#ForgetPasswordPageModule', name: 'ForgetPasswordPage', segment: 'forget-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/get-in-touch/get-in-touch.module#GetInTouchPageModule', name: 'GetInTouchPage', segment: 'get-in-touch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-info/home-info.module#HomeInfoPageModule', name: 'HomeInfoPage', segment: 'home-info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-tabs/home-tabs.module#HomeTabsPageModule', name: 'HomeTabsPage', segment: 'home-tabs', priority: 'low', defaultHistory: [] },
@@ -3514,13 +3514,13 @@ var HomePage = /** @class */ (function () {
         slider.information = true;
         slider.main = false;
         slider.subBGImage = slider.bgImage;
-        slider.bgImage = 'white';
+        // slider.bgImage = 'white';
     };
     HomePage.prototype.informationCloseBtn = function (num) {
         var slider = this.slidersData[num];
         slider.information = false;
         slider.main = true;
-        slider.bgImage = slider.subBGImage;
+        // slider.bgImage = slider.subBGImage;
     };
     HomePage.prototype.playVideo = function (video) {
         this.videoPlayer.openVideo(video.videoId);
@@ -3537,7 +3537,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home/home.html"*/'<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Lebanese Red Cross</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding style="background-color: #cb2026">\n\n  <ion-slides pager centeredSlides="true" > \n    <!-- To set the background image is every slides -->\n    <ion-slide  *ngFor="let slide of slidersData; let i = index" [ngStyle]="{\'background\': \'\' + slide.bgImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\'}" >\n       <ion-icon float-right *ngIf="slide.information" class="information-close" ios="ios-close-circle" md="md-close-circle" (click)="informationCloseBtn(i)"></ion-icon>  \n      <div class="btn-container" *ngIf="slide.main">\n        <ion-grid>\n          <ion-row>\n            <ion-col col-12> \n              <ion-icon float-left ios="ios-paper-plane" md="md-paper-plane" (click)="shareBtn(slide)"></ion-icon>\n              <ion-icon float-right ios="ios-information-circle" md="md-information-circle" (click)="infoBtn(i)"> </ion-icon>\n            </ion-col>\n           \n          </ion-row>\n\n           \n                <div class="tag" *ngIf="main">\n                  <h1>{{ slide.tagInfo }}</h1>\n                </div>  \n             \n        </ion-grid>\n      </div>\n\n      <!-- Click Information button to see this section -->\n      <!-- Information Section -->\n      <section class="information" *ngIf="slide.information">\n        <div  [ngStyle]="{\'background\': \'\' + slide.subBGImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\' , \'height\' : \'110%\' , \'background-position\' : \'center\' , \'margin-bottom\': \'3%\'}" >\n      <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->\n      </div>\n        <p>{{ slide.author }}Sample Author</p> \n        <p class="bolder">{{ slide.title }}Saample Title of the Page</p>\n        <div class="button-container">\n          <ion-grid>\n            <ion-row>\n              <ion-col col-6> \n                <button ion-button float-left color="redbg" (click)="readMore(slide)"> Read More </button>\n              </ion-col>\n              <ion-col col-6>\n                <button ion-button float-right color="redbg"> Share </button>\n              </ion-col>\n            </ion-row>\n          </ion-grid>\n        </div>\n        <div> \n          <p>\n            {{ slide.description1 }}\n            <br/>\n            <br/>\n            {{ slide.description2 }}\n          </p>\n        </div>\n      </section>\n      <!-- End Information Section -->\n    </ion-slide>\n\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home/home.html"*/'<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Lebanese Red Cross</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding style="background-color: #cb2026">\n\n  <ion-slides pager centeredSlides="true" > \n    <!-- To set the background image is every slides -->\n    <ion-slide  *ngFor="let slide of slidersData; let i = index" [ngStyle]="{\'background\': \'\' + slide.bgImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\'}" >\n       <ion-icon float-right *ngIf="slide.information" class="information-close" ios="ios-close-circle" md="md-close-circle" (click)="informationCloseBtn(i)"></ion-icon>  \n      <div class="btn-container" *ngIf="slide.main">\n        <ion-grid>\n          <ion-row>\n            <ion-col col-12> \n              <ion-icon float-left ios="ios-paper-plane" md="md-paper-plane" (click)="shareBtn(slide)"></ion-icon>\n              <ion-icon float-right ios="ios-information-circle" md="md-information-circle" (click)="infoBtn(i)"> </ion-icon>\n            </ion-col>\n           \n          </ion-row>\n\n           \n                <div class="tag" *ngIf="main">\n                  <h1>{{ slide.tagInfo }}</h1>\n                </div>  \n             \n        </ion-grid>\n      </div>\n\n      <!-- Click Information button to see this section -->\n      <!-- Information Section -->\n      <section style="background-color: white; border-radius: 21px; height: 100%;" class="information" *ngIf="slide.information">\n        <div style="border-radius: 21px 21px 0px 0px;" [ngStyle]="{\'background\': \'\' + slide.subBGImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\' , \'height\' : \'40%\' , \'background-position\' : \'center\' , \'margin-bottom\': \'3%\'}" >\n      <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->\n      </div>\n        <p>{{ slide.author }}Sample Author</p> \n        <p class="bolder">{{ slide.title }}Saample Title of the Page</p>\n        <div class="button-container">\n          <ion-grid>\n            <ion-row>\n              <ion-col col-6> \n                <button ion-button float-left color="redbg" (click)="readMore(slide)"> Read More </button>\n              </ion-col>\n              <ion-col col-6>\n                <button ion-button float-right color="redbg"> Share </button>\n              </ion-col>\n            </ion-row>\n          </ion-grid>\n        </div>\n        <div> \n          <p>\n            {{ slide.description1 }}\n            <br/>\n            <br/>\n            {{ slide.description2 }}\n          </p>\n        </div>\n      </section>\n      <!-- End Information Section -->\n    </ion-slide>\n\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */], __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__["a" /* WordpressService */]])
     ], HomePage);
@@ -3704,6 +3704,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 /**
  * Generated class for the HomeTabsPage page.
  *
@@ -3711,14 +3712,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var HomeTabsPage = /** @class */ (function () {
-    function HomeTabsPage(navCtrl, navParams, alertCtrl) {
+    function HomeTabsPage(navCtrl, navParams, alertCtrl, platform) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.alertCtrl = alertCtrl;
+        this.platform = platform;
         this.tab0Root = __WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */];
         this.tab1Root = __WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */];
         this.tab2Root = __WEBPACK_IMPORTED_MODULE_4__settings_settings__["a" /* SettingsPage */];
+        this.mysize = false;
         //this.myIndex = navParams.data.tabIndex || 0; 
         this.myIndex = 0;
         var status = navParams.get('data');
@@ -3760,6 +3763,13 @@ var HomeTabsPage = /** @class */ (function () {
     HomeTabsPage_1 = HomeTabsPage;
     HomeTabsPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad HomeTabsPage');
+        console.log("Screen_Height: ", this.platform.height());
+        if (this.platform.height() == 812) {
+            this.mysize = true;
+            this.marginTopp = 43;
+        }
+        else
+            this.marginTopp = 18;
     };
     HomeTabsPage.prototype.donationPage = function () {
         //this.navCtrl.push(HomeTabsPage,{root: DonationPage});
@@ -3767,9 +3777,12 @@ var HomeTabsPage = /** @class */ (function () {
     };
     HomeTabsPage = HomeTabsPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home-tabs',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/'<ion-tabs [selectedIndex]="1"> \n	<ion-fab *ngIf="bFab" bottom center (click)="donationPage()">\n	    <div ion-fab class="round-button"> \n		    DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY FROFILE"></ion-tab>\n  <ion-tab [root]="tab1Root"></ion-tab>\n  <ion-tab tabIcon="settings" [root]="tab2Root" tabTitle="SETTINGS" ></ion-tab>\n</ion-tabs>  '/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/,
+            selector: 'page-home-tabs',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/'<ion-tabs [selectedIndex]="1"> \n	<ion-fab *ngIf="bFab && !mysize" bottom center (click)="donationPage()">\n	    <div ion-fab class="round-button"> \n		    DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n	<ion-fab *ngIf="bFab && mysize" bottom center (click)="donationPage()" style="margin-bottom: 30px !important;">\n		<div ion-fab class="round-button">\n			DONATE\n		</div>\n		<ion-icon ios="ios-card" md="md-card"></ion-icon>\n	</ion-fab>\n  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY FROFILE"></ion-tab>\n  <ion-tab [root]="tab1Root"></ion-tab>\n  <ion-tab tabIcon="settings" [root]="tab2Root" tabTitle="SETTINGS" ></ion-tab>\n</ion-tabs>'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/home-tabs/home-tabs.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* Platform */]])
     ], HomeTabsPage);
     return HomeTabsPage;
     var HomeTabsPage_1;
@@ -3827,6 +3840,7 @@ var DonationPage = /** @class */ (function () {
         this.authenticationService = authenticationService;
         this.iab = iab;
         this.alertCtrl = alertCtrl;
+        this.subscription = "";
         this.service = "";
         this.localSelect = false;
         this.prevBtn = true;
@@ -3944,12 +3958,12 @@ var DonationPage = /** @class */ (function () {
             }
             if (e.url.indexOf(errorUrl) !== -1) {
                 console.log("ERROR_PAY");
-                var alert = _this.alertCtrl.create({
+                var alert_1 = _this.alertCtrl.create({
                     title: 'LRC IGP',
                     subTitle: 'There was an error proccessing your payment!',
                     buttons: ['OK']
                 });
-                alert.present();
+                alert_1.present();
                 browser.close();
             }
         });
@@ -3984,16 +3998,16 @@ var DonationPage = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('slides'),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Slides */])
     ], DonationPage.prototype, "slides", void 0);
     DonationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-donation',template:/*ion-inline-start:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/'<!--\n  Generated template for the DonationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n    <ion-navbar color="redbg">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Lebanese Red Cross</ion-title>\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <div class="content-container">\n        <p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>\n        <p class="as-low-as">As low as</p>\n\n\n\n        <!-- 	<ion-item style="margin-top: 60px;">\n                <ion-label class="select-component" >Select Department</ion-label>\n              <ion-select [(ngModel)]="department" class="costume-select-icon" >\n                <ion-option value="" ></ion-option>\n                <ion-option value=""></ion-option>\n              </ion-select>\n            </ion-item>\n\n\n          <ion-item>\n                <ion-label class="select-component" >Select Branch</ion-label>\n              <ion-select [(ngModel)]="branch" class="costume-select-icon">\n                <ion-option value="" ></ion-option>\n                <ion-option value=""></ion-option>\n              </ion-select>\n          </ion-item> -->\n\n        <ion-slides pager="false" #slides class="swiper-no-swiping">\n\n            <ion-slide *ngFor="let donation of donations; let i = index">\n                <div class="content-container">\n                    <!-- <p class="choose-donation">CHOOSE YOUR DONATION AMOUNT</p>\n                    <p class="as-low-as">As low as</p> -->\n                    <h1>{{ donation.dollar }}</h1>\n\n                    <div>\n                        <div class="subscription-header" >\n                            <ion-row>\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-6-pre" (click)="showSubsContens(i)">\n                                    <!--<div class="sel-subscription">-->\n                                    <!--{{ donation.subscription }}-->\n                                    <!--</div>-->\n                                    <ion-item class="sel-subscription">\n                                        <ion-label>Subscription</ion-label>\n                                        <ion-select [(ngModel)]="subscription" >\n                                            <ion-option value="onetime">One Time</ion-option>\n                                            <ion-option value="monthly">Monthly</ion-option>\n                                        </ion-select>\n                                    </ion-item>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                        </div>\n                        <div  class="subscription-contents">\n                            <ion-row (click)="subBtn(\'One Time\')">\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-pre">\n                                    <span>One Time</span>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                            <ion-row (click)="subBtn(\'Monthly\')">\n                                <ion-col col-3> </ion-col>\n                                <ion-col col-6 class="col-pre" >\n                                    <span>Monthly</span>\n                                </ion-col>\n                                <ion-col col-3> </ion-col>\n                            </ion-row>\n                        </div>\n                    </div>\n\n                    <!-- 	<ion-item style="margin-top: 60px;">\n                            <ion-label class="select-component" >Select Department</ion-label>\n                          <ion-select [(ngModel)]="department" class="costume-select-icon" >\n                            <ion-option value="" ></ion-option>\n                            <ion-option value=""></ion-option>\n                          </ion-select>\n                        </ion-item>\n\n\n                      <ion-item>\n                            <ion-label class="select-component" >Select Branch</ion-label>\n                          <ion-select [(ngModel)]="branch" class="costume-select-icon">\n                            <ion-option value="" ></ion-option>\n                            <ion-option value=""></ion-option>\n                          </ion-select>\n                      </ion-item> -->\n\n                    <!--\n                                        <ion-item style="    margin-bottom: -3vh;\n                        margin-top: 20px;">\n                                                <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>\n                                                <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>\n                                        </ion-item> -->\n                    <!-- <div class="text-wrapper">\n                    <p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>\n                    </div>\n                <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button> -->\n                </div>\n            </ion-slide>\n        </ion-slides>\n\n        <ion-item style="margin-top: 60px;" class="services">\n            <ion-label class="select-component" >Service</ion-label>\n            <ion-select [(ngModel)]="service" (ionChange)="serviceChange()" class="costume-select-icon" >\n                <ion-option value="national" >National Ambulance Service</ion-option>\n                <ion-option value="local">Local Ambulance Service</ion-option>\n            </ion-select>\n        </ion-item>\n\n\n        <ion-item *ngIf="localSelect" class="stations">\n            <ion-label class="select-component" >Ambulance Station</ion-label>\n            <ion-select [(ngModel)]="station" class="costume-select-icon">\n                <ion-option value="Spears" >Spears</ion-option>\n                <ion-option value="Gemmayzeh" >Gemmayzeh</ion-option>\n                <ion-option value="Furn el Chebak" >Furn el Chebak</ion-option>\n                <ion-option value="Mreijeh" >Mreijeh</ion-option>\n                <ion-option value="Jounieh" >Jounieh</ion-option>\n                <ion-option value="Antelias" >Antelias</ion-option>\n                <ion-option value="Cornet Chehwan" >Cornet Chehwan</ion-option>\n                <ion-option value="Beit Mery" >Beit Mery</ion-option>\n                <ion-option value="Jbeil" >Jbeil</ion-option>\n                <ion-option value="Jal el Dib" >Jal el Dib</ion-option>\n                <ion-option value="Falougha" >Falougha</ion-option>\n                <ion-option value="Bolonia" >Bolonia</ion-option>\n                <ion-option value="Kfarzebian" >Kfarzebian</ion-option>\n                <ion-option value="Zahle" >Zahle</ion-option>\n                <ion-option value="Kab Elias" >Kab Elias</ion-option>\n                <ion-option value="Baalbeck" >Baalbeck</ion-option>\n                <ion-option value="Joub Janine" >Joub Janine</ion-option>\n                <ion-option value="Hermel" >Hermel</ion-option>\n                <ion-option value="OMEGA" >OMEGA</ion-option>\n                <ion-option value="Rashaya" >Rashaya</ion-option>\n                <ion-option value="Mashghara" >Mashghara</ion-option>\n                <ion-option value="Saida" >Saida</ion-option>\n                <ion-option value="Jezzine" >Jezzine</ion-option>\n                <ion-option value="Jensnaya" >Jensnaya</ion-option>\n                <ion-option value="Ensarieh" >Ensarieh</ion-option>\n                <ion-option value="Nabatieh" >Nabatieh</ion-option>\n                <ion-option value="Tripoli" >Tripoli</ion-option>\n                <ion-option value="Batroun" >Batroun</ion-option>\n                <ion-option value="Koura" >Koura</ion-option>\n                <ion-option value="Besharre" >Besharre</ion-option>\n                <ion-option value="Zgorta" >Zgorta</ion-option>\n                <ion-option value="Halba" >Halba</ion-option>\n                <ion-option value="Kobayat" >Kobayat</ion-option>\n                <ion-option value="Hrar" >Hrar</ion-option>\n                <ion-option value="Baabda" >Baabda</ion-option>\n                <ion-option value="Aley" >Aley</ion-option>\n                <ion-option value="Bekaata" >Bekaata</ion-option>\n                <ion-option value="Kaber Chmoun" >Kaber Chmoun</ion-option>\n                <ion-option value="Deir el Kamar" >Deir el Kamar</ion-option>\n                <ion-option value="Damour" >Damour</ion-option>\n                <ion-option value="Choueifat" >Choueifat</ion-option>\n                <ion-option value="Hasbaya" >Hasbaya</ion-option>\n                <ion-option value="Tyr" >Tyr</ion-option>\n                <ion-option value="Tebnine" >Tebnine</ion-option>\n                <ion-option value="Marjeyoun" >Marjeyoun</ion-option>\n                <ion-option value="Rmeish" >Rmeish</ion-option>\n                <ion-option value="Chebaa" >Chebaa</ion-option>\n            </ion-select>\n        </ion-item>\n\n\n        <ion-item style="    margin-bottom: -3vh;\n   						 margin-top: 20px;">\n            <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>\n            <ion-label class="recurrent-monthly-donation">Recurrent Monthly Donation</ion-label>\n        </ion-item>\n\n\n\n        <div class="text-wrapper">\n            <p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>\n        </div>\n        <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button>\n\n    </div>\n\n    <!-- Previous Trigger Button -->\n    <button *ngIf="prevBtn" float-left ion-button class="btnPrev" style="background-image: url(\'assets/imgs/back.png\')" (click)="prev()"></button>\n    <!-- Next Trigger Button -->\n    <button *ngIf="nextBtn" float-right ion-button class="btnNext" style="background-image: url(\'assets/imgs/next.png\')" (click)="next()"></button>\n</ion-content>\n\n'/*ion-inline-end:"/Applications/MAMP/htdocs/LRC-IGP-IONIC/src/pages/donation/donation.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */],
+            __WEBPACK_IMPORTED_MODULE_4__services_authentication_service__["a" /* AuthenticationService */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], DonationPage);
     return DonationPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=donation.js.map

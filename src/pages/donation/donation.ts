@@ -34,6 +34,7 @@ export class DonationPage {
     posts: Array<any>;
     pdata;
 
+    subscription:string = "";
     service: string  = "";
     localSelect: boolean = false;
     public prevBtn: boolean = true;
