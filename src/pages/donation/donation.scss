@@ -1,5 +1,8 @@
 page-donation {
 
+	.lower-container{
+		position: relative;
+	}
 	.text-wrapper {
 		/* padding: 0 10% 5% 10%; */
 		width: 286px;
@@ -32,6 +35,8 @@ page-donation {
 	}
 	button.font-SF{
 		height: 56px !important;
+		position: absolute;
+		bottom: 0;
 	}
 	button.activated{
 		background-color: transparent !important;
@@ -44,9 +49,10 @@ page-donation {
 			color: #4A4A4A;
 		}
 		.choose-donation{
-			font-weight: bold;
-			font-size: 20px;
+			font-weight: 700;
+			font-size: 18px;
 			margin: 0%;
+			text-align: center;
 		}
 		.as-low-as{
 			margin: 0%;
@@ -61,6 +67,11 @@ page-donation {
 		h1{
 			color: map-get($colors, redbg);
 			font-size: 72px;
+		}
+
+		ion-label{
+			text-align: left !important;
+			padding-left: 40px !important;
 		}
 
 		.sel-subscription{
@@ -80,6 +91,7 @@ page-donation {
 			ion-label{
 				width: 0px !important;
 				display: none !important;
+				text-align: center !important;
 			}
 			ion-select{
 				width: 100% !important;
@@ -87,11 +99,17 @@ page-donation {
 				float: left !important;
 				padding: 0px !important;
 				text-align: center !important;
+				color: white !important;
 			}
 			.select-icon{
-				display: none !important;
+				//display: none !important;
+				margin-right: 10% !important;
 			}
 
+		}
+		.item-inner{
+			border: 1px transparent !important;
+			border-bottom: 1px transparent !important;
 		}
 		ion-item{
 			background-color: transparent !important;
@@ -141,6 +159,10 @@ page-donation {
 		text-align: left;
 		font-size: 10px;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+		width: 84%;
+		position: absolute;
+		left: 0;
+		margin-left: 13%;
 	}
 	.recurrent-monthly-donation{
 		color: #4a4a4a;
@@ -148,6 +170,11 @@ page-donation {
 		font-weight: 500;
 		text-align: left;
 		margin: 10px 0px 0px 0px;
+		width: 100%;
+		margin-left: -1px !important;
+		position: absolute;
+		left: 0;
+		margin-top: 2%;
 	}
 
 	.services{
@@ -158,6 +185,9 @@ page-donation {
 			font-size: 10px !important;
 			margin-right: 10px !important;
 		}
+	}
+	.scroll-content{
+		overflow: hidden;
 	}
 	.stations{
 		ion-select{

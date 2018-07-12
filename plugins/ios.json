@@ -30,6 +30,15 @@
     },
     "cordova-plugin-youtube-video-player": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "mx.ferreyra.callnumber": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
     }
   },
   "dependent_plugins": {}

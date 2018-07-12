@@ -29,13 +29,13 @@ export class SliderPage {
     this.slidesData = [
       {
         BGcolor : '#fff',
-        classContainer : 'slider-white',
+        classContainer : 'slider-white-main',
         image : 'assets/imgs/lrc_logo.png',
         title : 'Welcome!',
-        subTitleClass : 'sub-title',
-        subTitle : 'Join our individual Giving Program <b>and become a regular donor</b> for the Lebanese Red Cross',
+        subTitleClass : 'sub-title-main',
+        subTitle : 'Join us as a regular donor to help </b>the Lebanese Red Cross save more lives',
         loginContainer : false,
-        subTitleClassWrapper: 'subtitle_wrapper1'
+        subTitleClassWrapper: 'subtitle_wrapper1-main'
       },
       {
         BGcolor : '#cb2026',
@@ -53,7 +53,7 @@ export class SliderPage {
         image : 'assets/imgs/slider3-logo.png',
         title : 'Add Your Card!',
         subTitleClass : 'sub-title',
-        subTitle : 'Sucurely add your card and you will be charged automatically every month.',
+        subTitle : 'Securely add your card to make an automatic monthly donation to the Lebanese Red Cross',
         loginContainer : false,
         subTitleClassWrapper: 'subtitle_wrapper3',
         imgsizeClass: 'imgs3size'
@@ -62,9 +62,9 @@ export class SliderPage {
         BGcolor : '#cb2026',
         classContainer : 'slider-red',
         image : 'assets/imgs/slider4-logo.png',
-        title : 'Almost Done!',
+        title : 'Make a Difference Today!',
         subTitleClass : 'sub-title',
-        subTitle : 'Now sign up and become a regular donor for the Lebanese Red Cross!',
+        subTitle : 'Even a small donation can help our ambulances reach patients faster!',
         loginContainer : true,
         subTitleClassWrapper: 'subtitle_wrapper4',
         imgsizeClass: 'imgs4size'

@@ -32,14 +32,17 @@ page-login {
 			width: 83%;
 		}
 		input{
+          text-align: left;
+          padding-left: 10px;
 			color: rgba(74,74,74,0.57);
 		}
 		ion-label{
 			font-size: 12px;
-			text-align: center;
+			text-align: left;
 			transform-origin: center !important;
 			margin: 0px 0px 0px 0px !important;
 			color: rgba(74,74,74,0.57);
+			padding-left: 10px;
 		}
 		.item-input-has-focus .label-md[floating],
 		.input-has-focus .label-md[floating],
@@ -112,6 +115,7 @@ page-login {
 
 	.scroll-content {
 		padding: 15px;
+		overflow:hidden;
 	}
 
 }

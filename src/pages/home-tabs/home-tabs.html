@@ -1,17 +1,17 @@
-<ion-tabs [selectedIndex]="1"> 
-	<ion-fab *ngIf="bFab && !mysize" bottom center (click)="donationPage()">
-	    <div ion-fab class="round-button"> 
+<ion-tabs [selectedIndex]="1">
+	<ion-fab *ngIf="bFab && !mysize && !profile" bottom center (click)="donationPage()">
+	    <div ion-fab class="round-button">
 		    DONATE
 		</div>
 		<ion-icon ios="ios-card" md="md-card"></ion-icon>
 	</ion-fab>
-	<ion-fab *ngIf="bFab && mysize" bottom center (click)="donationPage()" style="margin-bottom: 34px !important;">
+	<ion-fab *ngIf="bFab && mysize && !profile" bottom center (click)="donationPage()" style="margin-bottom: 43px !important;">
 		<div ion-fab class="round-button">
 			DONATE
 		</div>
 		<ion-icon ios="ios-card" md="md-card"></ion-icon>
 	</ion-fab>
-  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY FROFILE"></ion-tab>
+  <ion-tab tabIcon="home" [root]="tab2Root" tabTitle="HOME"></ion-tab>
   <ion-tab [root]="tab1Root"></ion-tab>
-  <ion-tab tabIcon="settings" [root]="tab2Root" tabTitle="SETTINGS" ></ion-tab>
+  <ion-tab tabIcon="person" [root]="tab0Root" tabTitle="MY PROFILE" ></ion-tab>
 </ion-tabs>

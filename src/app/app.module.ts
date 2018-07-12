@@ -7,6 +7,7 @@ import { HttpModule } from '@angular/http';
 import { IonicStorageModule } from '@ionic/storage';
 import { Storage } from '@ionic/storage';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { CallNumber } from '@ionic-native/call-number';
 
 import { TabsPage } from '../pages/tabs/tabs';
 import { MyApp } from './app.component';
@@ -29,8 +30,9 @@ import { ProgressBarComponent } from '../components/progress-bar/progress-bar';
 import { SubmitDonationPage } from '../pages/submit-donation/submit-donation';
 import { HomeInfoPage } from '../pages/home-info/home-info';
 import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen'; 
-
+import { SplashScreen } from '@ionic-native/splash-screen';
+import { LoginPageModule } from '../pages/login/login.module';
+import { SliderPageModule } from '../pages/slider/slider.module';
 /* Menu Pages */
 import { AboutUsPage } from '../pages/about-us/about-us';
 import { PrivacyPolicyPage } from '../pages/privacy-policy/privacy-policy';
@@ -44,14 +46,43 @@ import { NativeStorage } from '@ionic-native/native-storage';
 import { WordpressService } from '../services/wordpress.service';
 import { AuthenticationService } from '../services/authentication.service';
 
+/*IonicPro*/
+import { Pro } from '@ionic/pro';
+import { ErrorHandler, Injectable, Injector } from '@angular/core';
+import { IonicErrorHandler } from 'ionic-angular';
+
+Pro.init('YOUR_APP_ID', {
+  appVersion: 'APP_VERSION'
+})
+
+@Injectable()
+export class MyErrorHandler implements ErrorHandler {
+  ionicErrorHandler: IonicErrorHandler;
+
+  constructor(injector: Injector) {
+    try {
+      this.ionicErrorHandler = injector.get(IonicErrorHandler);
+    } catch(e) {
+      // Unable to get the IonicErrorHandler provider, ensure
+      // IonicErrorHandler has been added to the providers list below
+    }
+  }
+
+  handleError(err: any): void {
+    Pro.monitoring.handleNewError(err);
+    // Remove this if you want to disable Ionic's auto exception handling
+    // in development mode.
+    this.ionicErrorHandler && this.ionicErrorHandler.handleError(err);
+  }
+}
+
+
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    SliderPage,
-    LoginPage,
     RegisterPage,
     ForgetPasswordPage,
     EnterActivationCodePage,
@@ -75,6 +106,8 @@ import { AuthenticationService } from '../services/authentication.service';
   ],
   imports: [
     BrowserModule,
+	LoginPageModule,
+	SliderPageModule,
     IonicModule.forRoot(MyApp),
     ProgressBarModule,
     HttpModule,
@@ -118,7 +151,10 @@ import { AuthenticationService } from '../services/authentication.service';
     NativeStorage,
     AuthenticationService,
     WordpressService,
-    InAppBrowser
+    InAppBrowser,
+	CallNumber,
+	IonicErrorHandler,
+        [{ provide: ErrorHandler, useClass: MyErrorHandler }]
   ]
 })
 export class AppModule {}

@@ -17,14 +17,14 @@
 		<h4>SMS Verification</h4>
 		<div class="sms_wrapper">
 		<p>
-			To verify your account, please enter the activation code you received by SMS
+			Enter the activation code you received by SMS
 		</p>
 		</div>
 		<ion-item>
 			<ion-label floating>CODE</ion-label>
-		    <ion-input class="code" type="number" [(ngModel)]="codetxt"></ion-input>
+		    <ion-input class="code" type="tel" [(ngModel)]="codetxt"></ion-input>
 		</ion-item>
-		<button ion-button class="resend-btn cos-button"><ion-icon ios="ios-refresh" class="m-r" md="md-refresh" (click)="resendCode()"></ion-icon> Resend code</button>
+		<button ion-button class="resend-btn cos-button" (click)="resendCode()"><ion-icon ios="ios-refresh" class="m-r" md="md-refresh" ></ion-icon> Resend code</button>
 	</div>
 	<div class="lower-container">
 		<button ion-button block color="redbg" class="reset-pass-btn cos-button" (click)="addressDetails()">VERIFY</button>

@@ -16,14 +16,15 @@
 
 <ion-content>
 	<div class="header-profile" *ngIf="headerProfile">
-		<h2>Hello, Sarah</h2>
-		<span class="donor-title">LRC Regular Doner</span>
+		
+		<h2>Hello, <strong>{{ wpname }}</strong></h2>
+		<span class="donor-title">LRC Regular Donor</span>
 		<p >Current Membership: <strong>3$/month</strong> <ion-icon ios="ios-create" md="md-create"></ion-icon></p>
 	</div>
 	<div class="donated-container" *ngIf="donatedContainer">
 		<div class="donated">
 			<h2>DONATED</h2>
-			<p>Total amount of donation till date:</p>
+			<p>Total amount of donations:</p>
 		</div>
 		<div class="amount">
 			<h1>$ 36.00</h1>
@@ -39,23 +40,15 @@
 		<div class="form-inputs">
 			<ion-item>
 			    <ion-label floating>Full Name</ion-label>
-			    <ion-input style="    background-color: transparent;"></ion-input>
+			    <ion-input [(ngModel)]="name" style="    background-color: transparent;" value="{{name.value}}"></ion-input>
 			</ion-item>
 			<ion-item>
 			    <ion-label floating>Email Address</ion-label>
-			    <ion-input style="background-color: transparent;"></ion-input>
-			</ion-item>
-			<ion-item>
-			    <ion-label floating>Password</ion-label>
-			    <ion-input style="background-color: transparent;" type="password"></ion-input>
-			</ion-item>
-			<ion-item>
-			    <ion-label floating>Confirm Password</ion-label>
-			    <ion-input style="background-color: transparent;" type="password"></ion-input>
+			    <ion-input [(ngModel)]="email" style="background-color: transparent;" value="{{email.value}}"></ion-input>
 			</ion-item>
 			<ion-item>
 			    <ion-label floating>Phone Number</ion-label>
-			    <ion-input style="background-color: transparent;"></ion-input>
+			    <ion-input [(ngModel)]="phone" type="tel" style="background-color: transparent;"></ion-input>
 			</ion-item>
 		</div>
 

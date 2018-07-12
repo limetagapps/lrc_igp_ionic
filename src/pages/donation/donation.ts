@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, NavController, NavParams, Slides } from 'ionic-angular';
+import {IonicPage, Keyboard, NavController, NavParams, Slides} from 'ionic-angular';
 import { SubmitDonationPage } from '../submit-donation/submit-donation';
 import { DONATIONS } from '../../mocks/donation-content';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
@@ -36,16 +36,28 @@ export class DonationPage {
 
     subscription:string = "";
     service: string  = "";
+    station: string = "";
     localSelect: boolean = false;
     public prevBtn: boolean = true;
     public nextBtn: boolean = true;
     subscriptionVal: string;
     subsContents: boolean;
-    constructor(public navCtrl: NavController, public navParams: NavParams, public wordpressService: WordpressService,
-                public authenticationService: AuthenticationService, public iab: InAppBrowser, public alertCtrl: AlertController) {
+
+
+
+    constructor(public navCtrl: NavController,
+                public navParams: NavParams,
+                public wordpressService: WordpressService,
+                public authenticationService: AuthenticationService,
+                public iab: InAppBrowser,
+                public alertCtrl: AlertController,
+                public keyboard: Keyboard) {
         this.prevBtn = false;
         this.subscriptionVal = "Monthly";
         this.subsContents = false;
+
+
+
 
     }
     ionViewDidLoad() {
@@ -62,13 +74,25 @@ export class DonationPage {
             //console.log(this.posts[0]);
             this.donations = [];
             this.posts[0].products.forEach( p => {
-                this.pdata = {
-                    id: p.id,
-                    dollar : p.price+"$",
-                    value : p.price,
-                    subscription : 'Monthly',
-                    subscriptionContent : false
-                };
+                if(p.price === "0")
+                {
+                    this.pdata = {
+                        id: p.id,
+                        dollar : 'OTHER',
+                        value : 'Other',
+                        subscription: 'Monthly',
+                        subscriptionContent: false
+                    };
+                }
+                else {
+                    this.pdata = {
+                        id: p.id,
+                        dollar: p.price + "$",
+                        value: p.price,
+                        subscription: 'Monthly',
+                        subscriptionContent: false
+                    };
+                }
                 console.log(this.pdata);
                 this.donations.push(this.pdata);
             });
@@ -119,15 +143,55 @@ export class DonationPage {
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
 
-    donateBtn(donation){
-        donation = this.donations[this.slides.getActiveIndex()];
-        console.log(this.makeid());
+    presentPrompt() {
+        let alert = this.alertCtrl.create({
+            title: 'LRC Donation Amount',
+            inputs: [
+                {
+                    name: 'donationValue',
+                    placeholder: 'Value'
+                }
+            ],
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: data => {
+                        console.log('Cancel clicked');
+                    }
+                },
+                {
+                    text: 'OK',
+                    handler: data => {
+                        this.donateBtn(data.donationValue);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    }
+
+    donateBtn(donationValue){
+        let donation = this.donations[this.slides.getActiveIndex()];
+        // console.log(this.makeid());
+        if(donation.value === "Other")
+        {
+            if(donationValue == undefined) {
+                this.presentPrompt();
+                return;
+            }
+            else
+            {
+                donation.value = donationValue;
+            }
+        }
         let oid = this.makeid();
         let total = donation.value;
         let email = "gerard@limetag.me";
         let target = "_blank";
         let theOtherUrl = "res=success";
         let errorUrl = "res=error";
+
         const browser = this.iab.create("https://supportlrc.app/pay_red/startpay.php?oid="+oid+"&total="+total+"&customer_email="+email,target, 'location=no');
 
         browser.on('loadstart').subscribe((e) => {
@@ -136,7 +200,7 @@ export class DonationPage {
             if (e.url.indexOf(theOtherUrl) !== -1) {
                 console.log("SUCCESS_PAY");
                 browser.close();
-                this.wordpressService.createOrder(donation, oid)
+                this.wordpressService.createOrder(donation, oid, this.service, this.station)
                     .subscribe(res => {
                             console.log("ORDER_RES: "+ res);
                             const alert = this.alertCtrl.create({

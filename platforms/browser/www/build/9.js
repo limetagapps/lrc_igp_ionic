@@ -1,14 +1,14 @@
 webpackJsonp([9],{
 
-/***/ 325:
+/***/ 326:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PrivacyPolicyPageModule", function() { return PrivacyPolicyPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LiveChatPageModule", function() { return LiveChatPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__privacy_policy__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__live_chat__ = __webpack_require__(122);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PrivacyPolicyPageModule = /** @class */ (function () {
-    function PrivacyPolicyPageModule() {
+var LiveChatPageModule = /** @class */ (function () {
+    function LiveChatPageModule() {
     }
-    PrivacyPolicyPageModule = __decorate([
+    LiveChatPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__privacy_policy__["a" /* PrivacyPolicyPage */],
+                __WEBPACK_IMPORTED_MODULE_2__live_chat__["a" /* LiveChatPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__privacy_policy__["a" /* PrivacyPolicyPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__live_chat__["a" /* LiveChatPage */]),
             ],
         })
-    ], PrivacyPolicyPageModule);
-    return PrivacyPolicyPageModule;
+    ], LiveChatPageModule);
+    return LiveChatPageModule;
 }());
 
-//# sourceMappingURL=privacy-policy.module.js.map
+//# sourceMappingURL=live-chat.module.js.map
 
 /***/ })
 

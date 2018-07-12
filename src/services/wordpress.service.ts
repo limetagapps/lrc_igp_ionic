@@ -16,6 +16,7 @@ export class WordpressService {
     public sumer_secret:any;
     public userId:any;
     public options: any;
+    public logged: boolean = false;
     dataInfo = {
         name: '',
         email: '',
@@ -35,6 +36,7 @@ export class WordpressService {
         /** TO BE UNCOMMENTED BEFORE LIVE **/
         // this.authenticationService.getUser().then(sres=>{
         //   if(sres){
+        //     this.logged = true;
         //     this.userId = sres.id;
         //     this.dataInfo.email = sres.email;
         //     this.dataInfo.firstname = sres.displayname;
@@ -44,6 +46,14 @@ export class WordpressService {
         //   }
         // })
         // console.log("USER_ID: "+this.userId);
+
+        this.userId = localStorage.getItem("id");
+        this.dataInfo.email = localStorage.getItem("email");
+        this.dataInfo.firstname = localStorage.getItem("displayname");
+        this.dataInfo.username = localStorage.getItem("username");
+        this.dataInfo.lastname = localStorage.getItem("displayname");
+        this.mytoken = localStorage.getItem("token");
+
         /** ****************************** **/
 
 
@@ -73,6 +83,7 @@ export class WordpressService {
             + 'posts?categories=1')
             .map(res => res.json());
     }
+	 
     getTerms(){
         return this.http.get(
             Config.WORDPRESS_REST_API_URL
@@ -83,6 +94,12 @@ export class WordpressService {
         return this.http.get(
             Config.WORDPRESS_REST_API_URL
             + 'posts/34')
+            .map(res => res.json());
+    }
+	getAboutus(){
+        return this.http.get(
+            Config.WORDPRESS_REST_API_URL
+            + 'posts/90')
             .map(res => res.json());
     }
     getProducts(){
@@ -99,7 +116,7 @@ export class WordpressService {
             + '/pay_red/save.php?uid='+this.userId+"&token="+mytoken)
             .map(res => res.json());
     }
-    createOrder(donation, oid)
+    createOrder(donation, oid, service, station)
     {
         var link = Config.WORDPRESS_URL+'/wp-json/wc/v2/orders?consumer_key='+this.consumer_key+'&consumer_secret='+this.sumer_secret;
 
@@ -143,6 +160,14 @@ export class WordpressService {
                 {
                     "key": "tmp_id",
                     "value": oid
+                },
+                {
+                    "key": "service",
+                    "value": service
+                },
+                {
+                    "key": "station",
+                    "value": station
                 }
             ],
 
@@ -175,7 +200,7 @@ export class WordpressService {
             "password": password,
             "email": email,
             "username": email,
-            "meta_data": [
+            "meta": [
                 {
                     "key": "phone",
                     "value": phone

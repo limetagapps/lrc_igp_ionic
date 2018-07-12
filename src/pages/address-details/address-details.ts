@@ -76,7 +76,7 @@ export class AddressDetailsPage {
           loading.dismiss();
           const alert = this.alertCtrl.create({
             title: 'LRC IGP',
-            subTitle: 'Error registering',
+            subTitle: 'This email address or mobile number is already used',
             buttons: ['OK']
           });
           alert.present();

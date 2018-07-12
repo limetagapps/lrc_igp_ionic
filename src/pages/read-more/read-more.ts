@@ -15,8 +15,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ReadMorePage {
 	slide: Array<any>;
+    artileTitle: String;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.slide = [this.navParams.get('slide')];
+  	this.artileTitle = this.slide[0].tagInfo;
   	console.log(this.slide);
     this.slide[0].subBGImage =  this.slide[0].subBGImage.replace('url(','');
     this.slide[0].subBGImage =  this.slide[0].subBGImage.replace(')','');

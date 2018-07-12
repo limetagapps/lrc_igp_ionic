@@ -4,10 +4,12 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, MenuController } from 'ionic-angular';
 import { SmsVerificationPage } from '../sms-verification/sms-verification';
 import { COUNTRIES } from '../../mocks/country';
-
-
+import { NgModule, ErrorHandler } from '@angular/core';	
 import { AlertController } from 'ionic-angular';
 import {TermsAndConditionsPage} from "../terms-and-conditions/terms-and-conditions";
+import {PrivacyPolicyPage} from "../privacy-policy/privacy-policy";
+import {FormBuilder,FormGroup , Validators} from '@angular/forms'; 
+
 
 /**
  * Generated class for the RegisterPage page.
@@ -35,10 +37,17 @@ export class RegisterPage {
     /* Enable False (To hide the side nav) */
     this.menuCtrl.enable(false,'myMenu');
     this.countriesData = COUNTRIES;
+	 /* this.authForm = fb.group({
+		  'email' : [null, Validators.compose([Validators.required, Validators.minLength(5), Validators.maxLength(50),Validators.pattern(/^[a-z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)*$/i)])],
+		  'password': [null],
+		  'gender' : 'e'
+		});  */
+	
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterPage');
+	  
     // console.log(this.countriesData);
 
 
@@ -90,6 +99,7 @@ export class RegisterPage {
           "email": this.email
         };
         this.navCtrl.push(SmsVerificationPage, {newUser});
+		  
       }
       else{
         const alert = this.alertCtrl.create({
@@ -112,5 +122,8 @@ export class RegisterPage {
 
   goToTerms(){
       this.navCtrl.push(TermsAndConditionsPage);
+    }
+  goToPolicy(){
+      this.navCtrl.push(PrivacyPolicyPage);
     }
 }

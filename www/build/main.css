@@ -30596,7 +30596,7 @@ ion-footer {
 
 ion-footer .designed-developed {
   background-color: #cb2026;
-  height: 50px;
+  height: 60px;
 }
 
 ion-footer .designed-developed p:nth-child(1) {
@@ -30767,6 +30767,10 @@ progress-bar .progress-inner {
   padding: 5px;
   border-radius: 20px;
   background-color: #488aff;
+}
+
+page-about-us p {
+  text-align: justify;
 }
 
 page-address-details ion-input.custom-input ::-webkit-input-placeholder {
@@ -30975,6 +30979,10 @@ page-address-details .input-has-value ion-label {
   visibility: hidden;
 }
 
+page-donation .lower-container {
+  position: relative;
+}
+
 page-donation .text-wrapper {
   /* padding: 0 10% 5% 10%; */
   width: 286px;
@@ -31013,6 +31021,8 @@ page-donation .btnNext {
 
 page-donation button.font-SF {
   height: 56px !important;
+  position: absolute;
+  bottom: 0;
 }
 
 page-donation button.activated {
@@ -31028,9 +31038,10 @@ page-donation .content-container p {
 }
 
 page-donation .content-container .choose-donation {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 18px;
   margin: 0%;
+  text-align: center;
 }
 
 page-donation .content-container .as-low-as {
@@ -31046,6 +31057,11 @@ page-donation .content-container .as-low-as {
 page-donation .content-container h1 {
   color: #cb2026;
   font-size: 72px;
+}
+
+page-donation .content-container ion-label {
+  text-align: left !important;
+  padding-left: 40px !important;
 }
 
 page-donation .content-container .sel-subscription {
@@ -31068,6 +31084,7 @@ page-donation .content-container .sel-subscription .item-inner {
 page-donation .content-container .sel-subscription ion-label {
   width: 0px !important;
   display: none !important;
+  text-align: center !important;
 }
 
 page-donation .content-container .sel-subscription ion-select {
@@ -31076,10 +31093,16 @@ page-donation .content-container .sel-subscription ion-select {
   float: left !important;
   padding: 0px !important;
   text-align: center !important;
+  color: white !important;
 }
 
 page-donation .content-container .sel-subscription .select-icon {
-  display: none !important;
+  margin-right: 10% !important;
+}
+
+page-donation .content-container .item-inner {
+  border: 1px transparent !important;
+  border-bottom: 1px transparent !important;
 }
 
 page-donation .content-container ion-item {
@@ -31140,6 +31163,10 @@ page-donation .bychoosingRecurre {
   text-align: left;
   font-size: 10px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+  width: 84%;
+  position: absolute;
+  left: 0;
+  margin-left: 13%;
 }
 
 page-donation .recurrent-monthly-donation {
@@ -31148,6 +31175,11 @@ page-donation .recurrent-monthly-donation {
   font-weight: 500;
   text-align: left;
   margin: 10px 0px 0px 0px;
+  width: 100%;
+  margin-left: -1px !important;
+  position: absolute;
+  left: 0;
+  margin-top: 2%;
 }
 
 page-donation .services ion-select {
@@ -31156,6 +31188,10 @@ page-donation .services ion-select {
   max-width: 50% !important;
   font-size: 10px !important;
   margin-right: 10px !important;
+}
+
+page-donation .scroll-content {
+  overflow: hidden;
 }
 
 page-donation .stations ion-select {
@@ -31297,10 +31333,6 @@ page-forget-password {
   text-align: center;
 }
 
-page-forget-password .forget-pw-container {
-  margin-top: 100px;
-}
-
 page-forget-password .forget-pw-container ion-item {
   border-radius: 5px;
   margin-top: -2px;
@@ -31352,11 +31384,30 @@ page-forget-password .input-has-value ion-label {
   visibility: hidden;
 }
 
+page-forget-password .scroll-content {
+  overflow: hidden;
+}
+
+page-forget-password .lower-container {
+  bottom: 13px;
+  position: absolute;
+  width: 90%;
+  margin-left: 5px;
+}
+
+page-forget-password .forget-pw-container {
+  margin-top: 30%;
+}
+
 page-home {
   /*ion-tabs {
   color: #cb2026;
   height: 98.5% !important;
 	}*/
+}
+
+page-home .ion-fab[bottom] {
+  bottom: 13% !important;
 }
 
 page-home .toolbar-title.toolbar-title {
@@ -31382,6 +31433,11 @@ page-home .tag {
   bottom: 0;
   width: 75%;
   text-transform: uppercase;
+}
+
+page-home .tag h1 {
+  font-size: 22px;
+  font-weight: 600;
 }
 
 page-home ion-header button.back-button {
@@ -31431,8 +31487,8 @@ page-home .main-container {
   }
   page-home .information-close {
     position: absolute;
-    -webkit-transform: translate(115px, 10px);
-    transform: translate(115px, 10px);
+    -webkit-transform: translate(135px, 10px);
+    transform: translate(135px, 10px);
     z-index: 1110;
     color: white;
   }
@@ -31481,6 +31537,101 @@ page-home .main-container {
   }
 }
 
+@media screen and (min-width: 414px) {
+  page-home .content-container {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 93%;
+  }
+  page-home .content-container h1 {
+    font-size: 31px;
+  }
+  page-home .information-close {
+    position: absolute;
+    -webkit-transform: translate(160px, 10px);
+    transform: translate(160px, 10px);
+    z-index: 1110;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  page-home .content-container {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 93%;
+  }
+  page-home .content-container h1 {
+    font-size: 31px;
+  }
+  page-home .information-close {
+    position: absolute;
+    -webkit-transform: translate(140px, 10px);
+    transform: translate(140px, 10px);
+    z-index: 1110;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  page-home .content-container {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 93%;
+  }
+  page-home .content-container h1 {
+    font-size: 31px;
+  }
+  page-home .information-close {
+    position: absolute;
+    -webkit-transform: translate(160px, 10px);
+    transform: translate(160px, 10px);
+    z-index: 1110;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 846px) {
+  page-home .content-container {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 93%;
+  }
+  page-home .content-container h1 {
+    font-size: 31px;
+  }
+  page-home .information-close {
+    position: absolute;
+    -webkit-transform: translate(150pxpx, 10px);
+    transform: translate(150pxpx, 10px);
+    z-index: 1110;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 846px) {
+  page-home .platform-android .content-container {
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 93%;
+  }
+  page-home .platform-android .content-container h1 {
+    font-size: 31px;
+  }
+  page-home .platform-android .information-close {
+    position: absolute;
+    -webkit-transform: translate(190px, 10px);
+    transform: translate(190px, 10px);
+    z-index: 1110;
+    color: white;
+  }
+}
+
 @media screen and (min-width: 768px) {
   page-home .content-container {
     width: 100%;
@@ -31493,8 +31644,8 @@ page-home .main-container {
   }
   page-home .information-close {
     position: absolute;
-    -webkit-transform: translate(340px, 10px);
-    transform: translate(340px, 10px);
+    -webkit-transform: translate(380px, 10px);
+    transform: translate(380px, 10px);
     z-index: 1110;
     color: white;
   }
@@ -31546,7 +31697,7 @@ page-home .information img {
 
 page-home .information p {
   color: rgba(74, 74, 74, 0.79);
-  text-align: left;
+  text-align: justify;
   margin: 0% 5%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
 }
@@ -31579,6 +31730,25 @@ page-home ion-menu ion-header ion-toolbar ion-icon.ic-contact {
   height: 20%;
   zoom: 4.0;
   color: #808080;
+}
+
+.platform-android .content-container {
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 93%;
+}
+
+.platform-android .content-container h1 {
+  font-size: 31px;
+}
+
+.platform-android .information-close {
+  position: absolute;
+  -webkit-transform: translate(160px, 10px);
+  transform: translate(160px, 10px);
+  z-index: 1110;
+  color: white;
 }
 
 page-home-info ion-tabs {
@@ -31667,7 +31837,8 @@ page-home-tabs .round-button:hover ion-icon {
 }
 
 page-home-tabs ion-fab {
-  left: 45% !important;
+  left: 48% !important;
+  bottom: 2.5% !important;
 }
 
 page-home-tabs ion-fab ion-icon {
@@ -31677,8 +31848,25 @@ page-home-tabs ion-fab ion-icon {
   font-size: 22px;
   position: absolute;
   top: 55% !important;
-  left: 35% !important;
+  left: 37% !important;
   color: #fff;
+}
+
+.platform-ios ion-fab {
+  left: 48% !important;
+  bottom: 2.5% !important;
+}
+
+.platform-android ion-fab {
+  left: 48% !important;
+  bottom: 3.75% !important;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .platform-ios ion-fab {
+    left: 48% !important;
+    bottom: 1.25% !important;
+  }
 }
 
 page-login p, page-login h1, page-login h2, page-login h3, page-login h4, page-login h5, page-login h6 {
@@ -31718,16 +31906,19 @@ page-login .login-container .sigup-with-facebook {
 }
 
 page-login .login-container input {
+  text-align: left;
+  padding-left: 10px;
   color: rgba(74, 74, 74, 0.57);
 }
 
 page-login .login-container ion-label {
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   -webkit-transform-origin: center !important;
   transform-origin: center !important;
   margin: 0px 0px 0px 0px !important;
   color: rgba(74, 74, 74, 0.57);
+  padding-left: 10px;
 }
 
 page-login .login-container .item-input-has-focus .label-md[floating],
@@ -31810,6 +32001,11 @@ page-login .input-has-value ion-label {
 
 page-login .scroll-content {
   padding: 15px;
+  overflow: hidden;
+}
+
+page-privacy-policy p {
+  text-align: justify;
 }
 
 page-profile .header-profile {
@@ -31857,7 +32053,7 @@ page-profile .donated-container .donated h2 {
 
 page-profile .donated-container .donated p {
   margin: 0px;
-  font-size: 11px;
+  font-size: 9px;
 }
 
 page-profile .donated-container .amount {
@@ -31891,12 +32087,12 @@ page-profile .buttons-container .button {
 page-profile .buttons-container .button p {
   text-align: left;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 page-profile .buttons-container ion-icon {
-  -webkit-transform: translate(-45px, 5px) !important;
-  transform: translate(-45px, 5px) !important;
+  -webkit-transform: translate(-45px, 3px) !important;
+  transform: translate(-45px, 3px) !important;
   color: #cb2026;
   margin-left: 15px;
 }
@@ -31909,6 +32105,7 @@ page-profile .buttons-container .form-inputs {
 
 page-profile .buttons-container .form-inputs ion-item {
   border-bottom: 1px solid #4a4a4a !important;
+  margin-top: 5px;
 }
 
 page-profile .buttons-container .form-inputs ion-label {
@@ -31926,8 +32123,7 @@ page-profile .buttons-container .form-inputs .input-has-focus .label-md[floating
 page-profile .buttons-container .form-inputs .item-input-has-focus .label-ios[floating],
 page-profile .buttons-container .form-inputs .input-has-focus .label-ios[floating],
 page-profile .buttons-container .form-inputs .input-has-value ion-label {
-  -webkit-transform: translate3d(0, 3px, 0) !important;
-  transform: translate3d(0, 3px, 0) !important;
+  visibility: hidden;
 }
 
 page-profile .buttons-container .form-inputs ion-input {
@@ -31964,8 +32160,9 @@ page-read-more .content-information-container p.details {
   font-style: normal;
   font-stretch: normal;
   font-weight: 400;
-  text-align: stretch;
+  text-align: justify !important;
   margin: 0px 0px 10px 0px;
+  width: 98%;
 }
 
 page-read-more ion-grid {
@@ -31978,6 +32175,29 @@ page-read-more ion-row {
 
 page-read-more ion-col {
   padding: 0px !important;
+}
+
+.platform-ios h4 {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+  margin: 0px 0px 15px 0px;
+}
+
+.platform-android h4 {
+  color: #4a4a4a;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", SFProText;
+  margin: 0px 0px 15px 0px;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .platform-ios ion-fab {
+    left: 48% !important;
+    bottom: 1.25% !important;
+  }
 }
 
 page-register p, page-register h1, page-register h2, page-register h3, page-register h4, page-register h5, page-register h6, page-register .privacy, page-register .terms {
@@ -31996,6 +32216,8 @@ page-register .register-container {
 page-register .register-container ion-item {
   border-radius: 5px;
   margin-top: -2px;
+  border-bottom: 1px transparent !important;
+  border-top: 1px transparent !important;
 }
 
 page-register .register-container .flag-select {
@@ -32037,7 +32259,7 @@ page-register .register-container .mobile-container {
 }
 
 page-register .register-container .button-container {
-  margin-top: 37%;
+  margin-top: 5%;
 }
 
 page-register .col-title {
@@ -32048,6 +32270,7 @@ page-register .col-title h2 {
   font-size: 23px;
   font-weight: 700;
   color: #ce2026;
+  margin-top: -2%;
 }
 
 page-register .col-title p {
@@ -32064,23 +32287,61 @@ page-register .btn-fb-signin {
 }
 
 page-register input {
-  text-align: center;
+  text-align: left;
   padding-left: 10px !important;
 }
 
 page-register .privacy-policy {
-  margin-top: 40px;
+  margin-top: 9px;
   color: #9B9B9B;
-  width: 252px;
+  width: 100%;
 }
 
 page-register ion-label {
   font-size: 12px;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
   -webkit-transform-origin: center !important;
   transform-origin: center !important;
   margin: 0px 0px 0px 0px !important;
   color: rgba(74, 74, 74, 0.57);
+}
+
+page-register .mobile-container {
+  height: 55px !important;
+  margin-top: 0px !important;
+  border-top: 1px transparent !important;
+}
+
+page-register .mobile-container .flag-container {
+  margin-top: 15px !important;
+}
+
+page-register .mobile-container ion-label {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 0px;
+  -webkit-transform-origin: center !important;
+  transform-origin: center !important;
+  margin: 0px 0px 0px 0px !important;
+  color: rgba(74, 74, 74, 0.57);
+  border-radius: 5px;
+}
+
+page-register .mobile-container input {
+  height: 68px;
+  padding-top: 18px !important;
+  padding-left: 50px !important;
+}
+
+page-register .mobile-container .item-inner {
+  border-bottom: 1px transparent !important;
+  border-top: 1px transparent !important;
+  border: 0.8px solid #d1d1d6 !important;
+}
+
+page-register .item-inner {
+  border-bottom: 1px transparent !important;
 }
 
 page-register .item-input-has-focus .label-md[floating],
@@ -34165,6 +34426,7 @@ page-register .flag-icon-un.flag-icon-squared {
 
 page-register .scroll-content {
   padding: 15px;
+  overflow: hidden;
 }
 
 page-register .privacy-wrapper {
@@ -34266,21 +34528,63 @@ page-slider p.sub-title {
 }
 
 page-slider img {
+  height: 135px;
+  width: 135px;
+}
+
+page-slider .slider-white-main h2 {
+  color: #cb2026;
+  margin-top: 75px;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: oblique;
+  font-style: italic;
+  font-family: roboto;
+  height: 37px;
+}
+
+page-slider .slider-white-main p.sub-title-main {
+  padding: 0px 14%;
+}
+
+page-slider .slider-white-main p.sub-title-1 {
+  padding: 0px 21%;
+}
+
+page-slider .slider-white-main p.sub-title-2 {
+  padding: 0px 22%;
+}
+
+page-slider .slider-white-main p.skip {
+  padding: 0px 20%;
+  -webkit-transform: translate(50px, 110px);
+  transform: translate(50px, 110px);
+}
+
+page-slider .slider-white-main img {
   height: 135px !important;
   width: 135px !important;
+}
+
+page-slider .slider-white-main .subtitle_wrapper1-main {
+  width: 310px;
+  margin: auto;
+  display: block;
 }
 
 page-slider .slider-white h2 {
   color: #cb2026;
   margin-top: 75px;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 600;
+  font-style: oblique;
+  font-style: italic;
   font-family: roboto;
   height: 37px;
 }
 
 page-slider .slider-white p.sub-title {
-  padding: 0px 20%;
+  padding: 0px 17%;
 }
 
 page-slider .slider-white p.sub-title-1 {
@@ -34310,12 +34614,14 @@ page-slider .slider-red h2 {
   margin-top: 40px;
   font-size: 28px;
   height: 37px;
-  font-weight: 400;
+  font-weight: 600;
+  font-style: oblique;
+  font-style: italic;
   font-family: roboto;
 }
 
 page-slider .slider-red p.sub-title {
-  padding: 0px 20%;
+  padding: 0px 14%;
 }
 
 page-slider .slider-red p.skip {
@@ -34382,13 +34688,13 @@ page-slider .s-container .su-container {
 }
 
 page-slider .imgs4size {
-  height: 155px !important;
+  height: 179px !important;
   width: 179px !important;
 }
 
 page-slider .imgs3size {
   height: 159px !important;
-  width: 145px !important;
+  width: 159px !important;
 }
 
 page-slider .subtitle_wrapper1 {
@@ -34413,6 +34719,15 @@ page-slider .subtitle_wrapper4 {
   width: 315px;
   margin: auto;
   display: block;
+}
+
+page-slider .scroll-content {
+  overflow: hidden;
+}
+
+page-slider .logo_splash {
+  height: 135px !important;
+  width: 135px  !important;
 }
 
 page-sms-verification {
@@ -34622,4 +34937,8 @@ page-tabs ion-fab ion-icon {
   top: 55% !important;
   left: 35% !important;
   color: #fff;
+}
+
+page-terms-and-conditions p {
+  text-align: justify;
 }

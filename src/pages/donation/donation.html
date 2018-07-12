@@ -69,7 +69,7 @@
                                 <ion-col col-3> </ion-col>
                             </ion-row>
                         </div>
-                        <div  class="subscription-contents">
+                        <div  class="subscription-contents" style="display: none;">
                             <ion-row (click)="subBtn('One Time')">
                                 <ion-col col-3> </ion-col>
                                 <ion-col col-6 class="col-pre">
@@ -192,7 +192,9 @@
         <div class="text-wrapper">
             <p class="bychoosingRecurre"> By choosing "Recurrent Monthly Donation" you confirm you want to become a regular donor for the Lebanese Red Cross</p>
         </div>
-        <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn(donation)"> DONATE </button>
+        <div class="lower-container">
+        <button ion-button block color="redbg" class="font-SF" class="font-SF" (click)="donateBtn()"> DONATE </button>
+          </div>
 
     </div>
 
@@ -200,5 +202,5 @@
     <button *ngIf="prevBtn" float-left ion-button class="btnPrev" style="background-image: url('assets/imgs/back.png')" (click)="prev()"></button>
     <!-- Next Trigger Button -->
     <button *ngIf="nextBtn" float-right ion-button class="btnNext" style="background-image: url('assets/imgs/next.png')" (click)="next()"></button>
-</ion-content>
 
+</ion-content>

@@ -2,10 +2,9 @@
   <ion-header no-border>
     <ion-toolbar>
         <p float-right (click)="signOut()"><ion-icon color="redbg" ios="ios-exit" md="md-exit"></ion-icon> Sign out</p>
-        <ion-icon class="ic-contact" ios="ios-contact" md="md-contact"></ion-icon>
-        <p class="user-display">Hi,<strong>SARAH</strong></p>
+        <p class="user-display">Hi,<strong>{{ user_name }}</strong></p>
         <div class="hr"></div>
-        <p align="center"  (click)="openProfile()"> <ion-icon class="ic-settings" ios="ios-settings" md="md-settings"></ion-icon> Manage Profile</p>
+        <!--<p align="center"  (click)="openProfile()" menuClose> <ion-icon class="ic-settings" ios="ios-settings" md="md-settings"></ion-icon> Manage Profile</p>-->
         <p class="app-version" align="right">V 1.01</p>
     </ion-toolbar>
   </ion-header>

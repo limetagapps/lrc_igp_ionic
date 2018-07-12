@@ -10,7 +10,7 @@
 <ion-content no-border >
 
 
-	<ion-slides pager="false" *ngIf="splash">
+<!--<ion-slides pager="false" *ngIf="splash">
 		<ion-slide class="splash">
 			<img src="assets/imgs/lrc_logo.png">
 		  	<div class="faded-background"></div>
@@ -28,7 +28,7 @@
 			  	</progress>
 		  	</div>
 		</ion-slide>
-	</ion-slides>
+	</ion-slides>-->
 
 	<ion-slides *ngIf="sliders" pager>
 		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">
@@ -47,7 +47,7 @@
 		    		<div class="s-e su-container" (click)="goToRegister()">
 		    			<p class="su">Sign up</p>
 		    		</div>
-		    	</div>
+				</div>
 		    	<!-- Skip Trigger Button - Move to the last slide -->
 	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->
 	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="
