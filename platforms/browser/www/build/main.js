@@ -4,74 +4,10 @@ webpackJsonp([19],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the PrivacyPolicyPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutUsPage = /** @class */ (function () {
-    function AboutUsPage(navCtrl, navParams, wordpressService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.wordpressService = wordpressService;
-    }
-    AboutUsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutUsPage');
-    };
-    AboutUsPage.prototype.ionViewWillEnter = function () {
-        var _this = this;
-        console.log("entering");
-        __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getAboutus())
-            .subscribe(function (data) {
-            _this.posts = data[0].content.rendered;
-            //this.posts.forEach( p => {
-            _this.description1 = _this.posts;
-            //});
-        });
-    };
-    AboutUsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about-us',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n<p [innerHTML]=description1>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]])
-    ], AboutUsPage);
-    return AboutUsPage;
-}());
-
-//# sourceMappingURL=about-us.js.map
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddressDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_lebanon_places__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_lebanon_places__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(45);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -151,7 +87,7 @@ var AddressDetailsPage = /** @class */ (function () {
     };
     AddressDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-address-details',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/address-details/address-details.html"*/'<!--\n  Generated template for the AddressDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content style="background-color: #cb2026">\n	<div class="address-details-container">\n		<div class="col-title">\n			<h2>Almost Done...</h2>\n			<p class="verified">\n				Your account is being <strong>verified!</strong>\n			</p>\n			<p class="note" style="    margin-top: 6%;">\n				Please enter your address details or press SKIP\n			</p>\n		</div>\n\n	  	<ion-item class="item-sel">\n		  <ion-label class="select-lbl">Kaza</ion-label>\n		  <ion-select [(ngModel)]="kasa" class="sel-ion">\n		    <ion-option *ngFor="let kaza of kazas">{{ kaza.kaza }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n	  	<ion-item class="item-sel">\n		  <ion-label class="select-lbl">District</ion-label>\n		  <ion-select [(ngModel)]="district" class="sel-ion">\n		    <ion-option *ngFor="let district of districts">{{ district.district }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n		<ion-item class="item-sel">\n		  <ion-label class="select-lbl">Village</ion-label>\n		  <ion-select [(ngModel)]="village" class="sel-ion">\n		    <ion-option *ngFor="let village of villages">{{ village.village }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="streetnametxt" placeholder="Street name or No."></ion-input>\n\n\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="buildingtxt" placeholder="Building Name or No"></ion-input>\n\n\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="streettxt" placeholder="Street"></ion-input>\n\n\n		<!-- Go to Sign In Page -->\n		<button style="    width: 100%;\n    margin: auto;\n    margin-top: 7%;\n    margin-bottom:20%;\n}" ion-button block class="btn-done cos-button" color="redbg" (click)="goToHome()"> DONE </button>\n    <!-- Skip Trigger Button -->\n    <p class="skip" text-right (click)="goToHome()">SKIP  ></p>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/address-details/address-details.html"*/,
+            selector: 'page-address-details',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/address-details/address-details.html"*/'<!--\n  Generated template for the AddressDetailsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n\n  <ion-navbar color="redbg">\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content style="background-color: #cb2026">\n	<div class="address-details-container">\n		<div class="col-title">\n			<h2>Almost Done...</h2>\n			<p class="verified">\n				Your account is being <strong>verified!</strong>\n			</p>\n			<p class="note" style="    margin-top: 6%;">\n				Please enter your address details or press SKIP\n			</p>\n		</div>\n\n	  	<ion-item class="item-sel">\n		  <ion-label class="select-lbl">Kaza</ion-label>\n		  <ion-select [(ngModel)]="kasa" class="sel-ion">\n		    <ion-option *ngFor="let kaza of kazas">{{ kaza.kaza }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n	  	<ion-item class="item-sel">\n		  <ion-label class="select-lbl">District</ion-label>\n		  <ion-select [(ngModel)]="district" class="sel-ion">\n		    <ion-option *ngFor="let district of districts">{{ district.district }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n		<ion-item class="item-sel">\n		  <ion-label class="select-lbl">Village</ion-label>\n		  <ion-select [(ngModel)]="village" class="sel-ion">\n		    <ion-option *ngFor="let village of villages">{{ village.village }}</ion-option>\n		  </ion-select>\n		</ion-item>\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="streetnametxt" placeholder="Street name or No."></ion-input>\n\n\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="buildingtxt" placeholder="Building Name or No"></ion-input>\n\n\n\n\n    <ion-input class="custom-input" type="text" [(ngModel)]="streettxt" placeholder="Floor"></ion-input>\n\n\n		<!-- Go to Sign In Page -->\n		<button style="    width: 100%;\n    margin: auto;\n    margin-top: 7%;\n    margin-bottom:20%;\n}" ion-button block class="btn-done cos-button" color="redbg" (click)="goToHome()"> DONE </button>\n    <!-- Skip Trigger Button -->\n    <p class="skip" text-right (click)="goToHome()">SKIP  ></p>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/address-details/address-details.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
@@ -167,7 +103,7 @@ var AddressDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -175,7 +111,7 @@ var AddressDetailsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -221,14 +157,14 @@ var ForgetPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SmsVerificationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -341,7 +277,7 @@ var SmsVerificationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -393,7 +329,7 @@ var EnterActivationCodePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -443,7 +379,7 @@ var ReadMorePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 121:
+/***/ 120:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -496,7 +432,7 @@ var GetInTouchPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 122:
+/***/ 121:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -541,6 +477,70 @@ var LiveChatPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 122:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the PrivacyPolicyPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutUsPage = /** @class */ (function () {
+    function AboutUsPage(navCtrl, navParams, wordpressService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.wordpressService = wordpressService;
+    }
+    AboutUsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutUsPage');
+    };
+    AboutUsPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        console.log("entering");
+        __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getAboutus())
+            .subscribe(function (data) {
+            _this.posts = data[0].content.rendered;
+            //this.posts.forEach( p => {
+            _this.description1 = _this.posts;
+            //});
+        });
+    };
+    AboutUsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-about-us',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n<p [innerHTML]=description1>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]])
+    ], AboutUsPage);
+    return AboutUsPage;
+}());
+
+//# sourceMappingURL=about-us.js.map
+
+/***/ }),
+
 /***/ 131:
 /***/ (function(module, exports) {
 
@@ -563,19 +563,19 @@ webpackEmptyAsyncContext.id = 131;
 
 var map = {
 	"../pages/about-us/about-us.module": [
-		317,
+		326,
 		18
 	],
 	"../pages/address-details/address-details.module": [
-		318,
+		317,
 		17
 	],
 	"../pages/donation-tabs/donation-tabs.module": [
-		319,
+		318,
 		16
 	],
 	"../pages/donation/donation.module": [
-		321,
+		319,
 		15
 	],
 	"../pages/enter-activation-code/enter-activation-code.module": [
@@ -583,23 +583,23 @@ var map = {
 		14
 	],
 	"../pages/forget-password/forget-password.module": [
-		322,
+		321,
 		13
 	],
 	"../pages/get-in-touch/get-in-touch.module": [
-		323,
+		322,
 		12
 	],
 	"../pages/home-info/home-info.module": [
-		324,
+		323,
 		11
 	],
 	"../pages/home-tabs/home-tabs.module": [
-		325,
+		324,
 		10
 	],
 	"../pages/live-chat/live-chat.module": [
-		326,
+		325,
 		9
 	],
 	"../pages/login/login.module": [
@@ -629,19 +629,19 @@ var map = {
 		184
 	],
 	"../pages/sms-verification/sms-verification.module": [
-		335,
+		332,
 		3
 	],
 	"../pages/submit-donation/submit-donation.module": [
-		332,
+		333,
 		2
 	],
 	"../pages/tabs/tabs.module": [
-		333,
+		334,
 		1
 	],
 	"../pages/terms-and-conditions/terms-and-conditions.module": [
-		334,
+		335,
 		0
 	]
 };
@@ -854,7 +854,7 @@ var SliderPage = /** @class */ (function () {
     ], SliderPage.prototype, "slides", void 0);
     SliderPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-slider',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, user-scalable=no, viewport-fit=cover">\n\n<ion-content no-border >\n\n\n	<ion-slides pager="false" *ngIf="splash">\n		<ion-slide class="splash">\n			<img src="assets/imgs/lrc_logo.png">\n		  	<div class="faded-background"></div>\n		  	<div class="footer-text">\n		  		<div class="footer-content">\n			  		<div class="title">\n			  			<h1>Lebanese Red Cross</h1>\n			  		</div>\n			  		<div class="sub-title">\n				  		<p class="individual-giving">Individual Giving Program</p>\n				  		<p class="support-LRC">#SupportLRC</p>\n			  		</div>\n		  		</div>\n			  	<progress class="loader" max="100" value="0">\n			  	</progress>\n		  	</div>\n		</ion-slide>\n	</ion-slides>\n\n	<ion-slides *ngIf="sliders" pager>\n		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">\n		    <div class="{{ slideData.classContainer }}">\n		    	<img [class]="slideData.imgsizeClass ? slideData.imgsizeClass : \'\'"  src="{{ slideData.image }}">\n		    	<h2 >{{ slideData.title }}</h2>\n		    	<div  [class]="slideData.subTitleClassWrapper" >\n		    	<p [class]="slideData.subTitleClass" [innerHtml]="slideData.subTitle" style="margin-bottom: 30px">	</p>\n		    	</div>\n\n		    	<div *ngIf="slideData.loginContainer" class="s-container">\n		    		<div class="s-e si-container" (click)="goToSignIn()">\n		    			<p class="si">Sign in</p>\n		    		</div>\n		    		<span class="vertical"></span>\n		    		<div class="s-e su-container" (click)="goToRegister()">\n		    			<p class="su">Sign up</p>\n		    		</div>\n				</div>\n		    	<!-- Skip Trigger Button - Move to the last slide -->\n	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->\n	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="\n						    position: absolute;\n						    z-index: 3;\n						    right: 8%;\n						    bottom: 1%;\n						    width: 35px;\n						    height: 20px;\n						    color: #4a4a4a;\n						    font-family: Roboto;\n						    font-size: 15px;\n						    font-style: normal;\n						    font-stretch: normal;\n						    font-weight: 400;\n						    text-align: center;\n						"> SKIP </p>\n		    </div>\n		</ion-slide>\n	</ion-slides>\n\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/slider/slider.html"*/,
+            selector: 'page-slider',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/slider/slider.html"*/'<!--\n  Generated template for the SliderPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, user-scalable=no, viewport-fit=cover">\n\n<ion-content no-border >\n\n\n<!--<ion-slides pager="false" *ngIf="splash">\n		<ion-slide class="splash">\n			<img src="assets/imgs/lrc_logo.png">\n		  	<div class="faded-background"></div>\n		  	<div class="footer-text">\n		  		<div class="footer-content">\n			  		<div class="title">\n			  			<h1>Lebanese Red Cross</h1>\n			  		</div>\n			  		<div class="sub-title">\n				  		<p class="individual-giving">Individual Giving Program</p>\n				  		<p class="support-LRC">#SupportLRC</p>\n			  		</div>\n		  		</div>\n			  	<progress class="loader" max="100" value="0">\n			  	</progress>\n		  	</div>\n		</ion-slide>\n	</ion-slides>-->\n\n	<ion-slides *ngIf="sliders" pager>\n		<ion-slide *ngFor="let slideData of slidesData" [style.backgroundColor]="slideData.BGcolor">\n		    <div class="{{ slideData.classContainer }}">\n		    	<img [class]="slideData.imgsizeClass ? slideData.imgsizeClass : \'\'"  src="{{ slideData.image }}">\n		    	<h2 >{{ slideData.title }}</h2>\n		    	<div  [class]="slideData.subTitleClassWrapper" >\n		    	<p [class]="slideData.subTitleClass" [innerHtml]="slideData.subTitle" style="margin-bottom: 30px">	</p>\n		    	</div>\n\n		    	<div *ngIf="slideData.loginContainer" class="s-container">\n		    		<div class="s-e si-container" (click)="goToSignIn()">\n		    			<p class="si">Sign in</p>\n		    		</div>\n		    		<span class="vertical"></span>\n		    		<div class="s-e su-container" (click)="goToRegister()">\n		    			<p class="su">Sign up</p>\n		    		</div>\n				</div>\n		    	<!-- Skip Trigger Button - Move to the last slide -->\n	    		<!-- <p *ngIf="!slideData.loginContainer" text-right class="skip" (click)="skip()">SKIP</p> -->\n	    			<p *ngIf="!slideData.loginContainer" (click)="skip()" style="\n						    position: absolute;\n						    z-index: 3;\n						    right: 8%;\n						    bottom: 1%;\n						    width: 35px;\n						    height: 20px;\n						    color: #4a4a4a;\n						    font-family: Roboto;\n						    font-size: 15px;\n						    font-style: normal;\n						    font-stretch: normal;\n						    font-weight: 400;\n						    text-align: center;\n						"> SKIP </p>\n		    </div>\n		</ion-slide>\n	</ion-slides>\n\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/slider/slider.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* MenuController */]])
     ], SliderPage);
@@ -1364,16 +1364,16 @@ var WordpressService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_slider_slider__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_login_login__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_register_register__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_forget_password_forget_password__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_sms_verification_sms_verification__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_address_details_address_details__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_forget_password_forget_password__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_sms_verification_sms_verification__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_settings_settings__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_profile_profile__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_donation_donation__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_donation_tabs_donation_tabs__ = __webpack_require__(227);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_home_tabs_home_tabs__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_read_more_read_more__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_progress_bar_progress_bar__ = __webpack_require__(316);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_submit_donation_submit_donation__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_home_info_home_info__ = __webpack_require__(228);
@@ -1381,11 +1381,11 @@ var WordpressService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_splash_screen__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_login_login_module__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_slider_slider_module__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_us_about_us__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_us_about_us__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_privacy_policy_privacy_policy__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_get_in_touch_get_in_touch__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_live_chat_live_chat__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_live_chat_live_chat__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__ionic_native_native_storage__ = __webpack_require__(178);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__services_wordpress_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__services_authentication_service__ = __webpack_require__(44);
@@ -1474,27 +1474,27 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_32__pages_slider_slider_module__["SliderPageModule"],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-details/address-details.module#AddressDetailsPageModule', name: 'AddressDetailsPage', segment: 'address-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation-tabs/donation-tabs.module#DonationTabsPageModule', name: 'DonationTabsPage', segment: 'donation-tabs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forget-password/forget-password.module#ForgetPasswordPageModule', name: 'ForgetPasswordPage', segment: 'forget-password', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/get-in-touch/get-in-touch.module#GetInTouchPageModule', name: 'GetInTouchPage', segment: 'get-in-touch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-info/home-info.module#HomeInfoPageModule', name: 'HomeInfoPage', segment: 'home-info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-tabs/home-tabs.module#HomeTabsPageModule', name: 'HomeTabsPage', segment: 'home-tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/live-chat/live-chat.module#LiveChatPageModule', name: 'LiveChatPage', segment: 'live-chat', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/privacy-policy/privacy-policy.module#PrivacyPolicyPageModule', name: 'PrivacyPolicyPage', segment: 'privacy-policy', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/read-more/read-more.module#ReadMorePageModule', name: 'ReadMorePage', segment: 'read-more', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/sms-verification/sms-verification.module#SmsVerificationPageModule', name: 'SmsVerificationPage', segment: 'sms-verification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/slider/slider.module#SliderPageModule', name: 'SliderPage', segment: 'slider', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/submit-donation/submit-donation.module#SubmitDonationPageModule', name: 'SubmitDonationPage', segment: 'submit-donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/terms-and-conditions/terms-and-conditions.module#TermsAndConditionsPageModule', name: 'TermsAndConditionsPage', segment: 'terms-and-conditions', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/sms-verification/sms-verification.module#SmsVerificationPageModule', name: 'SmsVerificationPage', segment: 'sms-verification', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/terms-and-conditions/terms-and-conditions.module#TermsAndConditionsPageModule', name: 'TermsAndConditionsPage', segment: 'terms-and-conditions', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_4_angular_progress_bar__["a" /* ProgressBarModule */],
@@ -1551,7 +1551,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3073,7 +3073,7 @@ var ProfilePage = /** @class */ (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/profile/profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n	<button ion-button menuToggle>\n		<ion-icon name="menu"></ion-icon>\n	</button>\n    <ion-title>Lebanese Red Cross</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n	<div class="header-profile" *ngIf="headerProfile">\n		\n		<h2>Hello, <strong>{{ wpname }}</strong></h2>\n		<span class="donor-title">LRC Regular Donor</span>\n		<p >Current Membership: <strong>3$/month</strong> <ion-icon ios="ios-create" md="md-create"></ion-icon></p>\n	</div>\n	<div class="donated-container" *ngIf="donatedContainer">\n		<div class="donated">\n			<h2>DONATED</h2>\n			<p>Total amount of donations:</p>\n		</div>\n		<div class="amount">\n			<h1>$ 36.00</h1>\n		</div>\n	</div>\n	<div class="buttons-container">\n		<h4 *ngIf="profileTitle">EDIT / UPDATE PROFILE INFO</h4>\n		<div class="button" (click)="profileBtn()">\n			<p>EDIT / UPDATE PROFILE INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"  id="proficon" ></ion-icon>\n		<div class="profile-content" *ngIf="profileContent">\n		<div class="form-inputs">\n			<ion-item>\n			    <ion-label floating>Full Name</ion-label>\n			    <ion-input [(ngModel)]="name" style="    background-color: transparent;" value="{{name.value}}"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Email Address</ion-label>\n			    <ion-input [(ngModel)]="email" style="background-color: transparent;" value="{{email.value}}"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Password</ion-label>\n			    <ion-input [(ngModel)]="password" style="background-color: transparent;" type="password"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Confirm Password</ion-label>\n			    <ion-input [(ngModel)]="conf" style="background-color: transparent;" type="password"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Phone Number</ion-label>\n			    <ion-input [(ngModel)]="phone" type="tel" style="background-color: transparent;"></ion-input>\n			</ion-item>\n		</div>\n\n		</div>\n		<h2 *ngIf="addressTitle">EDIT / UPDATE ADDRESS INFO</h2>\n		<div class="button" (click)="addressBtn()">\n			<p>EDIT / UPDATE ADDRESS INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>\n		<h2 *ngIf="donationTitle">EDIT / UPDATE DONATION INFO</h2>\n		<div class="button" (click)="donationBtn()">\n			<p>EDIT / UPDATE DONATION INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/profile/profile.html"*/,
+            selector: 'page-profile',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/profile/profile.html"*/'<!--\n  Generated template for the ProfilePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n	<button ion-button menuToggle>\n		<ion-icon name="menu"></ion-icon>\n	</button>\n    <ion-title>Lebanese Red Cross</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n	<div class="header-profile" *ngIf="headerProfile">\n		\n		<h2>Hello, <strong>{{ wpname }}</strong></h2>\n		<span class="donor-title">LRC Regular Donor</span>\n		<p >Current Membership: <strong>3$/month</strong> <ion-icon ios="ios-create" md="md-create"></ion-icon></p>\n	</div>\n	<div class="donated-container" *ngIf="donatedContainer">\n		<div class="donated">\n			<h2>DONATED</h2>\n			<p>Total amount of donations:</p>\n		</div>\n		<div class="amount">\n			<h1>$ 36.00</h1>\n		</div>\n	</div>\n	<div class="buttons-container">\n		<h4 *ngIf="profileTitle">EDIT / UPDATE PROFILE INFO</h4>\n		<div class="button" (click)="profileBtn()">\n			<p>EDIT / UPDATE PROFILE INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"  id="proficon" ></ion-icon>\n		<div class="profile-content" *ngIf="profileContent">\n		<div class="form-inputs">\n			<ion-item>\n			    <ion-label floating>Full Name</ion-label>\n			    <ion-input [(ngModel)]="name" style="    background-color: transparent;" value="{{name.value}}"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Email Address</ion-label>\n			    <ion-input [(ngModel)]="email" style="background-color: transparent;" value="{{email.value}}"></ion-input>\n			</ion-item>\n			<ion-item>\n			    <ion-label floating>Phone Number</ion-label>\n			    <ion-input [(ngModel)]="phone" type="tel" style="background-color: transparent;"></ion-input>\n			</ion-item>\n		</div>\n\n		</div>\n		<h2 *ngIf="addressTitle">EDIT / UPDATE ADDRESS INFO</h2>\n		<div class="button" (click)="addressBtn()">\n			<p>EDIT / UPDATE ADDRESS INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>\n		<h2 *ngIf="donationTitle">EDIT / UPDATE DONATION INFO</h2>\n		<div class="button" (click)="donationBtn()">\n			<p>EDIT / UPDATE DONATION INFO</p>\n		</div>\n		<ion-icon ios="ios-arrow-forward" md="md-arrow-forward"></ion-icon>\n	</div>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/profile/profile.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["l" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["m" /* NavParams */],
@@ -3099,11 +3099,11 @@ var ProfilePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_tabs_home_tabs__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_authentication_service__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_privacy_policy_privacy_policy__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_live_chat_live_chat__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_live_chat_live_chat__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__ = __webpack_require__(31);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3177,7 +3177,7 @@ var MyApp = /** @class */ (function () {
             // Okay, so the platform is ready and our plugins are available.
             // Here you can do any higher level native things you might need.
             _this.statusBar.styleDefault();
-            _this.splashScreen.hide();
+            //this.splashScreen.hide();
         });
     };
     MyApp.prototype.loggedIn = function () {
@@ -3358,7 +3358,7 @@ var ProgressBarComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_intl_tel_input__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mocks_country__ = __webpack_require__(292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__privacy_policy_privacy_policy__ = __webpack_require__(62);
@@ -3565,7 +3565,7 @@ var AuthenticationService = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_tabs_home_tabs__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_authentication_service__ = __webpack_require__(44);
@@ -3707,7 +3707,7 @@ var LoginPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_youtube_content__ = __webpack_require__(293);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__ = __webpack_require__(25);
@@ -3795,7 +3795,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/home/home.html"*/'<ion-header no-border>\n    <ion-navbar color="redbg">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Lebanese Red Cross</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding style="background-color: #cb2026">\n\n    <ion-slides pager centeredSlides="true" >\n        <!-- To set the background image is every slides -->\n        <ion-slide  *ngFor="let slide of slidersData; let i = index" [ngStyle]="{\'background\': \'\' + slide.bgImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\'}" >\n            <ion-icon float-right *ngIf="slide.information" class="information-close" ios="ios-close-circle" md="md-close-circle" (click)="informationCloseBtn(i)"></ion-icon>\n            <div class="btn-container" *ngIf="slide.main">\n                <ion-grid>\n                    <ion-row>\n                        <ion-col col-12>\n                            <ion-icon float-left ios="ios-paper-plane" md="md-paper-plane" (click)="shareBtn(slide)"></ion-icon>\n                            <ion-icon float-right ios="ios-information-circle" md="md-information-circle" (click)="infoBtn(i)"> </ion-icon>\n                        </ion-col>\n\n                    </ion-row>\n\n\n                    <div class="tag" *ngIf="main" style="z-index: 2">\n                        <h1>{{ slide.tagInfo }}</h1>\n                    </div>\n\n                </ion-grid>\n            </div>\n            <img  src="../../assets/imgs/shadow.png" *ngIf="myshadow" style="position: absolute; left: 0; bottom: 0px; z-index: 1;width:100%;"/>\n            <!-- Click Information button to see this section -->\n            <!-- Information Section -->\n            <section style="background-color: white; border-radius: 21px; height: 100%;" class="information" *ngIf="slide.information">\n                <div style="border-radius: 21px 21px 0px 0px;" [ngStyle]="{\'background\': \'\' + slide.subBGImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\' , \'height\' : \'40%\' , \'background-position\' : \'center\' , \'margin-bottom\': \'3%\'}" >\n                    <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->\n                </div>\n                <!--<p>{{ slide.author }}Sample Author</p>-->\n                <p class="bolder">{{ slide.tagInfo }}</p>\n                <div class="button-container">\n                    <ion-grid>\n                        <ion-row>\n                            <ion-col col-6>\n                                <button ion-button float-left color="redbg" (click)="readMore(slide)"> Read More </button>\n                            </ion-col>\n                            <ion-col col-6>\n                                <button ion-button float-right color="redbg"> Share </button>\n                            </ion-col>\n                        </ion-row>\n                    </ion-grid>\n                </div>\n                <div>\n                    <p>\n                        {{ slide.description1 }}\n                        <br/>\n                        <!--<br/>-->\n                        <!--{{ slide.description2 }}-->\n                    </p>\n                </div>\n            </section>\n            <!-- End Information Section -->\n        </ion-slide>\n\n    </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/home/home.html"*/'<ion-header no-border>\n    <ion-navbar color="redbg">\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Lebanese Red Cross</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding style="background-color: #cb2026">\n\n    <ion-slides pager centeredSlides="true" >\n        <!-- To set the background image is every slides -->\n        <ion-slide  *ngFor="let slide of slidersData; let i = index" [ngStyle]="{\'background\': \'\' + slide.bgImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\'}" >\n            <ion-icon float-right *ngIf="slide.information" class="information-close" ios="ios-close-circle" md="md-close-circle" (click)="informationCloseBtn(i)"></ion-icon>\n            <div class="btn-container" *ngIf="slide.main">\n                <ion-grid>\n                    <ion-row>\n                        <ion-col col-12>\n                            <ion-icon float-left ios="ios-paper-plane" md="md-paper-plane" (click)="shareBtn(slide)"></ion-icon>\n                            <ion-icon float-right ios="ios-information-circle" md="md-information-circle" (click)="infoBtn(i)"> </ion-icon>\n                        </ion-col>\n\n                    </ion-row>\n\n\n                    <div class="tag" *ngIf="main" style="z-index: 2">\n                        <h1>{{ slide.tagInfo }}</h1>\n                    </div>\n\n                </ion-grid>\n            </div>\n           <!-- <img  src="../../assets/imgs/shadow.png" *ngIf="myshadow" style="position: absolute; left: 0; bottom: 0px; z-index: 1;width:100%;"/>-->\n            <!-- Click Information button to see this section -->\n            <!-- Information Section -->\n            <section style="background-color: white; border-radius: 21px; height: 100%;" class="information" *ngIf="slide.information">\n                <div style="border-radius: 21px 21px 0px 0px;" [ngStyle]="{\'background\': \'\' + slide.subBGImage + \'\' , \'background-repeat\' : \'no-repeat\' , \'background-size\' : \'cover\' , \'height\' : \'40%\' , \'background-position\' : \'center\' , \'margin-bottom\': \'3%\'}" >\n                    <!--   <img [src]="slide.subBGImage" (click)="playVideo(slide)"/> -->\n                </div>\n                <!--<p>{{ slide.author }}Sample Author</p>-->\n                <p class="bolder">{{ slide.tagInfo }}</p>\n                <div class="button-container">\n                    <ion-grid>\n                        <ion-row>\n                            <ion-col col-6>\n                                <button ion-button float-left color="redbg" (click)="readMore(slide)"> Read More </button>\n                            </ion-col>\n                            <ion-col col-6>\n                                <button ion-button float-right color="redbg"> Share </button>\n                            </ion-col>\n                        </ion-row>\n                    </ion-grid>\n                </div>\n                <div>\n                    <p>\n                        {{ slide.description1 }}\n                        <br/>\n                        <!--<br/>-->\n                        <!--{{ slide.description2 }}-->\n                    </p>\n                </div>\n            </section>\n            <!-- End Information Section -->\n        </ion-slide>\n\n    </ion-slides>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* MenuController */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__["a" /* YoutubeVideoPlayer */], __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__["a" /* WordpressService */]])
     ], HomePage);

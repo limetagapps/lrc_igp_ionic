@@ -31435,6 +31435,11 @@ page-home .tag {
   text-transform: uppercase;
 }
 
+page-home .tag h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 page-home ion-header button.back-button {
   color: #222;
 }
@@ -34718,6 +34723,11 @@ page-slider .subtitle_wrapper4 {
 
 page-slider .scroll-content {
   overflow: hidden;
+}
+
+page-slider .logo_splash {
+  height: 135px !important;
+  width: 135px  !important;
 }
 
 page-sms-verification {

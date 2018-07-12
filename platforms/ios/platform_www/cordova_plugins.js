@@ -307,6 +307,15 @@ module.exports = [
     "clobbers": [
       "window.StatusBar"
     ]
+  },
+  {
+    "id": "cordova-plugin-ionic.common",
+    "file": "plugins/cordova-plugin-ionic/www/common.js",
+    "pluginId": "cordova-plugin-ionic",
+    "clobbers": [
+      "IonicCordova"
+    ],
+    "runs": true
   }
 ];
 module.exports.metadata = 
@@ -324,7 +333,8 @@ module.exports.metadata =
   "cordova-plugin-advanced-http": "1.11.1",
   "ionic-plugin-keyboard": "2.2.1",
   "mx.ferreyra.callnumber": "0.0.2",
-  "cordova-plugin-statusbar": "2.4.2"
+  "cordova-plugin-statusbar": "2.4.2",
+  "cordova-plugin-ionic": "4.1.7"
 };
 // BOTTOM OF METADATA
 });

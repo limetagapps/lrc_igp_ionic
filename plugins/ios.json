@@ -39,6 +39,15 @@
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "cordova-plugin-ionic": {
+      "APP_ID": "72fabcad",
+      "CHANNEL_NAME": "Master",
+      "WARN_DEBUG": "true",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "UPDATE_METHOD": "background",
+      "MAX_STORE": "2",
+      "PACKAGE_NAME": "com.limetag.lrcigp"
     }
   },
   "dependent_plugins": {}
