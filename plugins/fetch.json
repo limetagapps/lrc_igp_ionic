@@ -95,7 +95,7 @@
     "is_top_level": true,
     "variables": {
       "APP_ID": "71141d58",
-      "CHANNEL_NAME": "Master",
+      "CHANNEL_NAME": "Dev",
       "UPDATE_METHOD": "background"
     }
   }

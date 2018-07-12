@@ -78,7 +78,7 @@
       "cordova-plugin-statusbar": {},
       "cordova-plugin-ionic": {
         "APP_ID": "71141d58",
-        "CHANNEL_NAME": "Master",
+        "CHANNEL_NAME": "Dev",
         "UPDATE_METHOD": "background",
         "WARN_DEBUG": "true",
         "UPDATE_API": "https://api.ionicjs.com",
