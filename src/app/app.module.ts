@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule, NavController } from 'ionic-angular'; 
+import { IonicApp, IonicErrorHandler, IonicModule, NavController } from 'ionic-angular';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 import { ProgressBarModule } from "angular-progress-bar"
 import { HttpModule } from '@angular/http';
@@ -48,8 +48,7 @@ import { AuthenticationService } from '../services/authentication.service';
 
 /*IonicPro*/
 import { Pro } from '@ionic/pro';
-import { ErrorHandler, Injectable, Injector } from '@angular/core';
-import { IonicErrorHandler } from 'ionic-angular';
+import { Injectable, Injector } from '@angular/core';
 
 Pro.init('71141D58', {
   appVersion: '1.0.1'
@@ -87,7 +86,7 @@ export class MyErrorHandler implements ErrorHandler {
     ForgetPasswordPage,
     EnterActivationCodePage,
     SmsVerificationPage,
-    AddressDetailsPage, 
+    AddressDetailsPage,
     TabsPage,
     SettingsPage,
     ProfilePage,
@@ -111,9 +110,9 @@ export class MyErrorHandler implements ErrorHandler {
     IonicModule.forRoot(MyApp),
     ProgressBarModule,
     HttpModule,
-    IonicStorageModule.forRoot({ 
-      name: 'woocommerce_application', 
-      driverOrder: ['sqlite', 'websql', 'indexeddb'] 
+    IonicStorageModule.forRoot({
+      name: 'woocommerce_application',
+      driverOrder: ['sqlite', 'websql', 'indexeddb']
     })
   ],
   bootstrap: [IonicApp],
@@ -127,7 +126,7 @@ export class MyErrorHandler implements ErrorHandler {
     ForgetPasswordPage,
     EnterActivationCodePage,
     SmsVerificationPage,
-    AddressDetailsPage, 
+    AddressDetailsPage,
     TabsPage,
     SettingsPage,
     ProfilePage,
