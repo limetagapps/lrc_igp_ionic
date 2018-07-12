@@ -4,74 +4,10 @@ webpackJsonp([19],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the PrivacyPolicyPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutUsPage = /** @class */ (function () {
-    function AboutUsPage(navCtrl, navParams, wordpressService) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.wordpressService = wordpressService;
-    }
-    AboutUsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutUsPage');
-    };
-    AboutUsPage.prototype.ionViewWillEnter = function () {
-        var _this = this;
-        console.log("entering");
-        __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getAboutus())
-            .subscribe(function (data) {
-            _this.posts = data[0].content.rendered;
-            //this.posts.forEach( p => {
-            _this.description1 = _this.posts;
-            //});
-        });
-    };
-    AboutUsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about-us',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n<p [innerHTML]=description1>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]])
-    ], AboutUsPage);
-    return AboutUsPage;
-}());
-
-//# sourceMappingURL=about-us.js.map
-
-/***/ }),
-
-/***/ 116:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddressDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_lebanon_places__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_lebanon_places__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__login_login__ = __webpack_require__(45);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -167,7 +103,7 @@ var AddressDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -175,7 +111,7 @@ var AddressDetailsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register_register__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__enter_activation_code_enter_activation_code__ = __webpack_require__(118);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -221,14 +157,14 @@ var ForgetPasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SmsVerificationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -341,7 +277,7 @@ var SmsVerificationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -393,7 +329,7 @@ var EnterActivationCodePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -440,6 +376,70 @@ var ReadMorePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=read-more.js.map
+
+/***/ }),
+
+/***/ 120:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutUsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the PrivacyPolicyPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AboutUsPage = /** @class */ (function () {
+    function AboutUsPage(navCtrl, navParams, wordpressService) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.wordpressService = wordpressService;
+    }
+    AboutUsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutUsPage');
+    };
+    AboutUsPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        console.log("entering");
+        __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"].forkJoin(this.wordpressService.getAboutus())
+            .subscribe(function (data) {
+            _this.posts = data[0].content.rendered;
+            //this.posts.forEach( p => {
+            _this.description1 = _this.posts;
+            //});
+        });
+    };
+    AboutUsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-about-us',template:/*ion-inline-start:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/'<!--\n  Generated template for the AboutUsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header no-border>\n  <ion-navbar color="redbg">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>About Us</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n<p [innerHTML]=description1>\n</ion-content>\n'/*ion-inline-end:"/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718/src/pages/about-us/about-us.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_3__services_wordpress_service__["a" /* WordpressService */]])
+    ], AboutUsPage);
+    return AboutUsPage;
+}());
+
+//# sourceMappingURL=about-us.js.map
 
 /***/ }),
 
@@ -563,11 +563,11 @@ webpackEmptyAsyncContext.id = 131;
 
 var map = {
 	"../pages/about-us/about-us.module": [
-		318,
+		319,
 		18
 	],
 	"../pages/address-details/address-details.module": [
-		319,
+		318,
 		17
 	],
 	"../pages/donation-tabs/donation-tabs.module": [
@@ -579,11 +579,11 @@ var map = {
 		15
 	],
 	"../pages/enter-activation-code/enter-activation-code.module": [
-		322,
+		323,
 		14
 	],
 	"../pages/forget-password/forget-password.module": [
-		323,
+		322,
 		13
 	],
 	"../pages/get-in-touch/get-in-touch.module": [
@@ -614,15 +614,15 @@ var map = {
 		7
 	],
 	"../pages/read-more/read-more.module": [
-		330,
+		331,
 		6
 	],
 	"../pages/register/register.module": [
-		331,
+		332,
 		5
 	],
 	"../pages/settings/settings.module": [
-		332,
+		330,
 		4
 	],
 	"../pages/slider/slider.module": [
@@ -1365,16 +1365,16 @@ var WordpressService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_slider_slider__ = __webpack_require__(185);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_login_login__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_register_register__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_forget_password_forget_password__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_sms_verification_sms_verification__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_address_details_address_details__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_forget_password_forget_password__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_enter_activation_code_enter_activation_code__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_sms_verification_sms_verification__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_address_details_address_details__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_settings_settings__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_profile_profile__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_donation_donation__ = __webpack_require__(48);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_donation_tabs_donation_tabs__ = __webpack_require__(227);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_home_tabs_home_tabs__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_read_more_read_more__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_progress_bar_progress_bar__ = __webpack_require__(316);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_submit_donation_submit_donation__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_home_info_home_info__ = __webpack_require__(228);
@@ -1382,7 +1382,7 @@ var WordpressService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_splash_screen__ = __webpack_require__(226);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_login_login_module__ = __webpack_require__(183);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_slider_slider_module__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_us_about_us__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_about_us_about_us__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_privacy_policy_privacy_policy__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_get_in_touch_get_in_touch__ = __webpack_require__(121);
@@ -1509,12 +1509,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_32__pages_slider_slider_module__["SliderPageModule"],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-details/address-details.module#AddressDetailsPageModule', name: 'AddressDetailsPage', segment: 'address-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation-tabs/donation-tabs.module#DonationTabsPageModule', name: 'DonationTabsPage', segment: 'donation-tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/donation/donation.module#DonationPageModule', name: 'DonationPage', segment: 'donation', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forget-password/forget-password.module#ForgetPasswordPageModule', name: 'ForgetPasswordPage', segment: 'forget-password', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/enter-activation-code/enter-activation-code.module#EnterActivationCodePageModule', name: 'EnterActivationCodePage', segment: 'enter-activation-code', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/get-in-touch/get-in-touch.module#GetInTouchPageModule', name: 'GetInTouchPage', segment: 'get-in-touch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-info/home-info.module#HomeInfoPageModule', name: 'HomeInfoPage', segment: 'home-info', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-tabs/home-tabs.module#HomeTabsPageModule', name: 'HomeTabsPage', segment: 'home-tabs', priority: 'low', defaultHistory: [] },
@@ -1522,10 +1522,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/privacy-policy/privacy-policy.module#PrivacyPolicyPageModule', name: 'PrivacyPolicyPage', segment: 'privacy-policy', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/read-more/read-more.module#ReadMorePageModule', name: 'ReadMorePage', segment: 'read-more', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/slider/slider.module#SliderPageModule', name: 'SliderPage', segment: 'slider', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/read-more/read-more.module#ReadMorePageModule', name: 'ReadMorePage', segment: 'read-more', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sms-verification/sms-verification.module#SmsVerificationPageModule', name: 'SmsVerificationPage', segment: 'sms-verification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/submit-donation/submit-donation.module#SubmitDonationPageModule', name: 'SubmitDonationPage', segment: 'submit-donation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
@@ -1588,7 +1588,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3136,7 +3136,7 @@ var ProfilePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_tabs_home_tabs__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_login_login__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__services_authentication_service__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_us_about_us__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_privacy_policy_privacy_policy__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_terms_and_conditions_terms_and_conditions__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_get_in_touch_get_in_touch__ = __webpack_require__(121);
@@ -3395,7 +3395,7 @@ var ProgressBarComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_intl_tel_input___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_intl_tel_input__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sms_verification_sms_verification__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__mocks_country__ = __webpack_require__(292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_and_conditions_terms_and_conditions__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__privacy_policy_privacy_policy__ = __webpack_require__(63);
@@ -3602,7 +3602,7 @@ var AuthenticationService = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__forget_password_forget_password__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_tabs_home_tabs__ = __webpack_require__(47);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__register_register__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_authentication_service__ = __webpack_require__(44);
@@ -3744,7 +3744,7 @@ var LoginPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__mocks_youtube_content__ = __webpack_require__(293);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_youtube_video_player__ = __webpack_require__(180);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__read_more_read_more__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_wordpress_service__ = __webpack_require__(25);
