@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-nativestorage",
+  "_from": "cordova-plugin-nativestorage@^2.3.1",
   "_id": "cordova-plugin-nativestorage@2.3.1",
   "_inBundle": false,
   "_integrity": "sha512-kzNrnnHKAjOpLJh27aJKvdn+VH/WQkAFZsW7OlNAkYLoL+1dICA7vsEX7YZqliJ0LIiKk6NXxSHgHjRUtVXS6Q==",
   "_location": "/cordova-plugin-nativestorage",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-nativestorage",
+    "raw": "cordova-plugin-nativestorage@^2.3.1",
     "name": "cordova-plugin-nativestorage",
     "escapedName": "cordova-plugin-nativestorage",
-    "rawSpec": "",
+    "rawSpec": "^2.3.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^2.3.1"
   },
   "_requiredBy": [
     "#USER",
@@ -21,8 +21,8 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-nativestorage/-/cordova-plugin-nativestorage-2.3.1.tgz",
   "_shasum": "41ff676e77af60d7eda3d4268af05da424b2ec89",
-  "_spec": "cordova-plugin-nativestorage",
-  "_where": "/Applications/MAMP/htdocs/LRC-IGP-IONIC",
+  "_spec": "cordova-plugin-nativestorage@^2.3.1",
+  "_where": "/Users/rodneyeid/Downloads/LRC-IGP-IONIC_020718",
   "author": {
     "name": "Gilles Callebaut",
     "email": "callebaut.gilles@gmail.com"

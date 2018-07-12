@@ -33,7 +33,7 @@
     "angular-progress-bar": "^1.0.3",
     "call": "^5.0.1",
     "call-number": "^1.0.1",
-    "cordova-android": "^7.1.0",
+    "cordova-android": "7.1.0",
     "cordova-browser": "5.0.3",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-inappbrowser": "^3.0.0",

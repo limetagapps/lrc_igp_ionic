@@ -1,12 +1,4 @@
 {
-  "cordova-plugin-inappbrowser": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-inappbrowser@3.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-whitelist": {
     "source": {
       "type": "registry",
@@ -34,7 +26,7 @@
   "cordova-plugin-ionic-webview": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-ionic-webview@^1.1.19"
+      "id": "cordova-plugin-ionic-webview@^1.2.1"
     },
     "is_top_level": true,
     "variables": {}
@@ -42,7 +34,7 @@
   "cordova-plugin-ionic-keyboard": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-ionic-keyboard@^2.0.5"
+      "id": "cordova-plugin-ionic-keyboard@^2.1.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -55,10 +47,18 @@
     "is_top_level": true,
     "variables": {}
   },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@^3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
   "cordova-plugin-nativestorage": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-nativestorage"
+      "id": "cordova-plugin-nativestorage@^2.3.1"
     },
     "is_top_level": true,
     "variables": {}
@@ -66,15 +66,15 @@
   "ionic-plugin-keyboard": {
     "source": {
       "type": "registry",
-      "id": "ionic-plugin-keyboard"
+      "id": "ionic-plugin-keyboard@^2.2.1"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "mx.ferreyra.callnumber": {
+  "call-number": {
     "source": {
       "type": "registry",
-      "id": "call-number@^1.0.1"
+      "id": "mx.ferreyra.callnumber@~0.0.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -82,7 +82,7 @@
   "cordova-plugin-statusbar": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-statusbar@2.4.2"
+      "id": "cordova-plugin-statusbar@^2.4.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -96,7 +96,10 @@
     "variables": {
       "APP_ID": "71141d58",
       "CHANNEL_NAME": "Dev",
-      "UPDATE_METHOD": "background"
+      "UPDATE_METHOD": "background",
+      "WARN_DEBUG": "true",
+      "UPDATE_API": "https://api.ionicjs.com",
+      "MAX_STORE": "2"
     }
   }
 }

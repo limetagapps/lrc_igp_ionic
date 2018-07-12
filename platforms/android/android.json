@@ -9,7 +9,21 @@
         "parents": {
           "/*": [
             {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
+            },
+            {
               "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ],
+          "widget": [
+            {
+              "xml": "<feature name=\"YoutubeVideoPlayer\"><param name=\"android-package\" value=\"com.bunkerpalace.cordova.YoutubeVideoPlayer\" /></feature>",
               "count": 1
             }
           ]
@@ -19,41 +33,27 @@
         "parents": {
           "/*": [
             {
-              "xml": "<feature name=\"IonicCordovaCommon\"><param name=\"android-package\" onload=\"true\" value=\"com.ionicframework.common.IonicCordovaCommon\" /></feature>",
-              "count": 1
-            },
-            {
-              "xml": "<feature name=\"IonicDeploy\"><param name=\"android-package\" value=\"com.ionicframework.deploy.IonicDeploy\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.IonicKeyboard\" /></feature>",
               "count": 1
             }
           ]
         }
       },
-      "res/values/strings.xml": {
+      "AndroidManifest.xml": {
         "parents": {
-          "/resources": [
+          "/manifest": [
             {
-              "xml": "<string name=\"ionic_app_id\">71141d58</string>",
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<activity android:name=\"com.keyes.youtube.OpenYouTubePlayerActivity\" android:screenOrientation=\"landscape\" />",
               "count": 1
             },
             {
-              "xml": "<string name=\"ionic_debug\">true</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string name=\"ionic_channel_name\">Master</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string name=\"ionic_update_api\">https://api.ionicjs.com</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string name=\"ionic_update_method\">background</string>",
-              "count": 1
-            },
-            {
-              "xml": "<string name=\"ionic_max_versions\">2</string>",
+              "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:label=\"@string/activity_name\" android:launchMode=\"singleTop\" android:name=\"com.bunkerpalace.cordova.YouTubeActivity\" android:theme=\"@android:style/Theme.Black.NoTitleBar\" android:windowSoftInputMode=\"adjustResize\" />",
               "count": 1
             }
           ]
@@ -62,21 +62,35 @@
     }
   },
   "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.limetag.lrcigp"
     },
-    "cordova-plugin-ionic": {
-      "APP_ID": "71141d58",
-      "CHANNEL_NAME": "Master",
-      "WARN_DEBUG": "true",
-      "UPDATE_API": "https://api.ionicjs.com",
-      "UPDATE_METHOD": "background",
-      "MAX_STORE": "2",
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.limetag.lrcigp"
+    },
+    "cordova-plugin-youtube-video-player": {
       "PACKAGE_NAME": "com.limetag.lrcigp"
     }
   },
   "dependent_plugins": {},
   "modules": [
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
     {
       "id": "cordova-plugin-splashscreen.SplashScreen",
       "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
@@ -86,17 +100,28 @@
       ]
     },
     {
-      "id": "cordova-plugin-ionic.common",
-      "file": "plugins/cordova-plugin-ionic/www/common.js",
-      "pluginId": "cordova-plugin-ionic",
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
       "clobbers": [
-        "IonicCordova"
-      ],
-      "runs": true
+        "window.Keyboard"
+      ]
+    },
+    {
+      "id": "cordova-plugin-youtube-video-player.YoutubeVideoPlayer",
+      "file": "plugins/cordova-plugin-youtube-video-player/plugins/com.bunkerpalace.cordova.YoutubeVideoPlayer/www/YoutubeVideoPlayer.js",
+      "pluginId": "cordova-plugin-youtube-video-player",
+      "clobbers": [
+        "YoutubeVideoPlayer"
+      ]
     }
   ],
   "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-device": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
-    "cordova-plugin-ionic": "4.1.7"
+    "cordova-plugin-ionic-webview": "1.2.1",
+    "cordova-plugin-ionic-keyboard": "2.1.2",
+    "cordova-plugin-youtube-video-player": "1.0.6"
   }
 }
